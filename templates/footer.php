@@ -1,4 +1,4 @@
-</div><!-- /.container -->
+
 </div>
 <div id="foot">
     <div class="container">

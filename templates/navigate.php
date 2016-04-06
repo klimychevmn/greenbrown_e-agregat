@@ -4,70 +4,99 @@
 <div id="wrapper">
     <div class="navbar-wrapper">
         <div class="container">
-            <div style="position:absolute;margin-top:-40px;">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div style="font-size: 140%; float: left; margin-right: 15px; margin-top:-10px;text-align: center;">Компания<br>"Электроагрегат" </div>
-                        <span style="font-size: 140%;">Пишите: p-d-s@bk.ru, 2473dea@gmail.com</span>
-                        <span style="font-size: 140%;display: table; margin: 0 15px;float: left;">Звоните: +7 (4852) 98-99-95, 8-903-827-24-73, 8-920-101-17-87</span>
+            <div style="position:absolute;margin-top:-70px;margin-left: 1%" class="row row_navbar">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <img src="img/logo.gif" alt="Электрогрегат">
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                    <img src="img/header/message.gif" alt="Сообщение">
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-content">
+                    <span>p-d-s@bk.ru,<br> 2473dea@gmail.com</span>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                    <img src="img/header/phone.jpg" alt="Телефон">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-content">
+                    <span>Обращайтесь по всем вопросам: <br> +7 (4852) 98-99-95, 8-903-827-24-73, 8-920-101-17-87</span>
                 </div>
             </div>
             <div class="navbar navbar-inverse navbar-static-top">
                 <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="" rel="nofollow">Главная</a>
+                    <div class="navbar-header navmobile">
+                        <div style="float: left; margin-left: -45%">
+                            <a href="#" ><img src="img/logo.gif" alt="Электрогрегат" ></a>
+                        </div>
+                        <div style="float: right">
+
+                            <button type="button" class="navbarBtn_mob navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="float: right">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="#" style="float: right"><img src="img/header.mobile/phone_mob.jpg" alt="Телефон" class="navbarBtn_mob"></a>
+                            <a href="#" style="float: right"><img src="img/header.mobile/message_mob.jpg" alt="Сообщение" class="navbar_img navbarBtn_mob"></a>
+                        </div>
                     </div>
+
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#" rel="nofollow">ГЛАВНАЯ</a>
+                            </li>
                             <li class="dropdown">
-                                <a href="#" rel="nofollow" class="dropdown-toggle" data-toggle="dropdown">Каталог <b class="caret"></b></a>
+                                <a href="#" rel="nofollow" class="dropdown-toggle" data-toggle="dropdown">КАТАЛОГ <b
+                                        class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a  href="/catalog/dizel/" rel="nofollow">Дизельные электростанции</a>
+                                        <a href="/catalog/dizel/" rel="nofollow">Дизельные электростанции</a>
                                     <li>
-                                        <a  href="/catalog/gazoporshnevie/" rel="nofollow">Газопоршневые электростанции</a>
+                                        <a href="/catalog/gazoporshnevie/" rel="nofollow">Газопоршневые
+                                            электростанции</a>
                                     <li>
-                                        <a  href="/catalog/sudovye_electrostanciy/" rel="nofollow">Судовые электростанции</a>
+                                        <a href="/catalog/sudovye_electrostanciy/" rel="nofollow">Судовые
+                                            электростанции</a>
                                     <li>
-                                        <a  href="/catalog/powerunits/" rel="nofollow">Силовые и насосные установки</a>
+                                        <a href="/catalog/powerunits/" rel="nofollow">Силовые и насосные установки</a>
                                     <li>
-                                        <a  href="/catalog/ispolneniy/" rel="nofollow">Исполнения</a>
+                                        <a href="/catalog/ispolneniy/" rel="nofollow">Исполнения</a>
                                     <li>
-                                        <a  href="/catalog/zapasnie_chasti/" rel="nofollow">Запасные части</a>
+                                        <a href="/catalog/zapasnie_chasti/" rel="nofollow">Запасные части</a>
                                 </ul>
-
-
+                            </li>
 
                             <li class="dropdown">
-                                <a href="#" rel="nofollow" class="dropdown-toggle" data-toggle="dropdown">Прайсы <b class="caret"></b></a>
+                                <a href="#" rel="nofollow" class="dropdown-toggle" data-toggle="dropdown">ПРАЙСЫ <b
+                                        class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a  href="/price/pricedgu/" rel="nofollow">Прайс-лист ДГУ</a>
+                                        <a href="/price/pricedgu/" rel="nofollow">Прайс-лист ДГУ</a>
                                     <li>
-                                        <a  href="/price/price_egp/" rel="nofollow">Прайс лист ЭГП</a>
+                                        <a href="/price/price_egp/" rel="nofollow">Прайс лист ЭГП</a>
                                     <li>
-                                        <a  href="/price/ymz_price/" rel="nofollow">Прайс лист ЯМЗ</a>
+                                        <a href="/price/ymz_price/" rel="nofollow">Прайс лист ЯМЗ</a>
                                     <li>
-                                        <a  href="/price/dvigateli_ymz/" rel="nofollow">Двигатели производства ЯМЗ</a>
+                                        <a href="/price/dvigateli_ymz/" rel="nofollow">Двигатели производства ЯМЗ</a>
                                 </ul>
+                            </li>
 
                             <li class="dropdown">
-                                <a href="#" rel="nofollow" class="dropdown-toggle" data-toggle="dropdown">Контакты <b class="caret"></b></a>
+                                <a href="#" rel="nofollow" class="dropdown-toggle" data-toggle="dropdown">КОНТАКТЫ <b
+                                        class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a  href="/contact/" rel="nofollow">Контакты</a>
+                                        <a href="/contact/" rel="nofollow">Контакты</a>
                                     <li>
-                                        <a  href="/contact/question/" rel="nofollow">Задать вопрос</a>
+                                        <a href="/contact/question/" rel="nofollow">Задать вопрос</a>
                                 </ul>
-
+                            </li>
                             <li><a data-toggle="modal" href="#modContact" rel="nofollow">Задать вопрос</a></li>
                             <!--<li><a class="pop" data-content="+7(4852)98-99-95<br> 8-903-827-24-73 8-920-101-17-87" data-placement="bottom" data-toggle="popover" data-container="body">Телефоны</a></li>-->
                             <li>
-                                <a  href="/indoor/sklad/" rel="nofollow"><div class="btn catalogBtn">Остатки на складе</div></a>
+                                <a href="/indoor/sklad/" rel="nofollow">
+                                    <div class="btn catalogBtn_nav">ОСТАТКИ НА СКЛАДЕ</div>
+                                </a>
+                            <li
                         </ul>
 
                     </div>
@@ -77,7 +106,8 @@
         </div>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="modContact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modContact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -110,7 +140,8 @@
                         <div class="form-group">
                             <label for="form_fields5" class="col-lg-4 control-label">Текст сообщения:</label>
                             <div class="col-lg-8">
-                                <textarea id="form_fields5" class="form-control" name="form_fields5" rows="3"></textarea>
+                                <textarea id="form_fields5" class="form-control" name="form_fields5"
+                                          rows="3"></textarea>
                             </div>
                         </div>
 
