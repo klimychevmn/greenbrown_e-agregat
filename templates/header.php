@@ -11,18 +11,18 @@
     <title>Главная страница</title>
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-    <link href="css/newa/bootstrap.css" rel="stylesheet">
-    <link href="css/newa/style.css" rel="stylesheet">
+    <link href="../css/newa/bootstrap.css" rel="stylesheet">
+    <link href="../css/newa/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="js/newa/html5shiv.js"></script>
-    <script src="js/newa/respond.min.js"></script>
+    <script src="../js/newa/html5shiv.js"></script>
+    <script src="../js/newa/respond.min.js"></script>
     <![endif]-->
-    <script src="js/newa/jquery.js"></script>
-    <script src="js/newa/bootstrap.min.js"></script>
-    <script src="js/newa/holder.js"></script>
-    <script type="text/javascript" language="JavaScript" src="js/JsHttpRequest.js"></script>
-    <script type="text/javascript" language="JavaScript" src="js/common.js"></script>
+    <script src="../js/newa/jquery.js"></script>
+    <script src="../js/newa/bootstrap.min.js"></script>
+    <script src="../js/newa/holder.js"></script>
+    <script type="text/javascript" language="JavaScript" src="../js/JsHttpRequest.js"></script>
+    <script type="text/javascript" language="JavaScript" src="../js/common.js"></script>
 
 </head>

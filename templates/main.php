@@ -1,4 +1,5 @@
-
+<?php require('header.php'); ?>
+<?php require('navigate.php'); ?>
 <div id="myCarousel" class="carousel slide" style="margin-top: 0px">
 
     <ol class="carousel-indicators">
@@ -9,7 +10,7 @@
     <div class="carousel-inner">
         <div class="item active">
             <div class="container">
-                <img src="img/baner/baner_1.jpg" class="carousel-img" alt="First slide">
+                <img src="../img/baner/baner_1.jpg" class="carousel-img" alt="First slide">
                 <div class="carousel-caption">
                     <h2 class="carousel-title">ГАЗОПОРШНЕВЫЕ ЭЛЕКТРОСТАНЦИИ.</h2>
                     <div class="carousel-content">
@@ -22,7 +23,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="img/baner/baner_2.jpg" class="carousel-img" alt="Second slide">
+            <img src="../img/baner/baner_2.jpg" class="carousel-img" alt="Second slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h2 class="carousel-title">ДИЗЕЛЬНЫЕ ЭЛЕКТРОСТАНЦИИ.</h2>
@@ -35,7 +36,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="img/baner/baner_3.jpg" class="carousel-img" alt="Second slide">
+            <img src="../img/baner/baner_3.jpg" class="carousel-img" alt="Second slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h2 class="carousel-title">ДИЗЕЛЬНЫЕ ЭЛЕКТРОСТАНЦИИ.</h2>
@@ -108,3 +109,6 @@
     <p>Мы даем гарантию на все установки, а также производим
         гарантийное и постгарантийное обслуживание.</p>
 </div><!-- /.container -->
+
+
+<?php require('footer.php'); ?>

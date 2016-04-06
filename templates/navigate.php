@@ -6,16 +6,16 @@
         <div class="container">
             <div style="position:absolute;margin-top:-70px;margin-left: 1%" class="row row_navbar">
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <img src="img/logo.gif" alt="Электрогрегат">
+                    <img src="../img/logo.gif" alt="Электрогрегат">
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                    <img src="img/header/message.gif" alt="Сообщение">
+                    <img src="../img/header/message.gif" alt="Сообщение">
                 </div>
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-content">
                     <span>p-d-s@bk.ru,<br> 2473dea@gmail.com</span>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                    <img src="img/header/phone.jpg" alt="Телефон">
+                    <img src="../img/header/phone.jpg" alt="Телефон">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-content">
                     <span>Обращайтесь по всем вопросам: <br> +7 (4852) 98-99-95, 8-903-827-24-73, 8-920-101-17-87</span>
@@ -25,7 +25,7 @@
                 <div class="container">
                     <div class="navbar-header navmobile">
                         <div style="float: left; margin-left: -45%">
-                            <a href="#" ><img src="img/logo.gif" alt="Электрогрегат" ></a>
+                            <a href="#" ><img src="../img/logo.gif" alt="Электрогрегат"></a>
                         </div>
                         <div style="float: right">
 
@@ -34,8 +34,8 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a href="#" style="float: right"><img src="img/header.mobile/phone_mob.jpg" alt="Телефон" class="navbarBtn_mob"></a>
-                            <a href="#" style="float: right"><img src="img/header.mobile/message_mob.jpg" alt="Сообщение" class="navbar_img navbarBtn_mob"></a>
+                            <a href="#" style="float: right"><img src="../img/header.mobile/phone_mob.jpg" alt="Телефон" class="navbarBtn_mob"></a>
+                            <a href="#" style="float: right"><img src="../img/header.mobile/message_mob.jpg" alt="Сообщение" class="navbar_img navbarBtn_mob"></a>
                         </div>
                     </div>
 
@@ -45,24 +45,7 @@
                                 <a href="#" rel="nofollow">ГЛАВНАЯ</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#" rel="nofollow" class="dropdown-toggle" data-toggle="dropdown">КАТАЛОГ <b
-                                        class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="/catalog/dizel/" rel="nofollow">Дизельные электростанции</a>
-                                    <li>
-                                        <a href="/catalog/gazoporshnevie/" rel="nofollow">Газопоршневые
-                                            электростанции</a>
-                                    <li>
-                                        <a href="/catalog/sudovye_electrostanciy/" rel="nofollow">Судовые
-                                            электростанции</a>
-                                    <li>
-                                        <a href="/catalog/powerunits/" rel="nofollow">Силовые и насосные установки</a>
-                                    <li>
-                                        <a href="/catalog/ispolneniy/" rel="nofollow">Исполнения</a>
-                                    <li>
-                                        <a href="/catalog/zapasnie_chasti/" rel="nofollow">Запасные части</a>
-                                </ul>
+                                <a href="catalog.php">КАТАЛОГ </a>
                             </li>
 
                             <li class="dropdown">
@@ -152,7 +135,7 @@
                     <button type="button" class="submitForm btn btn-primary">Отправить</button>
                 </div>
                 </form>
-                <script src="js/forms.js" type="text/javascript"></script>
+                <script src="../js/forms.js" type="text/javascript"></script>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->

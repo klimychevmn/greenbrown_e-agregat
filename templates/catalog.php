@@ -1,6 +1,29 @@
 <?php require('header.php'); ?>
 <?php require('navigate.php'); ?>
 
+<!--<li class="dropdown">
+    <a href="#" rel="nofollow" class="dropdown-toggle" data-toggle="dropdown">КАТАЛОГ <b
+            class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li>
+            <a href="/catalog/dizel/" rel="nofollow">Дизельные электростанции</a>
+        <li>
+            <a href="/catalog/gazoporshnevie/" rel="nofollow">Газопоршневые
+                электростанции</a>
+        <li>
+            <a href="/catalog/sudovye_electrostanciy/" rel="nofollow">Судовые
+                электростанции</a>
+        <li>
+            <a href="/catalog/powerunits/" rel="nofollow">Силовые и насосные установки</a>
+        <li>
+            <a href="/catalog/ispolneniy/" rel="nofollow">Исполнения</a>
+        <li>
+            <a href="/catalog/zapasnie_chasti/" rel="nofollow">Запасные части</a>
+    </ul>
+</li>
+-->
+
+
 <div class="row">
     <div class="col-lg-4 col-sm-4 col-xs-12">
         <div class="electro_snipet" style="height:200px;">

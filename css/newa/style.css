@@ -9,8 +9,8 @@ body {color: #000;background: #ffffff;}
 .catalogBtnSlider, .catalogBtn_nav {padding: 10px;border-radius: 20px; background-color:#990016; color: #FFFFFF}
 .catalogBtn {height: 40px; padding-top: 15px;margin-top: -30px;background-color: #990016;color: #FFFFFF}
 .catalogBtn:hover, .catalogBtn_nav:hover{color: #C0C0C0}
-.carousel .item {height: 430px;background: #C0C0C0 repeat;width:100%;}
-.carousel-inner > .item > img {position: absolute;top: 0;left: 0;height: 55%;}
+.carousel .item {height: 400px;background: #C0C0C0 repeat;}
+.carousel-inner > .item > img {position: absolute;top: 0;left: 0;width: 120%}
 .carousel-caption {color: #FFFFFF;text-align: center;text-shadow: 0px 0px 2px #fff;}
 .carousel-control.left {background-image: none;background-repeat: repeat-x;}
 .carousel-control.right {background-image: none;background-repeat: repeat-x;left: auto;right: 0;}
@@ -33,8 +33,7 @@ body {color: #000;background: #ffffff;}
 /* ------ Home  -------*/
 .carousel-caption img {position: absolute;left: 0;bottom: 0px; width: 100%;}
 .carousel-caption {height: 100%}
-.carousel-img  {margin-left:50px;height: 430px}
-
+.carousel-baner_1 {margin-left: -40%; width: 500%; margin-top: -5%}
 
 /* ---- Contact BAr ------ */
 .contact-bar {border: 1px solid #DDD; position: fixed; right: 0; top: 10%; background:rgba(255,255,255,0.7);padding: 0px 40px 0px 10px;font-size: 15px;z-index: 555;}
@@ -143,12 +142,18 @@ body {color: #000;background: #ffffff;}
         line-height: 1.8;
         text-align: left;
     }
+
+    .carousel-baner_1 {margin-left: -50%; width: 300%; margin-top: -15%}
 }
 
 @media (min-width: 992px) {
     .featurette-heading {
         margin-top: 120px;
     }
+    .row_navbar {display: block;}
+    .navmobile {display: none;}
+
+    .carousel-baner_1 {margin-left: -100%; width: 250%; margin-top: -10%}
 }
 
 @media (max-width: 500px) {
@@ -156,6 +161,7 @@ body {color: #000;background: #ffffff;}
         margin-top: 20%;
         font-size: 22px;
     }
+    .carousel .item {height: 300px; }
     .carousel-content {
         display: none;
     }
@@ -173,4 +179,15 @@ body {color: #000;background: #ffffff;}
         display: inline
     }
     .navbarBtn_mob{width: 40px; height: 40px; margin: 3px}
+
+}
+
+@media (min-width: 400px) and (max-width:768px) {
+    .carousel-baner_1 {margin-left: -200%; width: 500%; margin-top: -15%}
+}
+@media (max-width: 400px) {
+    .carousel-baner_1 {margin-left: -250%; width: 700%; margin-top: -25%}
+}
+@media (min-width: 1300px) {
+    .carousel-baner_1 {margin-left: -40%; width: 170%; margin-top: -5%}
 }
