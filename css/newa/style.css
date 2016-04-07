@@ -1,13 +1,12 @@
 html, body {height: 100%;margin: 0;padding: 0;}
 body {color: #000;background: #ffffff;}
 .clear {clear: both;width:100%;display: table;}
-.navbar-wrapper {position: relative;z-index: 15;margin-top: 6%;margin-left:25%}
+.navbar-wrapper {position: relative;z-index: 15;margin-top: 6%;margin-left:20%}
 .carousel {margin-bottom: 30px;margin-top: 50px;box-shadow: 0px 0px 12px rgba(0,0,0,0.4);border-bottom: 1px solid #f4f4f4;}
 .carousel-caption {z-index: 10;}
 #wrapper {height: auto !important;margin: 0 auto 0;min-height: 100%; padding-bottom: 100px;}
-#foot {height: 40px; padding-top: 15px;margin-top: -30px;background-color: #990016;color: #FFFFFF}
+#foot, .catalogBtn {height: 40px; padding-top: 15px;margin-top: -30px;background-color: #990016;color: #FFFFFF}
 .catalogBtnSlider, .catalogBtn_nav {padding: 10px;border-radius: 20px; background-color:#990016; color: #FFFFFF}
-.catalogBtn {height: 40px; padding-top: 15px;margin-top: -30px;background-color: #990016;color: #FFFFFF}
 .catalogBtn:hover, .catalogBtn_nav:hover{color: #C0C0C0}
 .carousel .item {height: 400px;background: #C0C0C0 repeat;}
 .carousel-inner > .item > img {position: absolute;top: 0;left: 0;width: 120%}
@@ -49,12 +48,14 @@ body {color: #000;background: #ffffff;}
 
 
 /*   -----   Catalog row --------  */
-.electro_snipet {background: #fff; padding: 5px;height: 185px;margin-bottom: 15px;}
-.electro_snipet:hover {box-shadow: 0px 0px 10px rgba(0,0,0,0.1);}
-.sn_title {height: 40px; margin: 2px 0 7px 0;}
-.electro_snipet img {height: 75px;}
-.price_sn {font-size: 16px;float: left;font-weight: 200;color: #CC0000;}
-.desc_cat {height: 86px; overflow: hidden;margin-bottom: 7px;}
+.electro_snipet {background: #fff; padding: 10px 20px 10px;height: 500px;margin-bottom: 15px;box-shadow: 0px 0px 5px rgba(0,0,0,0.5);}
+
+.sn_title {height: 40px; margin: 2px 0 30px 0;}
+.sn_title a {color: #000000}
+.catalogItemBtn {padding: 15px;font-size:14px;border-radius: 20px; background-color:#990016; color: #FFFFFF}
+.electro_snipet img {margin:10px 5px 15px;width: 95% }
+.price_sn {font-size: 16px;font-weight: 200;color: #CC0000;margin-top: 20px;}
+.desc_cat {height: 130px; overflow: hidden;margin: 5px;font-size: 15px;}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */

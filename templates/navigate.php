@@ -3,8 +3,8 @@
 <body>
 <div id="wrapper">
     <div class="navbar-wrapper">
-        <div class="container">
-            <div style="position:absolute;margin-top:-70px;margin-left: 1%" class="row row_navbar">
+        <div class="container" >
+            <div style="position:absolute;margin-top:-70px;margin-left: 2%" class="row row_navbar">
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                     <img src="../img/logo.gif" alt="Электрогрегат">
                 </div>
@@ -24,7 +24,7 @@
             <div class="navbar navbar-inverse navbar-static-top">
                 <div class="container">
                     <div class="navbar-header navmobile">
-                        <div style="float: left; margin-left: -45%">
+                        <div style="float: left; margin-left: -35%">
                             <a href="#" ><img src="../img/logo.gif" alt="Электрогрегат"></a>
                         </div>
                         <div style="float: right">
@@ -42,7 +42,7 @@
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="#" rel="nofollow">ГЛАВНАЯ</a>
+                                <a href="main.php" rel="nofollow">ГЛАВНАЯ</a>
                             </li>
                             <li class="dropdown">
                                 <a href="catalog.php">КАТАЛОГ </a>
