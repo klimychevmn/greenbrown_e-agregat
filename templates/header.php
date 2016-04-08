@@ -7,9 +7,9 @@
     <meta name="description" content="Производство-продажа дизельных и газопоршневых генераторов.">
     <meta name="keywords"
           content="дизельные электростанции серии АД, газопоршневые электростанции, силовые установки, электроагрегат, снижение стоимости энергии, электроустановки">
-    <link rel="shortcut icon" href="favicon.png">
+    <!--<link rel="shortcut icon" href="favicon.png">-->
     <title>Главная страница</title>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+   <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">-->
 
     <link href="../css/newa/bootstrap.css" rel="stylesheet">
     <link href="../css/newa/style.css" rel="stylesheet">

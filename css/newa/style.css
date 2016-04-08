@@ -96,14 +96,14 @@ body {color: #000;background: #ffffff;}
 }
 .my_jumbotron h1 {line-height: 1;color: inherit;}
 .my_jumbotron p {line-height: 1.2;font-size: 15px;}
-.my_jumbotron li {color: #990016;height: 40px;font-size: 25px;margin-bottom: -15px;}
+.my_jumbotron li {color: #990016;height: auto;font-size: 25px;margin-bottom: -15px;}
 .my_jumbotron li p{font-size: 14px; color: #000000}
 
 .item_big {width: 83%; margin-bottom: 5px;}
 .item_small {width: 27%}
-.item_price{margin: 10%  15% 0 0; font-size: 18px;color: #990016;}
-.panel-default > .panel-heading{background-color: #990016; color: #FFFFFF}
-.panel-default > .panel-heading:active, .panel-default > .panel-heading:focus, .panel-default > .panel-heading:hover{background-color: #63010F}
+.item_price{margin: 10%  15% 0 0; font-size: 18px;color: #990016; text-align: center;}
+.panel-group .panel-heading{background-color: #b7b7b7;color: #000000;font-size: 15px}
+.panel-group .panel-heading.active, .panel-group .panel-heading:focus, .panel-group .panel-heading:hover{background-color: #63010F;color: #FFFFFF}
 
 
     /* Featurettes
@@ -118,6 +118,13 @@ body {color: #000;background: #ffffff;}
     font-weight: 300;
     line-height: 1;
     letter-spacing: -1px;
+}
+
+
+.triangle {
+    color: #9f0816;
+    font-size: 30px;
+    margin-top: -8px;
 }
 
 
@@ -169,6 +176,7 @@ body {color: #000;background: #ffffff;}
         line-height: 1.8;
         text-align: left;
     }
+    .nav-tabs.nav-justified > li {width: auto}
 
     .carousel-baner_1 {margin-left: -50%; width: 300%; margin-top: -15%}
 }
@@ -184,6 +192,7 @@ body {color: #000;background: #ffffff;}
 }
 
 @media (max-width: 767px) {
+
     .carousel-title {
         margin-top: 20%;
         font-size: 22px;
@@ -208,14 +217,29 @@ body {color: #000;background: #ffffff;}
     .navbarBtn_mob{width: 40px; height: 40px; margin: 3px}
     /*   -----   Catalog row --------  */
     .electro_snipet img {display: none}
-    .electro_snipet {height: 280px;box-shadow: none;}
+    .electro_snipet {height: 280px;box-shadow: none;margin-bottom: 0px;border-bottom: 1px solid #000000}
     .catalogItemBtn {float: left; position: relative; z-index: 2; margin-bottom: -20%; width: 45%; }
     .price_sn {float: right; position: relative;z-index: 1;}
     .sn_title h4{ font-size: 18px;}
     .sn_title a {color: #990016}
-    .ctlg_item {border-bottom: 1px solid #000000}
+
     .desc_cat {font-size: 16px}
     .ctlg_line{display: none}
+    /*   -----   Item catalog --------  */
+    .item_mob, .item_mob .col-xs-12 {padding-left: 0px;padding-right: 0px;}
+    .item_big {width: 100%}
+    .item_small {display: none}
+    .my_jumbotron {background-color: #FFFFFF; }
+    .my_jumbotron li {height: auto;}
+    .my_jumbotron h2 {color:#9f0816;font-size: 17px;padding: 5px 0 5px;text-align: center}
+    .panel-group .panel-heading{background-color: #b7b7b7;color: #000000;}
+    .panel-group .panel-heading:active, .panel-group .panel-heading:focus, .panel-group .panel-heading:hover{background-color: #63010F;color: #FFFFFF}
+
+
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {background-color: #63010F;color: #FFFFFF;}
+    .nav-tabs > li > a {background-color: #b7b7b7; font-size: 20px}
+
+    .item_price{margin: 0 0 0 5%; text-align: left;}
 
 }
 

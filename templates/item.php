@@ -1,33 +1,21 @@
 <?php require('header.php'); ?>
 <?php require('navigate.php'); ?>
+<?php require('catalog_nav.php'); ?>
 
 
-
-<div class="row ctlg_line" style="background-color: #990016; height: 35px;z-index: 1;margin-bottom: -35px"></div>
-<div class="container" style="z-index: 2;">
-    <ul class="nav nav-tabs nav-justified" style="background-color: #990016">
-        <li class="active"><a href="#diz_stan" data-toggle="tab">Дизельные электростанции</a></li>
-        <li><a href="#sud_stan" data-toggle="tab">Судовые электростанции</a></li>
-        <li><a href="#sil_ust" data-toggle="tab">Силовые и насосные установки</a></li>
-        <li><a href="#ispol" data-toggle="tab">Исполнения</a></li>
-        <li><a href="#zapas" data-toggle="tab">Запасные части</a></li>
-    </ul>
-</div>
-
-
-<div class="container">
+<div class="item_mob container">
     <div class="col-lg-5 col-sm-5 col-xs-12" style="float: right;">
         <img src="../img/item.jpg" alt="" class="item_big">
         <img src="../img/item.jpg" alt="" class="item_small">
         <img src="../img/item.jpg" alt="" class="item_small">
         <img src="../img/item.jpg" alt="" class="item_small">
-        <p class="text-center item_price">Цена по запросу <a href="№">подробнее</a></p>
+        <p class="item_price">Цена по запросу <a href="#">подробнее</a></p>
     </div>
     <div class="col-lg-7 col-sm-7 col-xs-12" style="float: left">
         <div class="my_jumbotron">
             <h2>ДИЗЕЛЬНАЯ ЭЛЕКТРОСТАНЦИЯ АД-30</h2>
         </div>
-        <div class="my_jumbotron">
+        <div class="my_jumbotron g_chrter">
             <p>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ:<br>
                 Номинальная мощность: 30кВт/37,5кВа<br>
                 Максимальная мощность: 33кВт/41,2кВа<br>
@@ -60,129 +48,83 @@
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> <!-- List group -->
 
             <div class="panel panel-default"><!-- Start -->
-                <div class="panel-heading" role="tab" id="headingOne"><!-- TITLE -->
-                    <h4 class="panel-title">
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                           aria-expanded="true" aria-controls="collapseOne">
-                            Дизельная электростанция АД-30
-                        </a>
-                    </h4>
-                </div><!--END TITLE -->
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                   aria-expanded="false" aria-controls="collapseOne"><!-- TITLE -->
+                    <div class="panel-heading" role="tab" id="headingOne">Дизельная электростанция АД-30<span class="pull-right triangle">&#9660;</span></div>
+                </a>
+                <!--END TITLE -->
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                     <!-- BODY -->
                     <div class="my_jumbotron panel-body">
-                        <p>ПРИМЕНЕНИЕ АД-30:</p><br>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ПРИМЕНЕНИЕ АД-30:</p><br>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
+                        <p>ПРИМЕНЕНИЕ АД-30:</p>
+                        <p>Электрогенераторные установки серии АД 30 предназначены для получения трехфазного
+                            электрического тока напряжением 400В, частотой 50Гц.<br>
+                            В качекстве основных источников электроснабжения применяются для автономных объектов
+                            (кдаленные населенные пункты, фермерские хозяйства, вахтовые поселки, букровыые установки и
+                            т.п.).<br>
+                            В качестве резервных источников электроснабжения могут применяться на объектах, требующих
+                            повышенной надежности энергообеспечения (учреждения здравоохранения, школы, банки,
+                            гостиницы, спортиыне сооружения и т.п.).<br></p>
+                        <p>СООТВЕТСТВИЕ СТАНДАРТАМ:</p>
+                        <p>Электрогенераторные установки серии АД 30 соответсвует ГОСТ-13822.<br>
+                            Специальное исполнение: <br>
+                            Специальное исполнение подразумевает демонтаж пульта управления для установки системы
+                            автоматики заказа.</p>
                     </div>
                 </div><!-- END BODY -->
             </div><!-- End -->
 
             <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingTwo">
-                    <h4 class="panel-title">
-                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                           href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Технические характеристики
-                        </a>
-                    </h4>
-                </div>
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                   href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div class="panel-heading" role="tab" id="headingTwo">Технические характеристики<span class="pull-right triangle">&#9660;</span></div>
+                </a>
+
+
                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                     <div class="my_jumbotron panel-body">
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
+                        <p>Текст о тех. характеристиках</p>
                     </div>
                 </div>
             </div>
 
             <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
-                    <h4 class="panel-title">
-                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                           href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Системы автоматики
-                        </a>
-                    </h4>
-                </div>
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                   href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <div class="panel-heading" role="tab" id="headingThree">Системы автоматики<span class="pull-right triangle">&#9660;</span></div>
+                </a>
+
+
                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                     <div class="my_jumbotron panel-body">
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
+                        <p>Текст о системе автоматики</p>
                     </div>
                 </div>
             </div>
 
             <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
-                    <h4 class="panel-title">
-                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                           href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Исполнения
-                        </a>
-                    </h4>
-                </div>
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                   href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <div class="panel-heading" role="tab" id="headingThree">Исполнения<span class="pull-right triangle">&#9660;</span></div>
+                </a>
+
+
                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                     <div class="my_jumbotron panel-body">
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
+                        <p>Текст об исполнения</p>
                     </div>
                 </div>
             </div>
 
             <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
-                    <h4 class="panel-title">
-                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                           href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            Запасные части
-                        </a>
-                    </h4>
-                </div>
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                   href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <div class="panel-heading" role="tab" id="headingThree">Запасные части<span class="pull-right triangle">&#9660;</span></div>
+                </a>
+
                 <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                     <div class="my_jumbotron panel-body">
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
-                        <p>ТУТ ЕСТЬ И БУДЕТ КАОКЙ-ТО ТЕКСТ</p>
+                        <p>Текст о запасных частях</p>
                     </div>
                 </div>
             </div>
@@ -192,4 +134,36 @@
 
 </div>
 
+
+<script>
+    $(document).ready(function() {
+        if (screen.width < '768') {
+            (function () {
+                $('.my_jumbotron > h2').parent().insertBefore($('.item_big'));
+                $('.item_price').insertAfter($('.g_chrter'));
+            })()
+        }
+
+        var Click;
+
+        function collapse_click(e) {Click = e || window.event;return Click;}
+
+        $('.panel-default > a').click(collapse_click);
+
+
+        $('.panel-group')
+            .on('show.bs.collapse', function () {
+                $(Click.target.children).html('&#9650;');
+                $('.panel-heading').removeClass('active');
+                $(Click.target).addClass('active');
+
+        })
+            .on('hide.bs.collapse', function () {
+                $('.panel-heading').removeClass('active');
+                $(Click.target.children).html('&#9660;');
+        });
+
+
+    });
+</script>
 <?php require('footer.php'); ?>
