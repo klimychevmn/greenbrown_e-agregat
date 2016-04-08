@@ -18,33 +18,33 @@
                             мощностной ряд от 60 до 359кВт. Газопоршневые электростанции выгодно отличаются от дизельных
                             экономичным расходом топлива.</p>
                     </div>
-                    <p><a class="btn catalogBtnSlider" href="/catalog/gazoporshnevie/">Перейти в каталог</a></p>
+                    <p><a class="btn catalogBtnSlider" href="catalog.php">Перейти в каталог</a></p>
                 </div>
             </div>
         </div>
         <div class="item">
-            <img src="../img/baner/baner_2.jpg" class="carousel-img" alt="Second slide">
             <div class="container">
+                <img src="../img/baner/baner_2.jpg" class="carousel-img" alt="Second slide">
                 <div class="carousel-caption">
                     <h2 class="carousel-title">ДИЗЕЛЬНЫЕ ЭЛЕКТРОСТАНЦИИ.</h2>
                     <div class="carousel-content">
                         <p>Надежные станции на базе двигателей ЯМЗ и ТМЗ. Проверены в условиях крайнего Севера.<br>
                             Наши электрогенераторы это всегда НАДЕЖНОСТЬ, МОЩЬ и СТАБИЛЬНОСТЬ.</p>
                     </div>
-                    <p><a class="btn catalogBtnSlider" href="/catalog/dizel/">Перейти в каталог</a></p>
+                    <p><a class="btn catalogBtnSlider" href="catalog.php">Перейти в каталог</a></p>
                 </div>
             </div>
         </div>
         <div class="item">
-            <img src="../img/baner/baner_3.jpg" class="carousel-img" alt="Second slide">
             <div class="container">
+                <img src="../img/baner/baner_3.jpg" class="carousel-img" alt="Second slide">
                 <div class="carousel-caption">
                     <h2 class="carousel-title">ДИЗЕЛЬНЫЕ ЭЛЕКТРОСТАНЦИИ.</h2>
                     <div class="carousel-content">
                         <p>Надежные станции на базе двигателей ЯМЗ и ТМЗ. Проверены в условиях крайнего Севера.<br>
                             Наши электрогенераторы это всегда НАДЕЖНОСТЬ, МОЩЬ и СТАБИЛЬНОСТЬ.</p>
                     </div>
-                    <p><a class="btn catalogBtnSlider" href="/catalog/dizel/">Перейти в каталог</a></p>
+                    <p><a class="btn catalogBtnSlider" href="catalog.php">Перейти в каталог</a></p>
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@
 
 <div class="catalogBtn">
     <div class="container">
-        <p class="text-center">Перейти в каталог</p>
+        <a href="catalog.php" style="color: #FFFFFF"><p class="text-center">Перейти в каталог</p></a>
 
     </div>
 </div>

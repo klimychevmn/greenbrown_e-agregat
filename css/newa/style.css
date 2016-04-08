@@ -30,9 +30,9 @@ body {color: #000;background: #ffffff;}
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {color: #990016;background-color: #ffffff;}
 
 /* ------ Home  -------*/
-.carousel-caption img {position: absolute;left: 0;bottom: 0px; width: 100%;}
+/*.carousel-caption img {position: absolute;left: 0;bottom: 0px; width: 100%;}*/
 .carousel-caption {height: 100%}
-.carousel-baner_1 {margin-left: -40%; width: 500%; margin-top: -5%}
+.carousel-img {margin-left: -40%; width: 500%; margin-top: -5%}
 
 /* ---- Contact BAr ------ */
 .contact-bar {border: 1px solid #DDD; position: fixed; right: 0; top: 10%; background:rgba(255,255,255,0.7);padding: 0px 40px 0px 10px;font-size: 15px;z-index: 555;}
@@ -178,7 +178,7 @@ body {color: #000;background: #ffffff;}
     }
     .nav-tabs.nav-justified > li {width: auto}
 
-    .carousel-baner_1 {margin-left: -50%; width: 300%; margin-top: -15%}
+    .carousel-img {margin-left: -50%; width: 300%; margin-top: -15%}
 }
 
 @media (min-width: 992px) {
@@ -188,7 +188,7 @@ body {color: #000;background: #ffffff;}
     .row_navbar {display: block;}
     .navmobile {display: none;}
 
-    .carousel-baner_1 {margin-left: -100%; width: 250%; margin-top: -10%}
+    .carousel-img {margin-left: -50%; width: 200%;margin-bottom: -50%}
 }
 
 @media (max-width: 767px) {
@@ -244,11 +244,11 @@ body {color: #000;background: #ffffff;}
 }
 
 @media (min-width: 400px) and (max-width:768px) {
-    .carousel-baner_1 {margin-left: -200%; width: 500%; margin-top: -15%}
+    .carousel-img {margin-left: -80%; width: 350%;}
 }
 @media (max-width: 400px) {
-    .carousel-baner_1 {margin-left: -250%; width: 700%; margin-top: -25%}
+    .carousel-img {margin-left: -200%; width: 500%;}
 }
 @media (min-width: 1300px) {
-    .carousel-baner_1 {margin-left: -40%; width: 170%; margin-top: -5%}
+    .carousel-img {margin-left: -40%; width: 170%; margin-top: -5%}
 }
