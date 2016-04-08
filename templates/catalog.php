@@ -438,30 +438,30 @@
     function init(e) {
         e = e || window.event;
 
-        console.log(e, $(e.target).attr('href'));
+        console.log($(e.target));
 
+        $('.triangle').html('&#9660;');
         $('#menu > li').removeClass('active');
         $(e.target.parentNode).addClass('active');
 
         $('.tab-content .tab-pane').removeClass('active');
         $($(e.target).attr('href')).addClass('active');
 
-
         if (screen.width <= '767') {
-
+            if($(e.target.parentNode).hasClass('active')){
+                $(e.target.children).html('&#9650;');
+            }
             $nav_title = $('#menu > .active > a');
-
-
             if ($('#menu > .active')) {
                 $('.tab-content').insertAfter($nav_title);
             }
-
         }
         e.preventDefault();
 
     }
 
     if (screen.width > '767') {
+        $('.triangle').addClass('hidden');
         $('ul#menu>li').first().addClass('active');
         $('#diz_stan').addClass('active');
     }
