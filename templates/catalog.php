@@ -434,7 +434,10 @@
 </div>
 
 <script>
-
+    /**
+     * TODO:
+     *   Меню каталога должно закрываться
+     */
     function init(e) {
         e = e || window.event;
 

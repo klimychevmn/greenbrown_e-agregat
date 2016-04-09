@@ -2,6 +2,7 @@
 <?php require('navigate.php'); ?>
 <?php require('catalog_nav.php'); ?>
 
+<!-- TODO: Исправить меню для меню каталога, в макете иначе.  -->
 
 <div class="item_mob container">
     <div class="col-lg-5 col-sm-5 col-xs-12" style="float: right;">
@@ -136,7 +137,8 @@
 
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
+        $('#menu .triangle').addClass('hidden');
         if (screen.width < '768') {
             (function () {
                 $('.my_jumbotron > h2').parent().insertBefore($('.item_big'));
@@ -146,9 +148,18 @@
 
         var Click;
 
-        function collapse_click(e) {Click = e || window.event;return Click;}
+        function collapse_click(e) {
+            Click = e || window.event;
+            return Click;
+        }
 
         $('.panel-default > a').click(collapse_click);
+
+
+        /** TODO:
+         *     исправить обработчик;
+         *     сейчас он срабатывает не правильно, если сначала открыть одну вкладку, а потом другую
+         */
 
 
         $('.panel-group')
@@ -157,11 +168,11 @@
                 $('.panel-heading').removeClass('active');
                 $(Click.target).addClass('active');
 
-        })
+            })
             .on('hide.bs.collapse', function () {
                 $('.panel-heading').removeClass('active');
                 $(Click.target.children).html('&#9660;');
-        });
+            });
 
 
     });
