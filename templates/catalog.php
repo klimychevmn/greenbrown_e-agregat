@@ -436,12 +436,21 @@
 <script>
     /**
      * TODO:
-     *   Меню каталога должно закрываться
+     *   Меню каталога для моб устройства должно закрываться
      */
     function init(e) {
         e = e || window.event;
 
-        console.log($(e.target));
+        if(screen.width <= ' 767') {
+            if($(e.target.parentNode).hasClass('active')){
+                $(e.target.parentNode).removeClass('active');
+                $(e.target.children).html('&#9660;');
+                $($(e.target).attr('href')).removeClass('active');
+                return false;
+            }
+        }
+
+        //console.log($(e.target));
 
         $('.triangle').html('&#9660;');
         $('#menu > li').removeClass('active');
@@ -454,9 +463,8 @@
             if($(e.target.parentNode).hasClass('active')){
                 $(e.target.children).html('&#9650;');
             }
-            $nav_title = $('#menu > .active > a');
             if ($('#menu > .active')) {
-                $('.tab-content').insertAfter($nav_title);
+                $('.tab-content').insertAfter($('#menu > .active > a'));
             }
         }
         e.preventDefault();
