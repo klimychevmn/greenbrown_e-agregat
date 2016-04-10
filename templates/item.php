@@ -146,32 +146,32 @@
             })()
         }
 
-        var Click;
 
+
+        var Click;
         function collapse_click(e) {
             Click = e || window.event;
             return Click;
         }
 
         $('.panel-default > a').click(collapse_click);
-
-
         /** TODO:
          *     исправить обработчик;
          *     сейчас он срабатывает не правильно, если сначала открыть одну вкладку, а потом другую
+         *
+         *     P.S. стоит заметить, что сначала срабатывает show и только потом hide
          */
-
-
         $('.panel-group')
-            .on('show.bs.collapse', function () {
-                $(Click.target.children).html('&#9650;');
-                $('.panel-heading').removeClass('active');
-                $(Click.target).addClass('active');
-
+            .on('show.bs.collapse', function () {  // подписываемся на событие show
+                console.log("show");
+                $(Click.target.children).html('&#9650;');   // меняем стрелку элемента, на котором кликнули. стрелка вверх, т.е. вкладка открыта
+                //$('.panel-heading').removeClass('active');   // убираем активность у всех вкладкок
+                $(Click.target).addClass('active');       //  делаем активной вкладку только ту, на которую нажали
             })
-            .on('hide.bs.collapse', function () {
-                $('.panel-heading').removeClass('active');
-                $(Click.target.children).html('&#9660;');
+            .on('hide.bs.collapse', function () {  //  подписываемся на событие  hide
+                console.log("hide");
+                $('.panel-heading').removeClass('active');   // убираем активность у всех вкладкок
+                $(Click.target.children).html('&#9660;');   //  меняем стрелку элемента, на котором кликнули. стрелка вниз, т.е. вкладка закрыта
             });
 
 
