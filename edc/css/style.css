@@ -1,0 +1,67 @@
+html, body {height: 100%;margin: 0;padding: 0;}
+body {color: #000;background: url("../img/background.jpg");}
+#wrapper {height: auto !important;margin: 0 auto 10%;min-height: 100%;}
+
+.wrapper {background-color: #FFFFFF; margin-left: 25%; width: 50%;}
+
+
+/*   -----   HEADER --------  */
+
+.navbar-wrapper {position: relative;z-index: 15;margin-top: 75px;background-color: #2d2f37;color: #cacacb;}
+
+
+.navbar-inverse .navbar-nav > li > a {color: #000000;font-size: 14px;}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {background-color: #ffffff;color: #990016;}
+
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {background-color: #ffffff;color: #990016;}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {color: #990016;background-color: #ffffff;}
+
+/*   -----   CONTENT --------  */
+.content{padding: 20px;margin-bottom: 10%}
+/*   -----   FOOTER --------  */
+.foot{background-color: #2d2f37; color: #acacae;}
+.foot div{margin-top: 10px}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+    /* Remove the edge padding needed for mobile */
+    .marketing {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main {
+        width: 50%;
+    }
+    .navmobile {
+        display: none;
+    }
+
+}
+
+
+
+@media (max-width: 767px) {
+
+
+    .row_navbar {
+        display: none;
+    }
+    .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+        background-color: #990016;
+        border: none;
+    }
+    .navmobile {
+        display: inline
+    }
+    .navbarBtn_mob{width: 40px; height: 40px; margin: 3px}
+
+
+}
+
