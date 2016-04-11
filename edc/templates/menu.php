@@ -29,23 +29,24 @@
                         </div>
                         <div style="float: right">
 
-                            <button type="button" class="navbarBtn_mob navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="float: right">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="float: right">
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a href="#" style="float: right">test</a>
-                            <a href="#" style="float: right">test</a>
+
+                            <a href="#" style="float: right"><span class="glyphicon glyphicon-phone" style="font-size: 30px; color: #4cae4c"></span></a>
+                            <a href="#" style="float: right"><span class="glyphicon glyphicon-search" style="font-size: 30px; color: #4cae4c"></span></a>
                         </div>
                     </div>
 
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li><a href="#">ГЛАВНАЯ</a></li>
-                            <li><a href="#">КАТАЛОГ</a></li>
-                            <li><a href="#">ПРАЙСЫ</a></li>
+                            <li><a href="#">ЭЛЕКТРОСТАНЦИЯ 3D МОДЕЛЬ</a></li>
+                            <li><a href="#">ПРОДУКЦИЯ</a></li>
+                            <li><a href="#">ДВИГАТЕЛИ И ЗАПЧАСТИ ЯМЗ, ТМЗ И ММЗ</a></li>
                             <li><a href="#">КОНТАКТЫ</a></li>
-                            <li><a href="#">ЗАДАТЬ ВОПРОС</a></li>
                         </ul>
 
                     </div>
