@@ -1,11 +1,7 @@
 <?php require('header.php'); ?>
 <?php require('navigate.php'); ?>
+<?php require('catalog_nav.php'); ?>
 
-<div class="item_mob container" style="z-index: 2;">
-    <ul id="menu" class="nav nav-tabs nav-justified" style="background-color: #990016">
-        <li class="active"><a href="catalog.php">Дизельные электростанции<span class="pull-right triangle">&#9650;</span></a></li>
-    </ul>
-</div>
 
 <div class="item_mob container">
     <div class="col-lg-5 col-sm-5 col-xs-12" style="float: right;">
@@ -141,17 +137,20 @@
 
 <script>
     $(document).ready(function () {
+        $('#menu .triangle').addClass('hidden');
         if (screen.width < '768') {
-            (function () {
-                $('.my_jumbotron > h2').parent().insertBefore($('.item_big'));
-                $('.item_price').insertAfter($('.g_chrter'));
-            })()
+            $('#menu > li').addClass('hidden');
+            $('#menu > li > a').attr('href', 'catalog.php');
+            $('#menu > li').first().removeClass('hidden').addClass('active');
+            $('#menu > li > a > span').first().removeClass('hidden').html('&#9650;');
+            $('.my_jumbotron > h2').parent().insertBefore($('.item_big'));
+            $('.item_price').insertAfter($('.g_chrter'));
         }
 
         function collapse_click(e) {
             e = e || window.event;
 
-            if($(e.target).hasClass('active')){
+            if ($(e.target).hasClass('active')) {
                 $(e.target).removeClass('active');
                 $('.panel-heading > span').html('&#9660;');
                 e.preventDefault();
