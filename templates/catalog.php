@@ -434,10 +434,6 @@
 </div>
 
 <script>
-    /**
-     * TODO:
-     *   Меню каталога для моб устройства должно закрываться
-     */
     function init(e) {
         e = e || window.event;
 

@@ -1,8 +1,11 @@
 <?php require('header.php'); ?>
 <?php require('navigate.php'); ?>
-<?php require('catalog_nav.php'); ?>
 
-<!-- TODO: Исправить меню для меню каталога, в макете иначе.  -->
+<div class="item_mob container" style="z-index: 2;">
+    <ul id="menu" class="nav nav-tabs nav-justified" style="background-color: #990016">
+        <li class="active"><a href="catalog.php">Дизельные электростанции<span class="pull-right triangle">&#9650;</span></a></li>
+    </ul>
+</div>
 
 <div class="item_mob container">
     <div class="col-lg-5 col-sm-5 col-xs-12" style="float: right;">
@@ -138,7 +141,6 @@
 
 <script>
     $(document).ready(function () {
-        $('#menu .triangle').addClass('hidden');
         if (screen.width < '768') {
             (function () {
                 $('.my_jumbotron > h2').parent().insertBefore($('.item_big'));
@@ -146,35 +148,24 @@
             })()
         }
 
-
-
-        var Click;
         function collapse_click(e) {
-            Click = e || window.event;
-            return Click;
+            e = e || window.event;
+
+            if($(e.target).hasClass('active')){
+                $(e.target).removeClass('active');
+                $('.panel-heading > span').html('&#9660;');
+                e.preventDefault();
+            } else {
+                $('.panel-heading').removeClass('active');
+                $('.panel-heading > span').html('&#9660;');
+                $(e.target.children).html('&#9650;');
+                $(e.target).addClass('active');
+                e.preventDefault();
+            }
+
         }
 
         $('.panel-default > a').click(collapse_click);
-        /** TODO:
-         *     исправить обработчик;
-         *     сейчас он срабатывает не правильно, если сначала открыть одну вкладку, а потом другую
-         *
-         *     P.S. стоит заметить, что сначала срабатывает show и только потом hide
-         */
-        $('.panel-group')
-            .on('show.bs.collapse', function () {  // подписываемся на событие show
-                console.log("show");
-                $(Click.target.children).html('&#9650;');   // меняем стрелку элемента, на котором кликнули. стрелка вверх, т.е. вкладка открыта
-                //$('.panel-heading').removeClass('active');   // убираем активность у всех вкладкок
-                $(Click.target).addClass('active');       //  делаем активной вкладку только ту, на которую нажали
-            })
-            .on('hide.bs.collapse', function () {  //  подписываемся на событие  hide
-                console.log("hide");
-                $('.panel-heading').removeClass('active');   // убираем активность у всех вкладкок
-                $(Click.target.children).html('&#9660;');   //  меняем стрелку элемента, на котором кликнули. стрелка вниз, т.е. вкладка закрыта
-            });
-
-
     });
 </script>
 <?php require('footer.php'); ?>
