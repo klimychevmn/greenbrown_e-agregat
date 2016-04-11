@@ -1,5 +1,5 @@
 
-<div class="row ctlg_line" style="background-color: #990016; height: 35px;z-index: 1;margin-bottom: -35px"></div>
+<div class="row ctlg_line" style="background-color: #990016; height: 38px;z-index: 1;margin-bottom: -38px"></div>
 <div class="item_mob container" style="z-index: 2;">
     <ul id="menu" class="nav nav-tabs nav-justified" style="background-color: #990016">
         <li><a href="#diz_stan">Дизельные электростанции<span class="pull-right triangle">&#9660;</span></a></li>

@@ -140,12 +140,13 @@
         $('#menu .triangle').addClass('hidden');
         if (screen.width < '768') {
             $('#menu > li').addClass('hidden');
-            $('#menu > li > a').attr('href', 'catalog.php');
-            $('#menu > li').first().removeClass('hidden').addClass('active');
+
             $('#menu > li > a > span').first().removeClass('hidden').html('&#9650;');
             $('.my_jumbotron > h2').parent().insertBefore($('.item_big'));
             $('.item_price').insertAfter($('.g_chrter'));
         }
+        $('#menu > li > a').attr('href', 'catalog.php');
+        $('#menu > li').first().removeClass('hidden').addClass('active');
 
         function collapse_click(e) {
             e = e || window.event;

@@ -48,6 +48,7 @@ body {color: #000;background: #ffffff;}
 /*   -----   Catalog row --------  */
 .electro_snipet {background: #fff; padding: 10px 20px 10px;height: 500px;margin-bottom: 15px;box-shadow: 0px 0px 5px rgba(0,0,0,0.5);}
 .nav > li > a {color: #FFFFFF;}
+.nav-tabs.nav-justified>li>a {margin: 0px; border-radius: 0px;}
 .nav-tabs.nav-justified > li {font-size: 12px;}
 .nav-tabs {margin-bottom:20px;}
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {background-color: #63010F;color: #FFFFFF;}
