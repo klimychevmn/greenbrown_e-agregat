@@ -4,7 +4,7 @@ body {color: #000;background: #ffffff;}
 .navbar-wrapper {position: relative;z-index: 15;margin-top: 6%;margin-left:20%}
 .carousel {margin-bottom: 30px;margin-top: 50px;box-shadow: 0px 0px 12px rgba(0,0,0,0.4);border-bottom: 1px solid #f4f4f4;}
 .carousel-caption {z-index: 10;}
-#wrapper {height: auto !important;margin: 0 auto 0;min-height: 100%; padding-bottom: 100px;}
+#wrapper {height: auto !important;margin: 0 auto 0;min-height: 100%; padding-bottom: 50px;}
 #foot, .catalogBtn {height: 40px; padding-top: 15px;margin-top: -30px;background-color: #990016;color: #FFFFFF}
 .catalogBtnSlider, .catalogBtn_nav {padding: 10px;border-radius: 20px; background-color:#990016; color: #FFFFFF}
 .catalogBtn:hover, .catalogBtn_nav:hover{color: #C0C0C0}
@@ -22,10 +22,10 @@ body {color: #000;background: #ffffff;}
     background: -ms-linear-gradient(top, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%); /* IE10+ */
     background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b5484', endColorstr='#014275',GradientType=0 );}
-.navbar-inverse .navbar-nav > li > a {color: #000000;text-shadow: 0px 0px 1px #000;font-size: 14px;}
+.navbar-inverse .navbar-nav > li > a {color: #000000;font-size: 14px;}
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {background-color: #ffffff;color: #990016;}
 .navbar-static-top {border-width: 0 0 0;}
-.navbar-inverse .navbar-brand {color: #000000;text-shadow: 0px 0px 1px #000;}
+.navbar-inverse .navbar-brand {color: #000000;}
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {background-color: #ffffff;color: #990016;}
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {color: #990016;background-color: #ffffff;}
 
@@ -46,7 +46,7 @@ body {color: #000;background: #ffffff;}
 
 
 /*   -----   Catalog row --------  */
-.electro_snipet {background: #fff; padding: 10px 20px 10px;height: 500px;margin-bottom: 15px;box-shadow: 0px 0px 5px rgba(0,0,0,0.5);}
+.electro_snipet {background: #fff; padding: 10px 20px 10px;height: 520px;margin-bottom: 15px;box-shadow: 0px 0px 5px rgba(0,0,0,0.5);}
 .nav > li > a {color: #FFFFFF;}
 .nav-tabs.nav-justified>li>a {margin: 0px; border-radius: 0px;}
 .nav-tabs.nav-justified > li {font-size: 12px;}
@@ -101,7 +101,9 @@ body {color: #000;background: #ffffff;}
 .item_big {width: 83%; margin-bottom: 5px;}
 .item_small {width: 27%}
 .item_price{margin: 10%  15% 0 0; font-size: 18px;color: #990016; text-align: center;}
-.panel-group .panel-heading{background-color: #b7b7b7;color: #000000;font-size: 15px}
+.panel-group .panel-heading{background-color: #b7b7b7;color: #000010;font-size: 15px}
+.panel-group a:hover{text-decoration: underline;color: #FFFFFF}
+.panel-group a {text-decoration: none}
 .panel-group .panel-heading.active, .panel-group .panel-heading:focus, .panel-group .panel-heading:hover{background-color: #63010F;color: #FFFFFF}
 
 
@@ -216,7 +218,7 @@ body {color: #000;background: #ffffff;}
     .navbarBtn_mob{width: 40px; height: 40px; margin: 3px}
     /*   -----   Catalog row --------  */
     .electro_snipet img {display: none}
-    .electro_snipet {height: 280px;box-shadow: none;margin-bottom: 0px;border-bottom: 1px solid #000000}
+    .electro_snipet {height: 300px;box-shadow: none;margin-bottom: 0px;border-bottom: 1px solid #000000}
     .catalogItemBtn {float: left; position: relative; z-index: 2; margin-bottom: -20%; width: 45%; }
     .price_sn {float: right; position: relative;z-index: 1;}
     .sn_title h4{ font-size: 18px;}

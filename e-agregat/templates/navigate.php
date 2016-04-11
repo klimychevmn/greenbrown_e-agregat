@@ -6,7 +6,7 @@
         <div class="container" >
             <div style="position:absolute;margin-top:-70px;margin-left: 2%" class="row row_navbar">
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <img src="../img/logo.gif" alt="Электрогрегат">
+                    <a href="main.php"><img src="../img/logo.gif" alt="Электрогрегат"></a>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
                     <img src="../img/header/message.gif" alt="Сообщение">
@@ -25,7 +25,7 @@
                 <div class="container">
                     <div class="navbar-header navmobile">
                         <div style="float: left; margin-left: -35%">
-                            <a href="#" ><img src="../img/logo.gif" alt="Электрогрегат"></a>
+                            <a href="main.php" ><img src="../img/logo.gif" alt="Электрогрегат"></a>
                         </div>
                         <div style="float: right">
 
@@ -48,35 +48,20 @@
                                 <a href="catalog.php">КАТАЛОГ </a>
                             </li>
 
-                            <li class="dropdown">
-                                <a href="#" rel="nofollow" class="dropdown-toggle" data-toggle="dropdown">ПРАЙСЫ <b
-                                        class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="/price/pricedgu/" rel="nofollow">Прайс-лист ДГУ</a>
-                                    <li>
-                                        <a href="/price/price_egp/" rel="nofollow">Прайс лист ЭГП</a>
-                                    <li>
-                                        <a href="/price/ymz_price/" rel="nofollow">Прайс лист ЯМЗ</a>
-                                    <li>
-                                        <a href="/price/dvigateli_ymz/" rel="nofollow">Двигатели производства ЯМЗ</a>
-                                </ul>
+                            <li>
+                                <a href="#" rel="nofollow" class="dropdown-toggle" data-toggle="dropdown">ПРАЙСЫ</a>
                             </li>
 
-                            <li class="dropdown">
-                                <a href="#" rel="nofollow" class="dropdown-toggle" data-toggle="dropdown">КОНТАКТЫ <b
-                                        class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="/contact/" rel="nofollow">Контакты</a>
-                                    <li>
-                                        <a href="/contact/question/" rel="nofollow">Задать вопрос</a>
-                                </ul>
+                            <li>
+                                <a href="#" rel="nofollow" class="dropdown-toggle" data-toggle="dropdown">КОНТАКТЫ</a>
                             </li>
-                            <li><a data-toggle="modal" href="#modContact" rel="nofollow">Задать вопрос</a></li>
+
+                            <li>
+                                <a data-toggle="modal" href="#modContact" rel="nofollow">ЗАДАТЬ ВОПРОС</a>
+                            </li>
                             <!--<li><a class="pop" data-content="+7(4852)98-99-95<br> 8-903-827-24-73 8-920-101-17-87" data-placement="bottom" data-toggle="popover" data-container="body">Телефоны</a></li>-->
                             <li>
-                                <a href="/indoor/sklad/" rel="nofollow">
+                                <a href="/indoor/sklad/" rel="nofollow" style="margin-top: -5%">
                                     <div class="btn catalogBtn_nav">ОСТАТКИ НА СКЛАДЕ</div>
                                 </a>
                             <li
