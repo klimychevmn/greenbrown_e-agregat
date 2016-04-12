@@ -3,15 +3,15 @@
 <body>
 <div id="wrapper">
     <div style="background-color: #e5e5e5;height: 30px;margin-bottom: 10px;" class="phones"><!--Phones-->
-        <div class="wrapper" style="background-color: #e5e5e5; padding-top: 5px">
+        <div class="wrapper" style="padding-top: 5px">
             <div class="row" style="font-size: 13px; text-align: center;">
-                <div class="col-lg-3" style="border-right: 1px solid #ffffff"><span
+                <div class="col-lg-3 col-md-3 col-sm-3" style="border-right: 1px solid #ffffff"><span
                         style="color: red">+7 495 133-96-62</span> Москва
                 </div>
-                <div class="col-lg-3" style="border-right: 1px solid #ffffff"><span
+                <div class="col-lg-3 col-md-3 col-sm-3" style="border-right: 1px solid #ffffff"><span
                         style="color: red">+7 343 386-19-37</span> Екатеринбург
                 </div>
-                <div class="col-lg-3" style="border-right: 1px solid #ffffff"><span
+                <div class="col-lg-3 col-md-3 col-sm-3" style="border-right: 1px solid #ffffff"><span
                         style="color: red"> +7 843 202-41-37</span> Казань
                 </div>
                 <div class="col-lg-3"><span style="color: red">+7 863 209-89-57</span> Ростов на Дону</div>
