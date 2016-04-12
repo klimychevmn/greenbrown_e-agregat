@@ -2,7 +2,7 @@
 ================================================== -->
 <body>
 <div id="wrapper">
-    <div style="background-color: #e5e5e5;height: 30px;margin-bottom: 10px;" class="phones">
+    <div style="background-color: #e5e5e5;height: 30px;margin-bottom: 10px;" class="phones"><!--Phones-->
         <div class="wrapper" style="background-color: #e5e5e5; padding-top: 5px">
             <div class="row" style="font-size: 13px; text-align: center;">
                 <div class="col-lg-3" style="border-right: 1px solid #ffffff"><span
@@ -17,8 +17,9 @@
                 <div class="col-lg-3"><span style="color: red">+7 863 209-89-57</span> Ростов на Дону</div>
             </div>
         </div>
-    </div>
-    <div class="wrapper logo_baner" style="margin-bottom: 10px">
+    </div><!--END-->
+
+    <div class="wrapper logo_baner" style="margin-bottom: 10px"><!--LOGO-->
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="margin-top: 10px">
                 <img src="../img/logo1.jpg" alt="">
@@ -28,7 +29,7 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
-                <div style="display: inline-block; text-align: right; width: 100%;margin:10px" class="yashare-auto-init"
+                <div style="display:inline-block;text-align:right;width:100%;margin:20px 10px" class="yashare-auto-init"
                      data-yasharel10n="ru" data-yasharetype="none"
                      data-yasharequickservices="vkontakte,facebook,twitter,odnoklassniki,lj,gplus"><span
                         class="b-share"><a
@@ -62,15 +63,15 @@
                                                                                    href="https://share.yandex.net/go.xml?service=gplus&amp;url=http%3A%2F%2Fwww.stanki-zavod.ru%2F&amp;title=%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%87%D0%BD%D0%BE-%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%20%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D0%BE%D1%80%D0%B5%D0%B6%D1%83%D1%89%D0%B5%D0%B3%D0%BE%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F."
                                                                                    data-service="gplus"><span
                                 class="b-share-icon b-share-icon_gplus"></span></a></span></div>
-                <div style="display: inline-block; text-align: right; width: 100%;margin:10px">Звонок по России
+                <div style="display:inline-block;text-align:right;width:100%;margin:0px 10px; color: #868686; font-size: 15px">Звонок по России
                     бесплатно
                 </div>
-                <div style="display: inline-block; text-align: right; width: 100%;margin:10px">8-800-700-29-55</div>
+                <div style="display:inline-block;text-align:right;width:100%;margin:0px 10px;color:#d9251d;font-size: 28px;font-weight: 700">8-800-700-29-55</div>
             </div>
         </div>
-    </div>
+    </div><!--END-->
 
-    <div class="navbar-wrapper" style="clear: both">
+    <div class="navbar-wrapper" style="clear: both"><!--NAVBAR-->
         <div class="wrapper">
             <div class="navbar navbar-inverse">
                 <div class="container">
@@ -113,9 +114,9 @@
             </div>
 
         </div>
-    </div>
+    </div><!--END-->
 
-    <div class="col-xs-12 mobile_logo"  style="margin:20px 0px">
+    <div class="col-xs-12 mobile_logo"  style="margin:20px 0px"><!--MOBILE_LOGO-->
         <span class="col-xs-4"><img style="width: 110%" src="../img/logo1.jpg" alt=""></span>
         <span class="col-xs-8"><img style="width: 110%" src="../img/logo2.jpg" alt=""></span>
-    </div>
+    </div> <!--END-->
