@@ -66,6 +66,35 @@
         </div>
 
     </div>
+
+    <!--TODO: посмотреть в e-agregat tab-panel-->
+    <div class="row" style="margin-bottom: 30px">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center"><span style="background-color: #d9251d;color: #ffffff;padding:15px 70px">КУЗНЕЧНО-ПРЕССОВОЕ ОБОРУДОВАНИЕ</span></div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center"><span style="background-color: #d9251d;color: #ffffff;padding:15px 70px">МЕТАЛЛОРЕЖУЩЕЕ ОБОРУДОВАНИЕ</span></div>
+    </div>
+
+    <div class="row" style="margin-bottom: 30px">
+
+    </div>
+
+    <div class="row about">
+        <div style="width: 30%">
+            <img src="../img/about.jpg" alt="" style="width: 100%">
+        </div>
+        <div>
+
+        </div>
+    </div>
+
+    <div class="row clients_news">
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 clients">
+
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 news"></div>
+    </div>
+
+
+
 </div>
 
 
