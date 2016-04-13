@@ -19,53 +19,53 @@
     <div class="content">
         <div>
             <div>
-                <div class="row" style="margin-left: 10px">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom: 20px; margin-left: -10px;">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
                             <img src="../img/catalog_img/catalog1.jpg" alt="" style="width: 100%;margin-bottom: 10px">
-                            <div style="text-align: center;text-decoration: underline; color: #d9251d">ОБОРУДОВАНИЕ ДЛЯ
+                            <div>ОБОРУДОВАНИЕ ДЛЯ
                                 ГИБКИ ЛИСТОВОГО МЕТАЛЛА
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom: 20px; margin-left: -10px;">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
                             <img src="../img/catalog_img/catalog6.jpg" alt="" style="width: 100%; margin-bottom: 10px">
-                            <div style="text-align: center;text-decoration: underline; color: #d9251d">ОБОРУДОВАНИЕ ДЛЯ
+                            <div>ОБОРУДОВАНИЕ ДЛЯ
                                 РАСКРОЯ ЛИСТОВОГО МЕТАЛЛА
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom: 20px; margin-left: -10px;">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
                             <img src="../img/catalog_img/catalog5.jpg" alt="" style="width: 100%; margin-bottom: 10px">
-                            <div style="text-align: center;text-decoration: underline; color: #d9251d">ОБОРУДОВАНИЕ ДЛЯ
+                            <div>ОБОРУДОВАНИЕ ДЛЯ
                                 ВЫПОЛНЕНИЯ КУЗНЕЧНЫХ РАБОТ
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="row" style="margin-left: 10px">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom: 20px; margin-left: -10px;">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
                             <img src="../img/catalog_img/catalog4.jpg" alt="" style="width: 100%; margin-bottom: 10px">
-                            <div style="text-align: center;text-decoration: underline; color: #d9251d">ОБОРУДОВАНИЕ ДЛЯ
+                            <div>ОБОРУДОВАНИЕ ДЛЯ
                                 ХОЛОДНОЙ ШТАМПОВКИ ЛИСТОВОГО МЕТАЛЛА
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom: 20px; margin-left: -10px;">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
                             <img src="../img/catalog_img/catalog3.jpg" alt="" style="width: 100%; margin-bottom: 10px">
-                            <div style="text-align: center;text-decoration: underline; color: #d9251d">ОБОРУДОВАНИЕ ДЛЯ
+                            <div>ОБОРУДОВАНИЕ ДЛЯ
                                 ЛИСТОВОГО И ПРОФИЛЬНОГО РАСКРОЯ МЕТАЛЛА
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom: 20px; margin-left: -10px;">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
                             <img src="../img/catalog_img/catalog2.jpg" alt="" style="width: 100%; margin-bottom: 10px">
-                            <div style="text-align: center;text-decoration: underline; color: #d9251d">ИЗГОТОВЛЕНИЕ
+                            <div>ИЗГОТОВЛЕНИЕ
                                 ПРОФНАСТИЛА МЕТАЛЛОЧЕРЕПИЦЫ И СЕТКИ ЦВПС
                             </div>
                         </a>
@@ -81,7 +81,7 @@
             </div>
 
 
-            <div class="row" style="margin-bottom: 10px;padding:0px 40px">
+            <div class="tab_panel row">
                 <?php require('tab-panel.php'); ?>
             </div>
 
@@ -109,15 +109,13 @@
                         моделей ОТШ-2, ОТШ-3 которые завоевали популярность благодаря высокому качеству и невысокой
                         конкурентной
                         цене.
-                        <br>
-                        <br>
+                        </p><p>
                         В настоящее время ведётся постоянная работа по улучшению качества выпускаемого оборудования,
                         его
                         надёжности, решая при этом вопросы внедрения в продукцию частотных преобразователей,
                         контроллеров, УЦИ и
                         систем ЧПУ.
-                        <br>
-                        <br>
+                    </p><p>
                         Специалисты Сервисной Службы осуществляют гарантийное(12-18 месяцев)и дальнейшее
                         постгарантийное
                         обслуживание, шеф-монтажные, пусконаладочные работы и обучение персонала.

@@ -25,29 +25,37 @@ body {color: #000;background-color: #ffffff;}
 .mobile_logo{display: none}
 
 
-/*   -----   TAB_PANEL --------  */
+/*   -----   BANER --------  */
 .baner{margin-bottom: 5%}
 .baner img{width: 100%}
 .baner_text{margin-top: -320px; text-align: center; width: 40%; margin-left: 30%;}
 .baner_text_content{font-size: 15px;margin-top: 30px;width: 80%;margin-left: 10%;}
 
 /*   -----   TAB_PANEL --------  */
-#tab_panel{background-color: #ffffff;color: #d9251d;}
+.tab_panel{margin-bottom: 10px;padding:0px 40px}
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {background-color: #d9251d;color: #ffffff;text-decoration: none}
 .nav-tabs.nav-justified>li>a {color: #d9251d;text-decoration: underline;}
 
-.tab_content{background-color: #d9251d;color: #ffffff;padding-top: 10px;}
+#tab_panel{background-color: #ffffff;color: #d9251d;}
+.tab_content{background-color: #d9251d;color: #ffffff;padding: 20px;font-size: 15px;text-decoration: underline}
+
+.under_tab-panel_text{padding: 10px 20px;}
 
 /*   -----   CONTENT --------  */
 .content{margin-left: 25%;width: 50%;margin-top: -20px}
 
-.catalogBtn{border: 2px solid red; text-decoration: underline; width:33%;margin-left: 33%;text-align: center;height: 50px;padding-top: 15px;color:red}
+.catalog_item{margin-bottom: 20px;}
+.catalog_item>a{text-align: center;color: #4b4b4b}
+.catalog_item>a:focus, .catalog_item>a:hover{text-decoration: underline;color: #d9251d}
+
+.catalogBtn{border: 3px solid red; text-decoration: underline; width:33%;margin-left: 33%;text-align: center;height: 50px;padding-top: 15px;color:red}
+
 
 .about{margin-bottom: 20px; padding: 5px 20px; display: inline-block;}
 .about h4 {font-weight: 700}
-.about .pull-left {padding:5px 15px 10px 5px}
+.about .pull-left {padding:5px 10px 15px 5px}
 .about img {width: 100%}
-.about_text {padding-left: 10px}
+.about_text {padding-left: 10px;font-size: 14px}
 
 /*   -----   FOOTER --------  */
 .foot{background-color:#e5e5e5; height: 90px;width: 100%}
@@ -82,7 +90,7 @@ body {color: #000;background-color: #ffffff;}
     .navbar-wrapper{margin-top: 0px}
     .wrapper{margin: 0%; width: auto}
     .container{margin-right: 0px;}
-    .mobile_logo {padding-left: 0px}
+    .mobile_logo {padding-left: 0px;}
 
     .wrapper{margin: 0;width: auto}
     .row_navbar {
@@ -97,16 +105,24 @@ body {color: #000;background-color: #ffffff;}
     }
     .mobile_logo{display: block}
 
+    /*=====TAB_PANEL=====*/
+    .tab_panel{padding: 0}
+
     /*=====BANER_MAIN_PAGE=====*/
     .baner{display: none;}
 
     /*=====CONTENT=====*/
-    .catalogBtn{margin-left: 15%;width: 70%;font-size: 11px;}
-    .content{width: 100%;margin: 0}
+    .catalogBtn{margin-left: 15%;width: 70%;font-size: 13px;}
+    .content{margin: 0; width: auto}
+    .catalog_item, .row{margin: 0}
+    .col-xs-12{padding: 0}
+
+    .about h4, .clients_news h4 {text-align: center}
+    .about img{display: none}
 
     /*=====NAVBAR_LOGO=====*/
     .mobile_logo img{width: 110%}
-    .mobile_logo {margin:20px 0px}
+    .mobile_logo {margin:10px -10px}
 
 }
 

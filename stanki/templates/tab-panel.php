@@ -42,7 +42,7 @@
 
 </div><!-- End of tab panel-->
 <!--TAB-PANEL-CONTENT-END-->
-<div style="padding: 10px 20px;">
+<div class="under_tab-panel_text">
     <p>
         Машиностроительное Предприятие ПромСтройМаш предлагает новое, современное металлорежущее и
         кузнечно-прессовое оборудование. Официальным дилерам завода и постоянным покупателям предоставляются
@@ -52,8 +52,8 @@
     </p>
 </div>
 <script>
-    if(screen.width > '768'){
-        $('.triangle').addClass('hidden')
+    if(screen.width <= '767'){
+        $('.under_tab-panel_text').insertBefore($('#tab_panel').parent())
     }
 
 
