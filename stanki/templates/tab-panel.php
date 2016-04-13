@@ -1,5 +1,5 @@
 <!--TAB-PANEL-HEAD-->
-<div style="z-index: 2;">
+<div>
     <ul id="tab_panel" class="nav nav-tabs nav-justified">
         <li><a href="#kpo">КУЗНЕЧНО-ПРЕССОВОЕ ОБОРУДОВАНИЕ<span class="pull-right triangle">&#9660;</span></a></li>
         <li><a href="#mro">МЕТАЛЛОРЕЖУЩЕЕ ОБОРУДОВАНИЕ<span class="pull-right triangle">&#9660;</span></a></li>
@@ -52,10 +52,6 @@
     </p>
 </div>
 <script>
-    if(screen.width <= '767'){
-        $('.under_tab-panel_text').insertBefore($('#tab_panel').parent())
-    }
-
 
     function init(e) {
         e = e || window.event;

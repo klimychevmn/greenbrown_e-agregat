@@ -38,6 +38,7 @@ body {color: #000;background-color: #ffffff;}
 
 #tab_panel{background-color: #ffffff;color: #d9251d;}
 .tab_content{background-color: #d9251d;color: #ffffff;padding: 20px;font-size: 15px;text-decoration: underline}
+.triangle{font-size: 20px}
 
 .under_tab-panel_text{padding: 10px 20px;}
 
@@ -108,14 +109,19 @@ body {color: #000;background-color: #ffffff;}
     /*=====TAB_PANEL=====*/
     .tab_panel{padding: 0}
 
+    #tab_panel,.nav-tabs.nav-justified>li>a{background-color: #d9251d;color: #ffffff;text-decoration: none}
+    .tab_content{background-color: #e7e7e7;color: #747474;}
+
     /*=====BANER_MAIN_PAGE=====*/
     .baner{display: none;}
 
     /*=====CONTENT=====*/
-    .catalogBtn{margin-left: 15%;width: 70%;font-size: 13px;}
+    .catalogBtn{margin-left: 15%;width: 70%;font-size: 13px;margin-top: 30px}
     .content{margin: 0; width: auto}
     .catalog_item, .row{margin: 0}
-    .col-xs-12{padding: 0}
+    .catalog_item {background-color: #d9251d;}
+    .catalog_item a{color: #ffffff;}
+    .col-xs-12{padding: 0 0 5px 0}
 
     .about h4, .clients_news h4 {text-align: center}
     .about img{display: none}

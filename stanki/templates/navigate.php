@@ -93,7 +93,7 @@
 
                     <div class="navbar-collapse collapse" style="margin-left: 5%">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">Главная</a></li>
+                            <li><a href="main.php">Главная</a></li>
                             <li><a href="#">Продукция</a></li>
                             <li><a href="#">Запчасти</a></li>
                             <li><a href="#">Упаковка</a></li>
