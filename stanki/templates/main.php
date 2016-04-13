@@ -30,7 +30,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom: 20px; margin-left: -10px;">
                         <a href="catalog.php">
-                            <img src="../img/catalog_img/catalog2.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="../img/catalog_img/catalog6.jpg" alt="" style="width: 100%; margin-bottom: 10px">
                             <div style="text-align: center;text-decoration: underline; color: #d9251d">ОБОРУДОВАНИЕ ДЛЯ
                                 РАСКРОЯ ЛИСТОВОГО МЕТАЛЛА
                             </div>
@@ -38,7 +38,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom: 20px; margin-left: -10px;">
                         <a href="catalog.php">
-                            <img src="../img/catalog_img/catalog3.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="../img/catalog_img/catalog5.jpg" alt="" style="width: 100%; margin-bottom: 10px">
                             <div style="text-align: center;text-decoration: underline; color: #d9251d">ОБОРУДОВАНИЕ ДЛЯ
                                 ВЫПОЛНЕНИЯ КУЗНЕЧНЫХ РАБОТ
                             </div>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom: 20px; margin-left: -10px;">
                         <a href="catalog.php">
-                            <img src="../img/catalog_img/catalog5.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="../img/catalog_img/catalog3.jpg" alt="" style="width: 100%; margin-bottom: 10px">
                             <div style="text-align: center;text-decoration: underline; color: #d9251d">ОБОРУДОВАНИЕ ДЛЯ
                                 ЛИСТОВОГО И ПРОФИЛЬНОГО РАСКРОЯ МЕТАЛЛА
                             </div>
@@ -64,7 +64,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom: 20px; margin-left: -10px;">
                         <a href="catalog.php">
-                            <img src="../img/catalog_img/catalog6.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="../img/catalog_img/catalog2.jpg" alt="" style="width: 100%; margin-bottom: 10px">
                             <div style="text-align: center;text-decoration: underline; color: #d9251d">ИЗГОТОВЛЕНИЕ
                                 ПРОФНАСТИЛА МЕТАЛЛОЧЕРЕПИЦЫ И СЕТКИ ЦВПС
                             </div>
@@ -81,21 +81,10 @@
             </div>
 
 
-            <div class="row" style="margin-bottom: 40px;padding:0px 50px">
+            <div class="row" style="margin-bottom: 10px;padding:0px 40px">
                 <?php require('tab-panel.php'); ?>
             </div>
 
-
-            <div class="row" style="margin-bottom: 20px; padding: 5px 50px;">
-                <p>
-                    Машиностроительное Предприятие ПромСтройМаш предлагает новое, современное металлорежущее и
-                    кузнечно-прессовое оборудование. Официальным дилерам завода и постоянным покупателям предоставляются
-                    скидки,
-                    размер скидок зависит от объёма закупаемой продукции, сроков поставки, наличию продукции на складе и
-                    определяется индивидуально. Действуют специальные и сезонные скидки
-                </p>
-
-            </div>
 
             <div class="row about">
                 <h4>О НАС</h4>

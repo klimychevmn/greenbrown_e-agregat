@@ -39,7 +39,7 @@ body {color: #000;background-color: #ffffff;}
 .tab_content{background-color: #d9251d;color: #ffffff;padding-top: 10px;}
 
 /*   -----   CONTENT --------  */
-.content{margin-left: 25%;width: 50%}
+.content{margin-left: 25%;width: 50%;margin-top: -20px}
 
 .catalogBtn{border: 2px solid red; text-decoration: underline; width:33%;margin-left: 33%;text-align: center;height: 50px;padding-top: 15px;color:red}
 
@@ -62,6 +62,7 @@ body {color: #000;background-color: #ffffff;}
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
+    .container .nav {margin-left: 3%}
 
     .navmobile {
         display: none;
@@ -98,6 +99,7 @@ body {color: #000;background-color: #ffffff;}
 
     /*=====BANER_MAIN_PAGE=====*/
     .baner{display: none;}
+
     /*=====CONTENT=====*/
     .catalogBtn{margin-left: 15%;width: 70%;font-size: 11px;}
     .content{width: 100%;margin: 0}
