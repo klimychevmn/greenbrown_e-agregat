@@ -133,17 +133,17 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 news">
-                <h4 style="font-weight: 700">НОВОСТИ</h4>
+                <h4>НОВОСТИ</h4>
                 <div>
-                    <div>
-                        <img src="../img/news1.jpg" alt="" style="width: 90%">
-                        <p>С Днем Урана!</p>
-                        <p>13 марта 2016</p>
+                    <div class="row">
+                        <img src="../img/news1.jpg" alt="">
+                        <p class="news_title">С Днём Урана!</p>
+                        <p class="news_date">13 марта 2016</p>
                     </div>
-                    <div>
-                        <img src="../img/news2.jpg" alt="" style="width: 90%">
-                        <p>Февральско-мартовские праздники 2016</p>
-                        <p>13 марта 2016</p>
+                    <div class="row">
+                        <img src="../img/news2.jpg" alt="">
+                        <p class="news_title">Февральско-мартовские праздники 2016</p>
+                        <p class="news_date">13 марта 2016</p>
 
                     </div>
 
@@ -159,7 +159,7 @@
 
     <script>
         if(screen.width <= '767'){
-            $('.under_tab-panel_text').insertBefore($('#tab_panel').parentNode);
+            $('.under_tab-panel_text').insertBefore($('#tab_panel').parent());
         }
     </script>
 
