@@ -1,7 +1,7 @@
 html, body {height: 100%;margin: 0;padding: 0;}
 body {color: #000;background-color: #ffffff;}
 
-#wrapper {height: auto !important;margin: 0 auto 10%;min-height: 100%;}
+#wrapper {height: auto !important;margin: 0 auto;min-height: 100%;}
 .wrapper {margin-left: 23%; width: 54%;}
 
 
@@ -16,14 +16,32 @@ body {color: #000;background-color: #ffffff;}
 .navbar-inverse { background: none;margin-bottom: 0px;border: none}
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {color: #000000;background-color: #d9251d;}
 
+
+
+
 .mobile_logo{display: none}
+
+
+/*   -----   TAB_PANEL --------  */
+#tab_panel{background-color: #ffffff;color: #d9251d;}
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {background-color: #d9251d;color: #ffffff;text-decoration: none}
+.nav-tabs.nav-justified>li>a {color: #d9251d;text-decoration: underline;}
+
+.tab_content{background-color: #d9251d;color: #ffffff;padding-top: 10px;}
+
 /*   -----   CONTENT --------  */
-.content{padding: 20px;margin-bottom: 10%}
+
 .catalogBtn{border: 2px solid red; text-decoration: underline; width:33%;margin-left: 33%;text-align: center;height: 50px;padding-top: 15px;color:red}
 
+.about{margin-bottom: 20px; padding: 5px 20px; display: inline-block;}
+.about h4 {font-weight: 700}
+
 /*   -----   FOOTER --------  */
-.foot{background-color: #2d2f37; color: #acacae;}
-.foot div{margin-top: 10px}
+.foot{background-color:#e5e5e5; height: 90px}
+.foot div{padding-top: 20px}
+.foot span{color: #6f6f6f;padding-top: 5px; font-size: 15px}
+.foot img{width:100%}
+
 
 
 
@@ -48,7 +66,7 @@ body {color: #000;background-color: #ffffff;}
     /*=======NAVBAR======*/
     .navbar-wrapper{margin-top: 0px}
     .navbar-wrapper .wrapper{margin: 0%; width: auto}
-    .navbar-inverse .container{margin-right: 0px; height: 70px}
+    .navbar-inverse .container{margin-right: 0px;}
     .mobile_logo {padding-left: 0px}
 
     .wrapper{margin: 0;width: auto}
