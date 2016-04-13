@@ -91,7 +91,7 @@
                         </div>
                     </div>
 
-                    <div class="navbar-collapse collapse" style="margin-left: 5%">
+                    <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li><a href="main.php">Главная</a></li>
                             <li><a href="#">Продукция</a></li>

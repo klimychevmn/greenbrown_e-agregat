@@ -43,7 +43,7 @@ body {color: #000;background-color: #ffffff;}
 .under_tab-panel_text{padding: 10px 20px;}
 
 /*   -----   CONTENT --------  */
-.content{margin-left: 25%;width: 50%;margin-top: -20px}
+.content{margin-left: 25%;width: 50%;}
 
 .catalog_item{margin-bottom: 20px;}
 .catalog_item>a{text-align: center;color: #4b4b4b}
