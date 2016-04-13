@@ -1,9 +1,7 @@
 <!--TAB-PANEL-HEAD-->
-
 <div style="z-index: 2;">
     <ul id="tab_panel" class="nav nav-tabs nav-justified">
-        <li><a href="#kpo">КУЗНЕЧНО-ПРЕССОВОЕ ОБОРУДОВАНИЕ<span
-                    class="pull-right triangle">&#9660;</span></a></li>
+        <li><a href="#kpo">КУЗНЕЧНО-ПРЕССОВОЕ ОБОРУДОВАНИЕ<span class="pull-right triangle">&#9660;</span></a></li>
         <li><a href="#mro">МЕТАЛЛОРЕЖУЩЕЕ ОБОРУДОВАНИЕ<span class="pull-right triangle">&#9660;</span></a></li>
     </ul>
 </div>
@@ -11,8 +9,7 @@
 
 
 <!--TAB-PANEL-CONTENT-->
-
-<div class="tab-content" style="margin-top: 5px;">
+<div class="tab-content" style="margin-top:5px;">
     
     <div class="tab-pane" id="kpo"> <!-- New Tab panel-->
         <div class="tab_content">
@@ -44,9 +41,8 @@
     </div>
 
 </div><!-- End of tab panel-->
-
-
 <!--TAB-PANEL-CONTENT-END-->
+
 
 <script>
     if(screen.width > '768'){
@@ -94,6 +90,4 @@
 
 
     $("#tab_panel > li > a").click(init);
-
-
 </script>

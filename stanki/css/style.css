@@ -6,6 +6,12 @@ body {color: #000;background-color: #ffffff;}
 
 
 /*   -----   HEADER --------  */
+.phones{background-color: #e5e5e5;height: 30px;margin-bottom: 10px;}
+.phones .row {font-size: 13px; text-align: center;}
+.phones .row span{color: #d9251d}
+.phones .row div{border-right: 1px solid #ffffff}
+.phones .row div:last-child{border:none}
+
 
 .navbar-wrapper {position: relative;z-index: 15;margin-top: 15px;background-color: #d9251d;color: #ffffff;}
 .navbar-wrapper .wrapper{background: none;}
@@ -16,11 +22,14 @@ body {color: #000;background-color: #ffffff;}
 .navbar-inverse { background: none;margin-bottom: 0px;border: none}
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {color: #000000;background-color: #d9251d;}
 
-
-
-
 .mobile_logo{display: none}
 
+
+/*   -----   TAB_PANEL --------  */
+.baner{margin-bottom: 5%}
+.baner img{width: 100%}
+.baner_text{margin-top: -320px; text-align: center; width: 40%; margin-left: 30%;}
+.baner_text_content{font-size: 15px;margin-top: 30px;width: 80%;margin-left: 10%;}
 
 /*   -----   TAB_PANEL --------  */
 #tab_panel{background-color: #ffffff;color: #d9251d;}
@@ -30,14 +39,18 @@ body {color: #000;background-color: #ffffff;}
 .tab_content{background-color: #d9251d;color: #ffffff;padding-top: 10px;}
 
 /*   -----   CONTENT --------  */
+.content{margin-left: 25%;width: 50%}
 
 .catalogBtn{border: 2px solid red; text-decoration: underline; width:33%;margin-left: 33%;text-align: center;height: 50px;padding-top: 15px;color:red}
 
 .about{margin-bottom: 20px; padding: 5px 20px; display: inline-block;}
 .about h4 {font-weight: 700}
+.about .pull-left {padding:5px 15px 10px 5px}
+.about img {width: 100%}
+.about_text {padding-left: 10px}
 
 /*   -----   FOOTER --------  */
-.foot{background-color:#e5e5e5; height: 90px}
+.foot{background-color:#e5e5e5; height: 90px;width: 100%}
 .foot div{padding-top: 20px}
 .foot span{color: #6f6f6f;padding-top: 5px; font-size: 15px}
 .foot img{width:100%}
@@ -63,10 +76,11 @@ body {color: #000;background-color: #ffffff;}
     .phones, .logo_baner {display: none}
 
 
+
     /*=======NAVBAR======*/
     .navbar-wrapper{margin-top: 0px}
-    .navbar-wrapper .wrapper{margin: 0%; width: auto}
-    .navbar-inverse .container{margin-right: 0px;}
+    .wrapper{margin: 0%; width: auto}
+    .container{margin-right: 0px;}
     .mobile_logo {padding-left: 0px}
 
     .wrapper{margin: 0;width: auto}
@@ -86,6 +100,11 @@ body {color: #000;background-color: #ffffff;}
     .baner{display: none;}
     /*=====CONTENT=====*/
     .catalogBtn{margin-left: 15%;width: 70%;font-size: 11px;}
+    .content{width: 100%;margin: 0}
+
+    /*=====NAVBAR_LOGO=====*/
+    .mobile_logo img{width: 110%}
+    .mobile_logo {margin:20px 0px}
 
 }
 

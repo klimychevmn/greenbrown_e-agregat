@@ -2,19 +2,13 @@
 ================================================== -->
 <body>
 <div id="wrapper">
-    <div style="background-color: #e5e5e5;height: 30px;margin-bottom: 10px;" class="phones"><!--Phones-->
+    <div class="phones"><!--Phones-->
         <div class="wrapper" style="padding-top: 5px">
-            <div class="row" style="font-size: 13px; text-align: center;">
-                <div class="col-lg-3 col-md-3 col-sm-3" style="border-right: 1px solid #ffffff"><span
-                        style="color: #d9251d">+7 495 133-96-62</span> Москва
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3" style="border-right: 1px solid #ffffff"><span
-                        style="color: #d9251d">+7 343 386-19-37</span> Екатеринбург
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3" style="border-right: 1px solid #ffffff"><span
-                        style="color: #d9251d"> +7 843 202-41-37</span> Казань
-                </div>
-                <div class="col-lg-3"><span style="color: #d9251d">+7 863 209-89-57</span> Ростов на Дону</div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3"><span>+7 495 133-96-62</span> Москва</div>
+                <div class="col-lg-3 col-md-3 col-sm-3" ><span>+7 343 386-19-37</span> Екатеринбург</div>
+                <div class="col-lg-3 col-md-3 col-sm-3" ><span> +7 843 202-41-37</span> Казань</div>
+                <div class="col-lg-3"><span >+7 863 209-89-57</span> Ростов на Дону</div>
             </div>
         </div>
     </div><!--END-->
@@ -116,7 +110,7 @@
         </div>
     </div><!--END-->
 
-    <div class="col-xs-12 mobile_logo"  style="margin:20px 0px"><!--MOBILE_LOGO-->
-        <span class="col-xs-4"><img style="width: 110%" src="../img/logo1.jpg" alt=""></span>
-        <span class="col-xs-8"><img style="width: 110%" src="../img/logo2.jpg" alt=""></span>
+    <div class="col-xs-12 mobile_logo"><!--MOBILE_LOGO-->
+        <span class="col-xs-4"><img src="../img/logo1.jpg" alt=""></span>
+        <span class="col-xs-8"><img src="../img/logo2.jpg" alt=""></span>
     </div> <!--END-->
