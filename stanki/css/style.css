@@ -71,6 +71,19 @@ body {color: #000;background-color: #ffffff;}
 .catalog_form button{background-color: #d9251d;border-radius: 25px; margin-top: 10px;padding:10px 15px; border: none;font-size: 13px;color: #ffffff;}
 
 
+/*   -----   ITEM-MAIN --------  */
+
+
+
+/*   -----   ITEM-RIGHT --------  */
+.offer-title{text-align: center;color: #6c6c6c; font-weight: 600;margin: 20px auto;display: none}
+.offer-item{padding:10px 20px; background-color: #f3f3f3;border-bottom: 2px solid #d8d8d8;}
+.offer-item a{color: #696969; text-decoration: underline; font-weight: 500}
+.offer-item span{color: #d9251d}
+
+.contact{padding:10px 15px; background-color: #f3f3f3;border: 2px solid #d8d8d8;text-align: center}
+.contact-name, .contact-phone{font-weight: 600;color: #4b4b4b;font-size: 16px}
+.contact-job{font-size: 12px;color: #4b4b4b;}
 
 
 /*   -----   FOOTER --------  */
@@ -147,6 +160,9 @@ body {color: #000;background-color: #ffffff;}
 
     /*=====CATALOG-FORM=====*/
     .catalog_form{background: none}
+
+    /*=====ITEM-RIGHT=====*/
+    .offer-title{display: block}
 
 
 
