@@ -60,13 +60,13 @@
                             </div>
                             <div class="contact-job">коммерческий директор</div>
                             <div class="contact-phone">8-912-344-26-06</div>
-                            <a style="text-decoration: underline">ree-kpo@mail.ru</a>
+                            <a>ree-kpo@mail.ru</a>
                         </div>
                         <div class="contact">
                             <div class="contact-name">Оленко Юлия Сергеевна</div>
                             <div class="contact-job">специалист отдела сбыта</div>
                             <div class="contact-phone">8-905-841-08-81</div>
-                            <a style="text-decoration: underline">taa-kpo@mail.ru</a>
+                            <a>taa-kpo@mail.ru</a>
                         </div>
                     </div>
 

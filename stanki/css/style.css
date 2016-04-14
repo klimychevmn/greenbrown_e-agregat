@@ -63,6 +63,14 @@ body {color: #000;background-color: #ffffff;}
 .news p{margin: 0;; padding: 0}
 .news_date{color:#585858;font-size: 10px}
 
+/*   -----   CATALOG-MAIN --------  */
+.panel-group .panel-heading{background-color: #e5e5e5;color: #d9251d;font-size: 15px}
+.panel-group a:hover{text-decoration: none;color: #FFFFFF}
+.panel-group a {text-decoration: none}
+.panel-group .panel-heading.active, .panel-group .panel-heading:focus, .panel-group .panel-heading:hover{background-color: #d9251d;color: #FFFFFF;}
+.panel-group .triangle{margin-top: -5px}
+
+
 /*   -----   CATALOG-FORM --------  */
 .catalog_form {background-color: #e5e5e5;text-align: center;padding: 15px}
 .catalog_form h4{color: #6c6c6c;font-weight: 600}
@@ -84,6 +92,7 @@ body {color: #000;background-color: #ffffff;}
 .contact{padding:10px 15px; background-color: #f3f3f3;border: 2px solid #d8d8d8;text-align: center}
 .contact-name, .contact-phone{font-weight: 600;color: #4b4b4b;font-size: 16px}
 .contact-job{font-size: 12px;color: #4b4b4b;}
+.contact-job a{text-decoration: underline}
 
 
 /*   -----   FOOTER --------  */
@@ -99,6 +108,7 @@ body {color: #000;background-color: #ffffff;}
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
+
     .container .nav {margin-left: 3%}
 
     .navmobile {
@@ -110,10 +120,9 @@ body {color: #000;background-color: #ffffff;}
 
 
 @media (max-width: 767px) {
+
     /*======HEADER======*/
     .phones, .logo_baner {display: none}
-
-
 
     /*=======NAVBAR======*/
     .navbar-wrapper{margin-top: 0px}
@@ -149,7 +158,7 @@ body {color: #000;background-color: #ffffff;}
     .catalog_item, .row{margin: 0}
     .catalog_item {background-color: #d9251d;}
     .catalog_item a{color: #ffffff;}
-    .col-xs-12{padding: 0 0 5px 0}
+    .content .col-xs-12{padding: 0 0 5px 0}
 
     .about h4, .clients_news h4 {text-align: center}
     .about img{display: none}
@@ -163,8 +172,6 @@ body {color: #000;background-color: #ffffff;}
 
     /*=====ITEM-RIGHT=====*/
     .offer-title{display: block}
-
-
 
     /*=====NAVBAR_LOGO=====*/
     .mobile_logo img{width: 110%}

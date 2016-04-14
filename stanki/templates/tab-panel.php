@@ -52,30 +52,33 @@
     </p>
 </div>
 <script>
+    const SCREEN_WIDTH = 768 ;
+    const TRIANGLE_UP = '&#9660;';
+    const TRIANGLE_DOWN = '&#9650;';
 
     function init(e) {
         e = e || window.event;
 
-        if(screen.width <= ' 767') {
+        if(screen.width < SCREEN_WIDTH) {
             if($(e.target.parentNode).hasClass('active')){
                 $(e.target.parentNode).removeClass('active');
-                $(e.target.children).html('&#9660;');
+                $(e.target.children).html(TRIANGLE_UP);
                 $($(e.target).attr('href')).removeClass('active');
                 return false;
             }
         }
         //console.log($(e.target));
 
-        $('.triangle').html('&#9660;');
+        $('.triangle').html(TRIANGLE_UP);
         $('#tab_panel > li').removeClass('active');
         $(e.target.parentNode).addClass('active');
 
         $('.tab-content .tab-pane').removeClass('active');
         $($(e.target).attr('href')).addClass('active');
 
-        if (screen.width <= '767') {
+        if (screen.width < SCREEN_WIDTH) {
             if($(e.target.parentNode).hasClass('active')){
-                $(e.target.children).html('&#9650;');
+                $(e.target.children).html(TRIANGLE_DOWN);
             }
             if ($('#tab_panel > .active')) {
                 $('.tab-content').insertAfter($('#tab_panel > .active > a'));
@@ -85,8 +88,8 @@
 
     }
 
-    if (screen.width > '767') {
-        $('.triangle').addClass('hidden');
+    if (screen.width > SCREEN_WIDTH) {
+        $('#tab_panel .triangle').addClass('hidden');
         $('#tab_panel>li').first().addClass('active');
         $('#kpo').addClass('active');
     }

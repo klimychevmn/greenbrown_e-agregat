@@ -157,7 +157,7 @@
 
 
     <script>
-        if(screen.width <= '767'){
+        if(screen.width < SCREEN_WIDTH){
             $('.under_tab-panel_text').insertBefore($('#tab_panel').parent());
         }
     </script>

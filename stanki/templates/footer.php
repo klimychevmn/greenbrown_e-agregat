@@ -12,7 +12,7 @@
 </div>
 
 <script>
-    if(screen.width <= '767'){
+    if(screen.width < SCREEN_WIDTH){
         $('.foot img').parent().insertBefore($('.foot .wrapper span').first());
         $('.foot .wrapper span').removeClass('text-right');
     }
