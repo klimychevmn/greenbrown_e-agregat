@@ -27,7 +27,7 @@
 
             </div>
 
-            <div class="tab_panel row">
+            <div class="tab_panel row my_row">
                 <?php require('tab-panel.php'); ?>
             </div>
 
