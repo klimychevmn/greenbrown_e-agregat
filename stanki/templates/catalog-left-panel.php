@@ -37,31 +37,31 @@
             <!-- BODY -->
             <div class="panel-body">
                 <div class="offer-item">
-                    <a>
+                    <a href="item.php">
                         <span>СМЖ652 </span> Для резки круга, уголка, полосы, швуллера,
                         пробивки отверстий
                     </a>
                 </div>
                 <div class="offer-item">
-                    <a>
+                    <a href="item.php">
                         <span>HB5221 </span> Для резки круга, уголка, полосы, швуллера,
                         пробивки отверстий
                     </a>
                 </div>
                 <div class="offer-item">
-                    <a>
+                    <a href="item.php">
                         <span>HB5222 </span> Для резки круга, уголка, полосы, швуллера,
                         пробивки отверстий
                     </a>
                 </div>
                 <div class="offer-item">
-                    <a>
+                    <a href="item.php">
                         <span>HB5223 </span> Для резки круга, уголка, полосы, швуллера,
                         пробивки отверстий
                     </a>
                 </div>
                 <div class="offer-item">
-                    <a>
+                    <a href="item.php">
                         <span>HB5224 </span> Для резки круга, уголка, полосы, швуллера,
                         пробивки отверстий
                     </a>
@@ -276,7 +276,6 @@
     </div>
     <!-- End -->
 
-<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
     <!-- Start -->
     <div class="panel panel-default">
         <!-- TITLE -->
