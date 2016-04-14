@@ -6,7 +6,7 @@
         <div>
 
             <div class="row" style="padding-top: 30px">
-                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                     <div style="height: 500px">
                         kfjhkasjfhkasjhfkjashfkjhskfjhaskjfhkjahsf
                         kfjhkasjfhkasjhfkjashfkjhskfjhaskjfhkjahsf
@@ -14,20 +14,15 @@
                         kfjhkasjfhkasjhfkjashfkjhskfjhaskjfhkjahsf
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <form style="background-color: #868686;text-align: center">
-                        <div>ФОРМА ЗАКАЗА</div>
-                        <div><input type="text" placeholder="Контактное лицо"></div>
-                        <div><input type="text" placeholder="Организация"></div>
-                        <div><input type="text" placeholder="Телефон"></div>
-                        <div><input type="text" placeholder="Электронная почта"></div>
-                        <div><textarea name="" id="" cols="22" rows="6" placeholder="Запрос"></textarea></div>
-                        <div>
-                            <button type="submit"
-                                    style="background-color: #d9251d;border-radius: 25px;padding:10px 20px; border: none">
-                                ОТПРАВИТЬ ЗАКАЗ
-                            </button>
-                        </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <form class="catalog_form">
+                        <h4>ФОРМА ЗАКАЗА</h4>
+                        <input type="text" placeholder="Контактное лицо">
+                        <input type="text" placeholder="Организация">
+                        <input type="text" placeholder="Телефон">
+                        <input type="text" placeholder="Электронная почта">
+                        <textarea name="" id="" cols="22" rows="6" placeholder="Запрос"></textarea>
+                        <button type="submit">ОТПРАВИТЬ ЗАКАЗ</button>
                     </form>
                 </div>
 
