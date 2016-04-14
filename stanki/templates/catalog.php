@@ -1,11 +1,13 @@
-<?php require('header.php'); ?>
-<?php require('navigate.php'); ?>
+<?php
+    require('header.php');
+    require('navigate.php');
+?>
 
 
     <div class="content">
         <div>
 
-            <div class="row" style="padding-top: 30px">
+            <div class="row my_row">
 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                     <?php require('catalog-left-panel.php');?>

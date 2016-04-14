@@ -33,7 +33,7 @@ body {color: #000;background-color: #ffffff;}
 
 /*   -----   TAB_PANEL --------  */
 .tab_panel{margin-bottom: 10px;padding:0px 40px}
-.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {background-color: #d9251d;color: #ffffff;text-decoration: none}
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {background-color: #d9251d;color: #ffffff;text-decoration: none;}
 .nav-tabs.nav-justified>li>a {color: #d9251d;text-decoration: underline;}
 
 #tab_panel{background-color: #ffffff;color: #d9251d;}
@@ -44,6 +44,7 @@ body {color: #000;background-color: #ffffff;}
 
 /*   -----   CONTENT --------  */
 .content{margin-left: 25%;width: 50%;}
+.content .my_row{padding-top: 30px}
 
 .catalog_item{margin-bottom: 20px;}
 .catalog_item>a{text-align: center;color: #4b4b4b}
@@ -69,7 +70,7 @@ body {color: #000;background-color: #ffffff;}
 .panel-group a {text-decoration: none}
 .panel-group .panel-heading.active, .panel-group .panel-heading:focus, .panel-group .panel-heading:hover{background-color: #d9251d;color: #FFFFFF;}
 .panel-group .triangle{margin-top: -5px}
-
+.panel-body{padding:0;}
 
 /*   -----   CATALOG-FORM --------  */
 .catalog_form {background-color: #e5e5e5;text-align: center;padding: 15px}
@@ -84,9 +85,12 @@ body {color: #000;background-color: #ffffff;}
 
 
 /*   -----   ITEM-RIGHT --------  */
+.item_right_row{margin: 20px auto}
+
 .offer-title{text-align: center;color: #6c6c6c; font-weight: 600;margin: 20px auto;display: none}
 .offer-item{padding:10px 20px; background-color: #f3f3f3;border-bottom: 2px solid #d8d8d8;}
 .offer-item a{color: #696969; text-decoration: underline; font-weight: 500}
+.offer-item a:hover, .offer-item a:focus{color: #d9251d;}
 .offer-item span{color: #d9251d}
 
 .contact{padding:10px 15px; background-color: #f3f3f3;border: 2px solid #d8d8d8;text-align: center}

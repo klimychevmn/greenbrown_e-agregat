@@ -1,22 +1,27 @@
-<?php require('header.php'); ?>
-<?php require('navigate.php'); ?>
+<?php
+    require('header.php');
+    require('navigate.php');
+?>
 
 
     <div class="content">
         <div>
-
-            <div class="row" style="padding-top: 30px">
+            <div class="row my_row">
+                
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+
                     <div style="height: 500px">
                         kfjhkasjfhkasjhfkjashfkjhskfjhaskjfhkjahsf
                         kfjhkasjfhkasjhfkjashfkjhskfjhaskjfhkjahsf
                         kfjhkasjfhkasjhfkjashfkjhskfjhaskjfhkjahsf
                         kfjhkasjfhkasjhfkjashfkjhskfjhaskjfhkjahsf
                     </div>
+
                 </div>
+                
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 
-                    <div style="margin: 20px auto">
+                    <div class="item_right_row">
                         <h5 class="offer-title">ПОХОЖИЕ ПРЕДЛОЖЕНИЯ</h5>
                         <div class="offer-item">
                             <a>
@@ -54,7 +59,7 @@
                         <button type="submit">ОТПРАВИТЬ ЗАКАЗ</button>
                     </form>
 
-                    <div style="margin: 20px auto">
+                    <div class="item_right_row">
                         <div class="contact">
                             <div class="contact-name">Рыбников Евгений Евгеньевич
                             </div>

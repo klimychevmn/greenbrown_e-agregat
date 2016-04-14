@@ -1,5 +1,7 @@
-<?php require('header.php'); ?>
-<?php require('navigate.php'); ?>
+<?php
+    require('header.php');
+    require('navigate.php');
+?>
 
     <div class="baner">
         <img src="../img/baner.jpg" alt="Банер">
