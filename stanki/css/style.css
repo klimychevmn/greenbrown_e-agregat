@@ -81,13 +81,16 @@ body {color: #000;background-color: #ffffff;}
 
 
 /*   -----   ITEM-MAIN --------  */
-
-
+.item_main{margin: 20px auto;}
+.item-title{font-size: 22px; font-weight: 600;margin: auto 20px}
+.item-content{padding: 10px;margin: auto 10px}
+.item-param-title{font-size: 20px; font-weight: 600;width: 100%;padding: 10px 20px}
+.item-param-content .table tr td:last-child{font-weight: 600}
 
 /*   -----   ITEM-RIGHT --------  */
 .item_right_row{margin: 20px auto}
 
-.offer-title{text-align: center;color: #6c6c6c; font-weight: 600;margin: 20px auto;display: none}
+.offer-title{font-size:18px;text-align: center;color: #6c6c6c; font-weight: 600;margin: 10px auto;display: none}
 .offer-item{padding:10px 20px; background-color: #f3f3f3;border-bottom: 2px solid #d8d8d8;}
 .offer-item a{color: #696969; text-decoration: underline; font-weight: 500}
 .offer-item a:hover, .offer-item a:focus{color: #d9251d;}
@@ -173,6 +176,10 @@ body {color: #000;background-color: #ffffff;}
 
     /*=====CATALOG-FORM=====*/
     .catalog_form{background: none}
+
+    /*=====ITEM-RIGHT=====*/
+    .item-param-title{background-color: #d9251d;color: #ffffff; font-size: 16px; font-weight: 500}
+    .item-param-title .triangle{margin-top: -5px}
 
     /*=====ITEM-RIGHT=====*/
     .offer-title{display: block}

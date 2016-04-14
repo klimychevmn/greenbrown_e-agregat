@@ -10,11 +10,53 @@
                 
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 
-                    <div style="height: 500px">
-                        kfjhkasjfhkasjhfkjashfkjhskfjhaskjfhkjahsf
-                        kfjhkasjfhkasjhfkjashfkjhskfjhaskjfhkjahsf
-                        kfjhkasjfhkasjhfkjashfkjhskfjhaskjfhkjahsf
-                        kfjhkasjfhkasjhfkjashfkjhskfjhaskjfhkjahsf
+                    <div class="item_main">
+                        <div class="item-title">Для резки круга, уголка, полосы, швеллера, пробивки отверстий СМЖ652</div>
+                        <div class="item-content">
+                            МП ПромСтройМаш является непосредственным производителем Н3118. Мы производим и продаем
+                            Ножницы гильотинные, кривошипные Н3118 во все ргионы РФ и стрны ближнего зарубежья, такие
+                            как Белорусь, Казахстан, Украина. Н3118 нашего производства хорошо зарекомендовали себя в
+                            Москве, Ярославле, Нижнем Новгороде, Екатеренбурге, Новосибирске и других городах России.
+                            Купить Н3118 вы можете непосредственно у нас или у наших диллеров.
+                        </div>
+                        <div class="carousel"></div>
+
+                        <div class="item-param-title">Технические характеристики СМЖ652 <span class="pull-right triangle hidden">&#9660;</span></div>
+                        <div class="item-param-content">
+                            <table class="table table-striped">
+                                <tr>
+                                    <td>Толщина разрезаемых листов с временным сопротивлением &sigma;вр = 500МПа,мм</td>
+                                    <td>6.3</td>
+                                </tr>
+                                <tr>
+                                    <td>Ширина разрезаемых листов, мм</td>
+                                    <td>2000</td>
+                                </tr>
+                                <tr>
+                                    <td>Частота ходов ножа, холостых, мин-1</td>
+                                    <td>45</td>
+                                </tr>
+                                <tr>
+                                    <td>Ход ножа, мм</td>
+                                    <td>80</td>
+                                </tr>
+                                <tr>
+                                    <td>Число режущих кромок ножа</td>
+                                    <td>1&ordm;30&rsquo;</td>
+                                </tr>
+                                <tr>
+                                    <td>Угол наклона подвижного ножа, </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+
+                        </div>
+
+
                     </div>
 
                 </div>
@@ -22,7 +64,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 
                     <div class="item_right_row">
-                        <h5 class="offer-title">ПОХОЖИЕ ПРЕДЛОЖЕНИЯ</h5>
+                        <div class="offer-title">ПОХОЖИЕ ПРЕДЛОЖЕНИЯ</div>
                         <div class="offer-item">
                             <a>
                                 <span>СМЖ652 </span> Для резки круга, уголка, полосы, швуллера,
@@ -86,4 +128,10 @@
         </div>
     </div>
 
+
+    <script>
+        if(screen.width < SCREEN_WIDTH){
+            $('.item-param-title span').removeClass('hidden');
+        }
+    </script>
 <?php require('footer.php'); ?>
