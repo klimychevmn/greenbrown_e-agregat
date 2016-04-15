@@ -16,10 +16,10 @@
     <div class="wrapper logo_baner" style="margin-bottom: 10px"><!--LOGO-->
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="margin-top: 10px">
-                <img src="../img/logo1.jpg" alt="">
+                <img src="img/logo1.jpg" alt="">
             </div>
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-                <img src="../img/logo2.jpg" alt="">
+                <img src="img/logo2.jpg" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
@@ -111,6 +111,6 @@
     </div><!--END-->
 
     <div class="col-xs-12 mobile_logo"><!--MOBILE_LOGO-->
-        <span class="col-xs-4"><img src="../img/logo1.jpg" alt=""></span>
-        <span class="col-xs-8"><img src="../img/logo2.jpg" alt=""></span>
+        <span class="col-xs-4"><img src="img/logo1.jpg" alt=""></span>
+        <span class="col-xs-8"><img src="img/logo2.jpg" alt=""></span>
     </div> <!--END-->

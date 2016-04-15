@@ -6,17 +6,17 @@
     </ol>
     <div class="carousel-inner">
         <div class="item active">
-                <img src="../img/item-carousel/item1.jpg" alt="First slide">
+                <img src="img/item-carousel/item1.jpg" alt="First slide">
         </div>
         <div class="item">
-                <img src="../img/item-carousel/item1.jpg" alt="Second slide">
+                <img src="img/item-carousel/item1.jpg" alt="Second slide">
         </div>
     </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <img src="../img/item-carousel/left.jpg" alt="Левая стрелка">
+        <img src="img/item-carousel/left.jpg" alt="Левая стрелка">
     </a>
     <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <img src="../img/item-carousel/right.jpg" alt="Правая стрелка" >
+        <img src="img/item-carousel/right.jpg" alt="Правая стрелка" >
     </a>
 </div>
 

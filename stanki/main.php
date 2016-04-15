@@ -4,7 +4,7 @@
 ?>
 
     <div class="baner">
-        <img src="../img/baner.jpg" alt="Банер">
+        <img src="img/baner.jpg" alt="Банер">
         <div class="baner_text">
             <h2>ПРОИЗВОДСТВО КУЗНЕЧНО-ПРЕССОВОГО <br>
                 МЕТАЛЛОРЕЖУЩЕГО ОБОРУДОВАНИЯ</h2>
@@ -24,7 +24,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
-                            <img src="../img/catalog_img/catalog1.jpg" alt="" style="width: 100%;margin-bottom: 10px">
+                            <img src="img/catalog_img/catalog1.jpg" alt="" style="width: 100%;margin-bottom: 10px">
                             <div>ОБОРУДОВАНИЕ ДЛЯ
                                 ГИБКИ ЛИСТОВОГО МЕТАЛЛА
                             </div>
@@ -32,7 +32,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
-                            <img src="../img/catalog_img/catalog6.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="img/catalog_img/catalog6.jpg" alt="" style="width: 100%; margin-bottom: 10px">
                             <div>ОБОРУДОВАНИЕ ДЛЯ
                                 РАСКРОЯ ЛИСТОВОГО МЕТАЛЛА
                             </div>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
-                            <img src="../img/catalog_img/catalog5.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="img/catalog_img/catalog5.jpg" alt="" style="width: 100%; margin-bottom: 10px">
                             <div>ОБОРУДОВАНИЕ ДЛЯ
                                 ВЫПОЛНЕНИЯ КУЗНЕЧНЫХ РАБОТ
                             </div>
@@ -50,7 +50,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
-                            <img src="../img/catalog_img/catalog4.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="img/catalog_img/catalog4.jpg" alt="" style="width: 100%; margin-bottom: 10px">
                             <div>ОБОРУДОВАНИЕ ДЛЯ
                                 ХОЛОДНОЙ ШТАМПОВКИ ЛИСТОВОГО МЕТАЛЛА
                             </div>
@@ -58,7 +58,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
-                            <img src="../img/catalog_img/catalog3.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="img/catalog_img/catalog3.jpg" alt="" style="width: 100%; margin-bottom: 10px">
                             <div>ОБОРУДОВАНИЕ ДЛЯ
                                 ЛИСТОВОГО И ПРОФИЛЬНОГО РАСКРОЯ МЕТАЛЛА
                             </div>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
-                            <img src="../img/catalog_img/catalog2.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="img/catalog_img/catalog2.jpg" alt="" style="width: 100%; margin-bottom: 10px">
                             <div>ИЗГОТОВЛЕНИЕ
                                 ПРОФНАСТИЛА МЕТАЛЛОЧЕРЕПИЦЫ И СЕТКИ ЦВПС
                             </div>
@@ -91,7 +91,7 @@
             <div class="row about">
                 <h4>О НАС</h4>
                 <div class="pull-left">
-                    <img src="../img/about.jpg" alt="О нас">
+                    <img src="img/about.jpg" alt="О нас">
                 </div>
                 <div class="about_text">
                     <p>
@@ -131,19 +131,19 @@
             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 clients">
                 <h4 style="font-weight: 700">НАШИ КЛИЕНТЫ</h4>
                 <div>
-                    <img src="../img/clients.jpg" alt="" style="width: 100%">
+                    <img src="img/clients.jpg" alt="" style="width: 100%">
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 news">
                 <h4>НОВОСТИ</h4>
                 <div>
                     <div class="row">
-                        <img src="../img/news1.jpg" alt="">
+                        <img src="img/news1.jpg" alt="">
                         <p class="news_title">С Днём Урана!</p>
                         <p class="news_date">13 марта 2016</p>
                     </div>
                     <div class="row">
-                        <img src="../img/news2.jpg" alt="">
+                        <img src="img/news2.jpg" alt="">
                         <p class="news_title">Февральско-мартовские праздники 2016</p>
                         <p class="news_date">13 марта 2016</p>
 
