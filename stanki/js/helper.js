@@ -74,7 +74,6 @@ function init(e) {
 
 function collapse_click(e) {
     e = e || window.event;
-    console.log('collapse_click', e.target);
 
     $target = (e.target.nodeName == "SPAN")
         ? $(e.target.parentNode)
