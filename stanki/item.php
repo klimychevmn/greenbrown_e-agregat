@@ -8,7 +8,7 @@
         <div>
             <div class="row my_row">
                 
-                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
                     <div class="item_main">
                         <div class="item-title">Для резки круга, уголка, полосы, швеллера, пробивки отверстий СМЖ652</div>
@@ -72,7 +72,7 @@
 
                 </div>
                 
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 
                     <div class="item_right_row">
                         <div class="offer-title">ПОХОЖИЕ ПРЕДЛОЖЕНИЯ</div>

@@ -3,9 +3,6 @@ const TRIANGLE_UP = '&#9650;';
 const TRIANGLE_DOWN = '&#9660;';
 
 
-
-function onResize() {
-
     if (document.documentElement.clientWidth < SCREEN_WIDTH) {
         $('.under_tab-panel_text').insertBefore($('#tab_panel').parent());
         $('.foot img').parent().insertBefore($('.foot .wrapper span').first());
@@ -42,7 +39,6 @@ function onResize() {
     $('.panel-default > a').click(collapse_click);
     $("#tab_panel > li > a").click(init);
     
-}
 
 
 function init(e) {

@@ -1,6 +1,6 @@
 <!-- NAVBAR
 ================================================== -->
-<body onresize="onResize()">
+<body>
 <div id="wrapper">
     <div class="phones"><!--Phones-->
         <div class="wrapper" style="padding-top: 5px">
@@ -8,17 +8,17 @@
                 <div class="col-lg-3 col-md-3 col-sm-3"><span>+7 495 133-96-62</span> Москва</div>
                 <div class="col-lg-3 col-md-3 col-sm-3" ><span>+7 343 386-19-37</span> Екатеринбург</div>
                 <div class="col-lg-3 col-md-3 col-sm-3" ><span> +7 843 202-41-37</span> Казань</div>
-                <div class="col-lg-3"><span >+7 863 209-89-57</span> Ростов на Дону</div>
+                <div class="col-lg-3 col-md-3 col-sm-3"><span >+7 863 209-89-57</span> Ростов на Дону</div>
             </div>
         </div>
     </div><!--END-->
 
     <div class="wrapper logo_baner"><!--LOGO-->
         <div class="row my_row">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div class="col-lg-3 col-md-2 col-sm-2 col-xs-12">
                 <img src="img/logo1.jpg" alt="">
             </div>
-            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
                 <img src="img/logo2.jpg" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
