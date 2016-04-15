@@ -1,4 +1,4 @@
-const SCREEN_WIDTH = 768;
+const SCREEN_WIDTH = 767;
 const TRIANGLE_UP = '&#9650;';
 const TRIANGLE_DOWN = '&#9660;';
 

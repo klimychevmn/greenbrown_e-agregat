@@ -5,7 +5,7 @@
 
     <div class="baner">
         <img src="img/baner.jpg" alt="Банер">
-        <div class="baner_text">
+        <div class="content baner_text">
             <h2>ПРОИЗВОДСТВО КУЗНЕЧНО-ПРЕССОВОГО <br>
                 МЕТАЛЛОРЕЖУЩЕГО ОБОРУДОВАНИЯ</h2>
             <div class="baner_text_content">Машиностроительное Предприятие

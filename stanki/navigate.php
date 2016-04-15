@@ -3,7 +3,7 @@
 <body>
 <div id="wrapper">
     <div class="phones"><!--Phones-->
-        <div class="wrapper" style="padding-top: 5px">
+        <div class="content" style="padding-top: 5px">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-3"><span>+7 495 133-96-62</span> Москва</div>
                 <div class="col-lg-3 col-md-3 col-sm-3" ><span>+7 343 386-19-37</span> Екатеринбург</div>
@@ -13,15 +13,15 @@
         </div>
     </div><!--END-->
 
-    <div class="wrapper logo_baner"><!--LOGO-->
+    <div class="content logo_baner"><!--LOGO-->
         <div class="row my_row">
-            <div class="col-lg-3 col-md-2 col-sm-2 col-xs-12">
+            <div class="col-lg-3 col-md-2 col-sm-3 col-xs-12">
                 <img src="img/logo1.jpg" alt="">
             </div>
             <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
                 <img src="img/logo2.jpg" alt="">
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-12">
                 <script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
                 <div style="display:inline-block;text-align:right;width:100%;margin:20px 10px" class="yashare-auto-init"
                      data-yasharel10n="ru" data-yasharetype="none"
@@ -66,7 +66,7 @@
     </div><!--END-->
 
     <div class="navbar-wrapper" style="clear: both"><!--NAVBAR-->
-        <div class="wrapper">
+        <div class="content">
             <div class="navbar navbar-inverse">
                 <div class="container">
                     
