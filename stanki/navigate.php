@@ -1,6 +1,6 @@
 <!-- NAVBAR
 ================================================== -->
-<body>
+<body onresize="onResize()">
 <div id="wrapper">
     <div class="phones"><!--Phones-->
         <div class="wrapper" style="padding-top: 5px">
@@ -13,9 +13,9 @@
         </div>
     </div><!--END-->
 
-    <div class="wrapper logo_baner" style="margin-bottom: 10px"><!--LOGO-->
-        <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="margin-top: 10px">
+    <div class="wrapper logo_baner"><!--LOGO-->
+        <div class="row my_row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                 <img src="img/logo1.jpg" alt="">
             </div>
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
@@ -57,10 +57,10 @@
                                                                                    href="https://share.yandex.net/go.xml?service=gplus&amp;url=http%3A%2F%2Fwww.stanki-zavod.ru%2F&amp;title=%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%87%D0%BD%D0%BE-%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%20%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D0%BE%D1%80%D0%B5%D0%B6%D1%83%D1%89%D0%B5%D0%B3%D0%BE%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F."
                                                                                    data-service="gplus"><span
                                 class="b-share-icon b-share-icon_gplus"></span></a></span></div>
-                <div style="display:inline-block;text-align:right;width:100%;margin:0px 10px; color: #868686; font-size: 15px">Звонок по России
+                <div class="logo-title">Звонок по России
                     бесплатно
                 </div>
-                <div style="display:inline-block;text-align:right;width:100%;margin:0px 10px;color:#d9251d;font-size: 28px;font-weight: 700">8-800-700-29-55</div>
+                <div class="logo-title">8-800-700-29-55</div>
             </div>
         </div>
     </div><!--END-->

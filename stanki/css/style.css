@@ -4,11 +4,16 @@ body {color: #000;background-color: #ffffff;}
 #wrapper {height: auto !important;margin: 0 auto;min-height: 100%;}
 
 /*   -----   HEADER --------  */
-.phones{background-color: #e5e5e5;height: 30px;margin-bottom: 10px;}
+.phones{background-color: #e5e5e5;height: 40px;margin-bottom: 10px;}
 .phones .row {font-size: 13px; text-align: center;}
 .phones .row span{color: #d9251d}
 .phones .row div{border-right: 1px solid #ffffff}
 .phones .row div:last-child{border:none}
+
+
+.logo-title{display:inline-block;text-align:right;width:100%;margin:0px 10px; color: #868686; font-size: 15px}
+.logo-phone{display:inline-block;text-align:right;width:100%;margin:0px 10px;color:#d9251d;font-size: 28px;font-weight: 700}
+.logo_baner{margin-bottom: 10px}
 
 .navbar-wrapper {position: relative;z-index: 15;margin-top: 15px;background-color: #d9251d;color: #ffffff;}
 .navbar-wrapper .wrapper{background: none;}
@@ -173,6 +178,7 @@ body {color: #000;background-color: #ffffff;}
     .baner{display: none;}
 
     /*=====CONTENT=====*/
+    .catalog_item a:focus, .catalog_item a:hover{color: #ffffff;text-decoration: none}
     .catalogBtn{margin-left: 15%;width: 70%;font-size: 13px;margin-top: 30px}
     .content{margin: 0; width: auto}
     .catalog_item, .row{margin: 0}
