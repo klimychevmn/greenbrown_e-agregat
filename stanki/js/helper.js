@@ -5,7 +5,7 @@ const TRIANGLE_DOWN = '&#9660;';
 function init(e) {
     e = e || window.event;
 
-    if(screen.width < SCREEN_WIDTH) {
+    if(document.documentElement.clientWidth < SCREEN_WIDTH) {
         if($(e.target.parentNode).hasClass('active')){
             $(e.target.parentNode).removeClass('active');
             $(e.target.children).html(TRIANGLE_DOWN);
@@ -21,7 +21,7 @@ function init(e) {
     $('.tab-content .tab-pane').removeClass('active');
     $($(e.target).attr('href')).addClass('active');
 
-    if (screen.width < SCREEN_WIDTH) {
+    if (document.documentElement.clientWidth < SCREEN_WIDTH) {
         if($(e.target.parentNode).hasClass('active')){
             $(e.target.children).html(TRIANGLE_UP);
         }
@@ -35,23 +35,28 @@ function init(e) {
 
 function collapse_click(e) {
     e = e || window.event;
+    console.log('collapse_click', e.target);
 
-    if ($(e.target).hasClass('active')) {
-        $(e.target).removeClass('active');
-        $('.panel-heading > span').html(TRIANGLE_DOWN);
+    $target = (e.target.nodeName == "SPAN")
+        ? $(e.target.parentNode)
+        : $(e.target);
+
+    if ($target.hasClass('active')) {
+        $('.panel-heading').removeClass('active');
+        $('.panel-heading > span.triangle').html(TRIANGLE_DOWN);
         e.preventDefault();
     } else {
         $('.panel-heading').removeClass('active');
-        $('.panel-heading > span').html(TRIANGLE_DOWN);
-        $(e.target.children).html(TRIANGLE_UP);
-        $(e.target).addClass('active');
+        $('.panel-heading > span.triangle').html(TRIANGLE_DOWN);
+        $target.find('span.triangle').html(TRIANGLE_UP);
+        $target.addClass('active');
         e.preventDefault();
     }
 }
 
 
 
-if(screen.width < SCREEN_WIDTH){
+if(document.documentElement.clientWidth < SCREEN_WIDTH){
     $('.under_tab-panel_text').insertBefore($('#tab_panel').parent());
     $('.foot img').parent().insertBefore($('.foot .wrapper span').first());
     $('.foot .wrapper span').removeClass('text-right');
@@ -74,7 +79,7 @@ if(screen.width < SCREEN_WIDTH){
             e.preventDefault();
         }
     }
-    
+
     $('.item-param-title').click(collapseParam);
 
 } else {

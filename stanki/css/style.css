@@ -2,7 +2,6 @@ html, body {height: 100%;margin: 0;padding: 0;}
 body {color: #000;background-color: #ffffff;}
 
 #wrapper {height: auto !important;margin: 0 auto;min-height: 100%;}
-.wrapper {margin-left: 23%; width: 54%;}
 
 /*   -----   HEADER --------  */
 .phones{background-color: #e5e5e5;height: 30px;margin-bottom: 10px;}
@@ -67,6 +66,11 @@ body {color: #000;background-color: #ffffff;}
 .panel-group .panel-heading.active, .panel-group .panel-heading:focus, .panel-group .panel-heading:hover{background-color: #d9251d;color: #FFFFFF;}
 .panel-group .triangle{margin-top: -5px}
 .panel-body{padding:0;}
+.panel-heading {width: 100%;display: table;position: relative;}
+.panel-heading span {display: table-cell;}
+.panel-heading span:first-child {padding-right: 40px;}
+.panel-heading span.triangle {display: inline-block;vertical-align: middle;position: absolute;top: 50%;right: 10px;margin-top: -0.625em;}
+
 
 /*   -----   CATALOG-FORM --------  */
 .catalog_form {background-color: #e5e5e5;text-align: center;padding: 15px}
@@ -119,12 +123,17 @@ body {color: #000;background-color: #ffffff;}
 
 @media (min-width: 768px) {
 
+    .wrapper {margin-left: 10%; width: 80%;}
     .container .nav {margin-left: 3%}
 
     .navmobile {
         display: none;
     }
 
+}
+
+@media (min-width: 1200px){
+    .wrapper {margin-left: 23%; width: 54%;}
 }
 
 
