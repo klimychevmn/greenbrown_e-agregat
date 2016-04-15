@@ -141,10 +141,6 @@
 
 
     <script>
-        if(screen.width < SCREEN_WIDTH){
-            $('.item-param-title span').removeClass('hidden');
-            $('.carousel').insertBefore($('.item-title'));
-        }
 
     </script>
 <?php require('footer.php'); ?>

@@ -157,11 +157,4 @@
 
     </div>
 
-
-    <script>
-        if(screen.width < SCREEN_WIDTH){
-            $('.under_tab-panel_text').insertBefore($('#tab_panel').parent());
-        }
-    </script>
-
 <?php require('footer.php'); ?>

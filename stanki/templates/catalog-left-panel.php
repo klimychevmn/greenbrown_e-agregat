@@ -365,23 +365,3 @@
     <!-- End -->
 
 </div><!-- End of list group -->
-
-<script>
-    function collapse_click(e) {
-        e = e || window.event;
-
-        if ($(e.target).hasClass('active')) {
-            $(e.target).removeClass('active');
-            $('.panel-heading > span').html(TRIANGLE_DOWN);
-            e.preventDefault();
-        } else {
-            $('.panel-heading').removeClass('active');
-            $('.panel-heading > span').html(TRIANGLE_DOWN);
-            $(e.target.children).html(TRIANGLE_UP);
-            $(e.target).addClass('active');
-            e.preventDefault();
-        }
-    }
-
-    $('.panel-default > a').click(collapse_click);
-</script>

@@ -10,14 +10,6 @@
             121354, г. Москва, ул. Дорогобужская , д.14, стр. 4, пом. 15</span>
     </div>
 </div>
-
-<script>
-    if(screen.width < SCREEN_WIDTH){
-        $('.foot img').parent().insertBefore($('.foot .wrapper span').first());
-        $('.foot .wrapper span').removeClass('text-right');
-    }
-
-</script>
-
+<script src="../js/helper.js"></script>
 </body>
 </html>
