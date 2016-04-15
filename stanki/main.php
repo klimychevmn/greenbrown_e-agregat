@@ -24,7 +24,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
-                            <img src="img/catalog_img/catalog1.jpg" alt="" style="width: 100%;margin-bottom: 10px">
+                            <img src="img/catalog_img/catalog1.jpg" alt="" >
                             <div>ОБОРУДОВАНИЕ ДЛЯ
                                 ГИБКИ ЛИСТОВОГО МЕТАЛЛА
                             </div>
@@ -32,7 +32,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
-                            <img src="img/catalog_img/catalog6.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="img/catalog_img/catalog6.jpg" alt="" >
                             <div>ОБОРУДОВАНИЕ ДЛЯ
                                 РАСКРОЯ ЛИСТОВОГО МЕТАЛЛА
                             </div>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
-                            <img src="img/catalog_img/catalog5.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="img/catalog_img/catalog5.jpg" alt="" >
                             <div>ОБОРУДОВАНИЕ ДЛЯ
                                 ВЫПОЛНЕНИЯ КУЗНЕЧНЫХ РАБОТ
                             </div>
@@ -50,7 +50,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
-                            <img src="img/catalog_img/catalog4.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="img/catalog_img/catalog4.jpg" alt="" >
                             <div>ОБОРУДОВАНИЕ ДЛЯ
                                 ХОЛОДНОЙ ШТАМПОВКИ ЛИСТОВОГО МЕТАЛЛА
                             </div>
@@ -58,7 +58,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
-                            <img src="img/catalog_img/catalog3.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="img/catalog_img/catalog3.jpg" alt="" >
                             <div>ОБОРУДОВАНИЕ ДЛЯ
                                 ЛИСТОВОГО И ПРОФИЛЬНОГО РАСКРОЯ МЕТАЛЛА
                             </div>
@@ -66,14 +66,14 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="catalog.php">
-                            <img src="img/catalog_img/catalog2.jpg" alt="" style="width: 100%; margin-bottom: 10px">
+                            <img src="img/catalog_img/catalog2.jpg" alt="" >
                             <div>ИЗГОТОВЛЕНИЕ
                                 ПРОФНАСТИЛА МЕТАЛЛОЧЕРЕПИЦЫ И СЕТКИ ЦВПС
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="row" style="margin-bottom: 40px">
+                <div class="row my_row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <a href="catalog.php">
                             <div class="catalogBtn">ПОСМОТРЕТЬ ВСЮ ПРОДУКЦИЮ</div>
@@ -127,11 +127,11 @@
             </div>
         </div>
 
-        <div class="row clients_news" style="margin-bottom: 20px; padding: 5px 10px;">
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 clients">
-                <h4 style="font-weight: 700">НАШИ КЛИЕНТЫ</h4>
+        <div class="row clients_news" >
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 ">
+                <h4>НАШИ КЛИЕНТЫ</h4>
                 <div>
-                    <img src="img/clients.jpg" alt="" style="width: 100%">
+                    <img src="img/clients.jpg" alt="" >
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 news">
