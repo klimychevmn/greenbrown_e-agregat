@@ -2,17 +2,12 @@ const SCREEN_WIDTH = 767;
 const TRIANGLE_UP = '&#9650;';
 const TRIANGLE_DOWN = '&#9660;';
 
-$('#menu > li').first().removeClass('hidden').addClass('active');
-
 
 if (screen.width > SCREEN_WIDTH) {
     $('#menu .triangle').addClass('hidden');
     $('ul#menu>li').first().addClass('active');
     $('#diz_stan').addClass('active');
 } else {
-    $('#menu > li').addClass('hidden');
-
-    $('#menu > li > a > span').first().removeClass('hidden').html(TRIANGLE_UP);
     $('.my_jumbotron > h2').parent().insertBefore($('.item_big'));
     $('.item_price').insertAfter($('.g_chrter'));
 }
@@ -30,7 +25,7 @@ function init(e) {
         }
     }
 
-    $('.triangle').html(TRIANGLE_DOWN);
+    $('#menu .triangle').html(TRIANGLE_DOWN);
     $('#menu > li').removeClass('active');
     $(e.target.parentNode).addClass('active');
 
@@ -39,7 +34,7 @@ function init(e) {
 
     if (screen.width < SCREEN_WIDTH) {
         if ($(e.target.parentNode).hasClass('active')) {
-            $(e.target.children).html(TRIANGLE_DOWN);
+            $(e.target.children).html(TRIANGLE_UP);
         }
         if ($('#menu > .active')) {
             $('.tab-content').insertAfter($('#menu > .active > a'));

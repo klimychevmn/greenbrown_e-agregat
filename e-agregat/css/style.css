@@ -5,7 +5,7 @@ body {color: #000;background: #ffffff;}
 .carousel {margin-bottom: 30px;margin-top: 50px;box-shadow: 0px 0px 12px rgba(0,0,0,0.4);border-bottom: 1px solid #f4f4f4;}
 .carousel-caption {z-index: 10;}
 #wrapper {height: auto !important;margin: 0 auto 0;min-height: 100%; padding-bottom: 50px;}
-#foot, .catalogBtn {height: 40px; padding-top: 15px;margin-top: -30px;background-color: #990016;color: #FFFFFF}
+#foot, .catalogBtn {height: 50px; padding-top: 15px;margin-top: -30px;background-color: #990016;color: #FFFFFF}
 .catalogBtnSlider, .catalogBtn_nav {padding: 10px;border-radius: 20px; background-color:#990016; color: #FFFFFF}
 .catalogBtn:hover, .catalogBtn_nav:hover{color: #C0C0C0}
 .carousel .item {height: 400px;background: #C0C0C0 repeat;}
