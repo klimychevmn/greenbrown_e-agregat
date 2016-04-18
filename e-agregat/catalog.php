@@ -16,7 +16,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="../img/item.jpg"
+                            <a href="#"><img src="img/item.jpg"
                                              alt="Электрический регулятор оборотов  ПРТ-02"
                                              title="Электрический регулятор оборотов  ПРТ-02"></a>
                         </div>
@@ -44,7 +44,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="../img/item.jpg" alt="Дизельная электростанция АД-60"
+                            <a href="#"><img src="img/item.jpg" alt="Дизельная электростанция АД-60"
                                              title="Дизельная электростанция АД-60"></a>
                         </div>
                         <div class="row">
@@ -74,7 +74,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="../img/item.jpg" alt="Электростанция газопоршневая АГ-100"
+                            <a href="#"><img src="img/item.jpg" alt="Электростанция газопоршневая АГ-100"
                                              title="Электростанция газопоршневая АГ-100"></a>
                         </div>
                         <div class="row">
@@ -103,7 +103,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="../img/item.jpg"
+                            <a href="#"><img src="img/item.jpg"
                                              alt="Электрический регулятор оборотов  ПРТ-02"
                                              title="Электрический регулятор оборотов  ПРТ-02"></a>
                         </div>
@@ -130,7 +130,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="../img/item.jpg"
+                            <a href="#"><img src="img/item.jpg"
                                              alt="Электрический регулятор оборотов  ПРТ-02"
                                              title="Электрический регулятор оборотов  ПРТ-02"></a>
                         </div>
@@ -158,7 +158,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="../img/item.jpg" alt="Дизельная электростанция АД-60"
+                            <a href="#"><img src="img/item.jpg" alt="Дизельная электростанция АД-60"
                                              title="Дизельная электростанция АД-60"></a>
                         </div>
                         <div class="row">
@@ -188,7 +188,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="../img/item.jpg" alt="Электростанция газопоршневая АГ-100"
+                            <a href="#"><img src="img/item.jpg" alt="Электростанция газопоршневая АГ-100"
                                              title="Электростанция газопоршневая АГ-100"></a>
                         </div>
                         <div class="row">
@@ -217,7 +217,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="../img/item.jpg"
+                            <a href="#"><img src="img/item.jpg"
                                              alt="Электрический регулятор оборотов  ПРТ-02"
                                              title="Электрический регулятор оборотов  ПРТ-02"></a>
                         </div>
@@ -254,7 +254,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="../img/item.jpg" alt="Дизельная электростанция АД-60"
+                            <a href="#"><img src="img/item.jpg" alt="Дизельная электростанция АД-60"
                                              title="Дизельная электростанция АД-60"></a>
                         </div>
                         <div class="row">
@@ -291,7 +291,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="../img/item.jpg"
+                            <a href="#"><img src="img/item.jpg"
                                              alt="Электрический регулятор оборотов  ПРТ-02"
                                              title="Электрический регулятор оборотов  ПРТ-02"></a>
                         </div>
@@ -328,7 +328,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="../img/item.jpg" alt="Дизельная электростанция АД-60"
+                            <a href="#"><img src="img/item.jpg" alt="Дизельная электростанция АД-60"
                                              title="Дизельная электростанция АД-60"></a>
                         </div>
                         <div class="row">
@@ -367,7 +367,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="../img/item.jpg" alt="Электростанция газопоршневая АГ-100"
+                            <a href="#"><img src="img/item.jpg" alt="Электростанция газопоршневая АГ-100"
                                              title="Электростанция газопоршневая АГ-100"></a>
                         </div>
                         <div class="row">
@@ -405,7 +405,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="../img/item.jpg"
+                            <a href="#"><img src="img/item.jpg"
                                              alt="Электрический регулятор оборотов  ПРТ-02"
                                              title="Электрический регулятор оборотов  ПРТ-02"></a>
                         </div>
@@ -432,49 +432,5 @@
 
 
 </div>
-
-<script>
-    function init(e) {
-        e = e || window.event;
-
-        if(screen.width <= ' 767') {
-            if($(e.target.parentNode).hasClass('active')){
-                $(e.target.parentNode).removeClass('active');
-                $(e.target.children).html('&#9660;');
-                $($(e.target).attr('href')).removeClass('active');
-                return false;
-            }
-        }
-
-        //console.log($(e.target));
-
-        $('.triangle').html('&#9660;');
-        $('#menu > li').removeClass('active');
-        $(e.target.parentNode).addClass('active');
-
-        $('.tab-content .tab-pane').removeClass('active');
-        $($(e.target).attr('href')).addClass('active');
-
-        if (screen.width <= '767') {
-            if($(e.target.parentNode).hasClass('active')){
-                $(e.target.children).html('&#9650;');
-            }
-            if ($('#menu > .active')) {
-                $('.tab-content').insertAfter($('#menu > .active > a'));
-            }
-        }
-        e.preventDefault();
-
-    }
-
-    if (screen.width > '767') {
-        $('.triangle').addClass('hidden');
-        $('ul#menu>li').first().addClass('active');
-        $('#diz_stan').addClass('active');
-    }
-
-
-    $("#menu > li > a").click(init);
-</script>
 
 <?php require('footer.php'); ?>

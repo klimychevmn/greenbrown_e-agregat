@@ -5,10 +5,10 @@
 
 <div class="item_mob container">
     <div class="col-lg-5 col-sm-5 col-xs-12" style="float: right;">
-        <img src="../img/item.jpg" alt="" class="item_big">
-        <img src="../img/item.jpg" alt="" class="item_small">
-        <img src="../img/item.jpg" alt="" class="item_small">
-        <img src="../img/item.jpg" alt="" class="item_small">
+        <img src="img/item.jpg" alt="" class="item_big">
+        <img src="img/item.jpg" alt="" class="item_small">
+        <img src="img/item.jpg" alt="" class="item_small">
+        <img src="img/item.jpg" alt="" class="item_small">
         <p class="item_price">Цена по запросу <a href="#">подробнее</a></p>
     </div>
     <div class="col-lg-7 col-sm-7 col-xs-12" style="float: left">
@@ -134,38 +134,4 @@
 
 </div>
 
-
-<script>
-    $(document).ready(function () {
-        $('#menu .triangle').addClass('hidden');
-        if (screen.width < '768') {
-            $('#menu > li').addClass('hidden');
-
-            $('#menu > li > a > span').first().removeClass('hidden').html('&#9650;');
-            $('.my_jumbotron > h2').parent().insertBefore($('.item_big'));
-            $('.item_price').insertAfter($('.g_chrter'));
-        }
-        $('#menu > li > a').attr('href', 'catalog.php');
-        $('#menu > li').first().removeClass('hidden').addClass('active');
-
-        function collapse_click(e) {
-            e = e || window.event;
-
-            if ($(e.target).hasClass('active')) {
-                $(e.target).removeClass('active');
-                $('.panel-heading > span').html('&#9660;');
-                e.preventDefault();
-            } else {
-                $('.panel-heading').removeClass('active');
-                $('.panel-heading > span').html('&#9660;');
-                $(e.target.children).html('&#9650;');
-                $(e.target).addClass('active');
-                e.preventDefault();
-            }
-
-        }
-
-        $('.panel-default > a').click(collapse_click);
-    });
-</script>
 <?php require('footer.php'); ?>
