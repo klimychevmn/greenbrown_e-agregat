@@ -1,6 +1,6 @@
 
 <div class="row ctlg_line"></div>
-<div class="item_mob container" style="z-index: 2;">
+<div class="item_mob catalog-nav">
     <ul id="menu" class="nav nav-tabs nav-justified" style="background-color: #990016">
         <li><a href="#diz_stan">Дизельные электростанции<span class="pull-right triangle">&#9660;</span></a></li>
         <li><a href="#gaz_stan">Газопоршневые электростанции<span class="pull-right triangle">&#9660;</span></a></li>
