@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-3 col-sm-3 col-xs-12 "><!-- Catalog item -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "><!-- Catalog item -->
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
@@ -35,11 +35,11 @@
                 </div><!-- End of catalog item-->
 
 
-                <div class="col-lg-3 col-sm-3 col-xs-12 "><!-- Catalog item -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "><!-- Catalog item -->
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4 style="font-weight: 400;font-size:22px;text-align: center"><a href="#">Дизельная
+                                <h4><a href="#">Дизельная
                                         электростанция АД-60</a></h4>
                             </div>
                         </div>
@@ -65,11 +65,11 @@
                 </div><!-- End of catalog item-->
 
 
-                <div class="col-lg-3 col-sm-3 col-xs-12 "><!-- Catalog item -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "><!-- Catalog item -->
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4 style="font-weight: 400;font-size:22px;text-align: center"><a href="#">Электростанция
+                                <h4><a href="#">Электростанция
                                         газопоршневая АГ-100</a</h4>
                             </div>
                         </div>
@@ -94,11 +94,11 @@
                     </div>
                 </div><!-- End of catalog item-->
 
-                <div class="col-lg-3 col-sm-3 col-xs-12 "><!-- Catalog item -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "><!-- Catalog item -->
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4 style="font-weight: 400;font-size:22px;text-align: center"><a href="#">Электрический
+                                <h4><a href="#">Электрический
                                         регулятор оборотов ПРТ-02</a></h4>
                             </div>
                         </div>
@@ -121,11 +121,11 @@
                     </div>
                 </div><!-- End of catalog item-->
 
-                <div class="col-lg-3 col-sm-3 col-xs-12 "><!-- Catalog item -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "><!-- Catalog item -->
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4 style="font-weight: 400;font-size:22px;text-align: center"><a href="#">Электрический
+                                <h4><a href="#">Электрический
                                         регулятор оборотов ПРТ-02</a></h4>
                             </div>
                         </div>
@@ -149,11 +149,11 @@
                 </div><!-- End of catalog item-->
 
 
-                <div class="col-lg-3 col-sm-3 col-xs-12 "><!-- Catalog item -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "><!-- Catalog item -->
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4 style="font-weight: 400;font-size:22px;text-align: center"><a href="#">Дизельная
+                                <h4><a href="#">Дизельная
                                         электростанция АД-60</a></h4>
                             </div>
                         </div>
@@ -179,11 +179,11 @@
                 </div><!-- End of catalog item-->
 
 
-                <div class="col-lg-3 col-sm-3 col-xs-12 "><!-- Catalog item -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "><!-- Catalog item -->
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4 style="font-weight: 400;font-size:22px;text-align: center"><a href="#">Электростанция
+                                <h4><a href="#">Электростанция
                                         газопоршневая АГ-100</a</h4>
                             </div>
                         </div>
@@ -208,11 +208,11 @@
                     </div>
                 </div><!-- End of catalog item-->
 
-                <div class="col-lg-3 col-sm-3 col-xs-12 "><!-- Catalog item -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "><!-- Catalog item -->
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4 style="font-weight: 400;font-size:22px;text-align: center"><a href="#">Электрический
+                                <h4><a href="#">Электрический
                                         регулятор оборотов ПРТ-02</a></h4>
                             </div>
                         </div>
@@ -245,11 +245,11 @@
             <div class="row">
 
 
-                <div class="col-lg-3 col-sm-3 col-xs-12 "><!-- Catalog item -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "><!-- Catalog item -->
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4 style="font-weight: 400;font-size:22px;text-align: center"><a href="#">Дизельная
+                                <h4><a href="#">Дизельная
                                         электростанция АД-60</a></h4>
                             </div>
                         </div>
@@ -283,7 +283,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-3 col-sm-3 col-xs-12 "><!-- Catalog item -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "><!-- Catalog item -->
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
@@ -319,11 +319,11 @@
             <div class="row">
 
 
-                <div class="col-lg-3 col-sm-3 col-xs-12 "><!-- Catalog item -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "><!-- Catalog item -->
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4 style="font-weight: 400;font-size:22px;text-align: center"><a href="#">Дизельная
+                                <h4><a href="#">Дизельная
                                         электростанция АД-60</a></h4>
                             </div>
                         </div>
@@ -358,11 +358,11 @@
             <div class="row">
 
 
-                <div class="col-lg-3 col-sm-3 col-xs-12 "><!-- Catalog item -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "><!-- Catalog item -->
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4 style="font-weight: 400;font-size:22px;text-align: center"><a href="#">Электростанция
+                                <h4><a href="#">Электростанция
                                         газопоршневая АГ-100</a</h4>
                             </div>
                         </div>
@@ -396,11 +396,11 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-3 col-sm-3 col-xs-12"><!-- Catalog item -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"><!-- Catalog item -->
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4 style="font-weight: 400;font-size:22px;text-align: center"><a href="#">Электрический
+                                <h4><a href="#">Электрический
                                         регулятор оборотов ПРТ-02</a></h4>
                             </div>
                         </div>
