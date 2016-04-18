@@ -128,7 +128,7 @@
         </div>
 
         <div class="row clients_news" >
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 ">
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 clients">
                 <h4>НАШИ КЛИЕНТЫ</h4>
                 <div>
                     <img src="img/clients.jpg" alt="" >
