@@ -3,7 +3,7 @@ const TRIANGLE_UP = '&#9650;';
 const TRIANGLE_DOWN = '&#9660;';
 
 
-if (screen.width > SCREEN_WIDTH) {
+if (document.documentElement.clientWidth > SCREEN_WIDTH) {
     $('#menu .triangle').addClass('hidden');
     $('ul#menu>li').first().addClass('active');
     $('#diz_stan').addClass('active');
@@ -13,10 +13,10 @@ if (screen.width > SCREEN_WIDTH) {
 }
 
 /* catalog.php */
-function init(e) {
+function catalog_click(e) {
     e = e || window.event;
 
-    if (screen.width < SCREEN_WIDTH) {
+    if (document.documentElement.clientWidth < SCREEN_WIDTH) {
         if ($(e.target.parentNode).hasClass('active')) {
             $(e.target.parentNode).removeClass('active');
             $(e.target.children).html(TRIANGLE_DOWN);
@@ -32,7 +32,7 @@ function init(e) {
     $('.tab-content .tab-pane').removeClass('active');
     $($(e.target).attr('href')).addClass('active');
 
-    if (screen.width < SCREEN_WIDTH) {
+    if (document.documentElement.clientWidth < SCREEN_WIDTH) {
         if ($(e.target.parentNode).hasClass('active')) {
             $(e.target.children).html(TRIANGLE_UP);
         }
@@ -62,5 +62,5 @@ function collapse_click(e) {
 
 }
 
-$("#menu > li > a").click(init);
+$("#menu > li > a").click(catalog_click);
 $('.panel-default > a').click(collapse_click);

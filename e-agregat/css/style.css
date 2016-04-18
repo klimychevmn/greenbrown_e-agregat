@@ -191,7 +191,7 @@ body {color: #000;background: #ffffff;}
 @media (max-width: 767px) {
 
     .nav>li>a {padding:8px 10px;}
-    .nav>li:last-child {margin-top: 20px}
+    .navbar.navbar-inverse.nav>li:last-child {margin-top: 20px}
     .container-header .nav {margin-left: 50px}
 
     .navbar-wrapper{padding: 5px 10px;}
@@ -212,6 +212,8 @@ body {color: #000;background: #ffffff;}
     .row_navbar {
         display: none;
     }
+    .nav-tabs.nav-justified>li>a{border-bottom: 4px solid #ffffff}
+    .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover{border: none;border-bottom: 4px solid #ffffff}
     .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
         background-color: #990016;
         border: none;
@@ -264,13 +266,13 @@ body {color: #000;background: #ffffff;}
 @media (min-width: 768px) and (max-width: 900px){
     .main{padding:5px 100px}
     .container-header{padding: 10px 10px 10px 30px}
-    .nav>li>a {padding:20px 8px;}
+    .navbar .navbar-inverse.nav>li>a {padding:20px 8px;}
 
 }
 @media (min-width: 900px) and (max-width: 1200px){
     .main{padding:5px 200px}
     .container-header{padding: 10px 10px 10px 150px}
-    .nav>li>a {padding:20px 10px;}
+    .navbar .navbar-inverse.nav>li>a {padding:20px 10px;}
     .container-header .nav {margin-left: 50px}
 
 
@@ -278,14 +280,14 @@ body {color: #000;background: #ffffff;}
 @media (min-width: 1200px) and (max-width: 1400px){
     .main{padding:5px 350px}
     .container-header{padding: 10px 10px 10px 250px}
-    .nav>li>a {padding:20px 15px;}
+    .navbar .navbar-inverse.nav>li>a {padding:20px 15px;}
     .container-header .nav {margin-left: 50px}
 
 }
 @media (min-width: 1400px){
     .main{padding:5px 500px}
     .container-header{padding: 10px 10px 10px 400px}
-    .nav>li>a {padding:20px 15px;}
+    .navbar .navbar-inverse.nav>li>a {padding:20px 15px;}
     .container-header .nav {margin-left: 50px}
 
 }
