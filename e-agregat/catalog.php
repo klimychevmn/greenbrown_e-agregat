@@ -70,7 +70,7 @@
                         <div class="row">
                             <div class="sn_title">
                                 <h4><a href="#">Электростанция
-                                        газопоршневая АГ-100</a</h4>
+                                        газопоршневая АГ-100</a></h4>
                             </div>
                         </div>
                         <div class="row">
@@ -184,7 +184,7 @@
                         <div class="row">
                             <div class="sn_title">
                                 <h4><a href="#">Электростанция
-                                        газопоршневая АГ-100</a</h4>
+                                        газопоршневая АГ-100</a></h4>
                             </div>
                         </div>
                         <div class="row">
@@ -363,7 +363,7 @@
                         <div class="row">
                             <div class="sn_title">
                                 <h4><a href="#">Электростанция
-                                        газопоршневая АГ-100</a</h4>
+                                        газопоршневая АГ-100</a></h4>
                             </div>
                         </div>
                         <div class="row">
