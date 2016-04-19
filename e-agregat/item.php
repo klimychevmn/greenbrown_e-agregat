@@ -1,7 +1,13 @@
 <?php require('header.php'); ?>
 <?php require('navigate.php'); ?>
-<?php require('catalog_nav.php'); ?>
-
+<!--Catalog navbar-->
+<div class="row ctlg_line"></div>
+<div class="item_mob catalog-nav">
+    <ul id="menu" class="nav nav-tabs nav-justified" style="background-color: #990016">
+        <li class="active"><a href="catalog.php">Дизельные электростанции<span class="pull-right triangle">&#9650;</span></a></li><!--Triangle up-->
+    </ul>
+</div>
+<!--End-->
 
 <div class="item_mob container">
     <div class="col-lg-5 col-sm-5 col-xs-12" style="float: right;">

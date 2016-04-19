@@ -55,7 +55,7 @@ body {color: #000;background: #ffffff;}
 .nav-tabs.nav-justified > li {font-size: 12px;}
 .nav-tabs {margin-bottom:20px;}
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {background-color: #63010F;color: #FFFFFF;}
-.nav-tabs > li > a:hover {background-color: #63010F;}
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {background-color: #63010F;}
 .sn_title {height: 40px; margin: 2px 0 30px 0;}
 .sn_title h4 {font-weight: 400;font-size:22px;text-align: center}
 .sn_title a {color: #000000}
