@@ -181,7 +181,7 @@ body {color: #000;background: #ffffff;}
     }
     .nav-tabs.nav-justified > li {width: auto}
 
-    #myCarousel .carousel-img {margin-left: -50%; width: 300%; margin-top: -15%}
+    .carousel-img {margin-left: -50%; width: 300%; margin-top: -15%}
 }
 
 @media (min-width: 992px) {
@@ -191,7 +191,7 @@ body {color: #000;background: #ffffff;}
     .row_navbar {display: block;}
     .navmobile {display: none;}
 
-    #myCarousel.carousel-img {margin-left: -50%; width: 200%;margin-bottom: -50%}
+    .carousel-img {margin-left: -50%; width: 200%;margin-bottom: -50%}
 }
 
 @media (max-width: 767px) {
@@ -256,13 +256,13 @@ body {color: #000;background: #ffffff;}
 }
 
 @media (min-width: 400px) and (max-width:768px) {
-    #myCarousel.carousel-img {margin-left: -80%; width: 350%;}
+    .carousel-img {margin-left: -80%; width: 350%;}
 }
 @media (max-width: 400px) {
-    #myCarousel.carousel-img {margin-left: -200%; width: 500%;}
+    .carousel-img {margin-left: -200%; width: 500%;}
 }
 @media (min-width: 1200px) and (max-width: 1700px){
-    #myCarousel.carousel-img {margin-left: -25%; width: 160%; }
+    .carousel-img {margin-left: -25%; width: 160%; }
 }
 
 @media (min-width: 770px) and (max-width: 1200px){
