@@ -4,7 +4,6 @@ const TRIANGLE_DOWN = '&#9660;';
 
 
     if (document.documentElement.clientWidth < SCREEN_WIDTH) {
-        $('.under_tab-panel_text').insertBefore($('#tab_panel').parent());
         $('.foot img').parent().insertBefore($('.foot .wrapper span').first());
         $('.foot .wrapper span').removeClass('text-right');
 
