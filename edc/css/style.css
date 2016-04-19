@@ -5,9 +5,19 @@ body {color: #000;background-color: #ffffff;}
 /*   -----   HEADER --------  */
 .logo-phone{font-size: 26px;font-family:  'Times New Roman', Times, serif;}
 .logo_baner{margin-top:15px;margin-bottom: 10px;vertical-align: middle}
-.logo_baner img{width:100%;}
+.logo_baner img{width:100%;margin-top: 10px}
 .logo_baner .glyphicon-phone{margin-top: 5px;font-size: 28px;color: #a4a2a2; }
 .logo_baner .glyphicon-search{z-index: 1;margin:-28px 10px 0px 0px;font-size: 22px;color: #a4a2a2;}
+.logo_baner input{width: 100%;z-index: 2;margin-top: 5px}
+
+.mob_left{float: left;}
+.mob_left .mob_left_title{font-size: 13px;color: #9c9c9f}
+.mob_left .mob_left_phone{font-size: 24px}
+.mob_right {float: right}
+.mob_right button{float: right; margin: 7px 5px -13px;}
+.mob_right button span{width: 25px;height: 4px}
+.mob_right .icon_mobile .glyphicon-phone, .mob_right .icon_mobile .glyphicon-search{font-size: 30px; color: #7bba2d}
+.mob_right .icon_mobile {float: right; margin:10px 5px}
 
 .navbar-wrapper {position: relative;z-index: 15;margin-top: 15px;background-color: #2d2f37;color: #ffffff;}
 .navbar-wrapper .wrapper{background: none;}

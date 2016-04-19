@@ -5,10 +5,10 @@
     <div class="content logo_baner"><!--LOGO-->
         <div class="row ">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <img src="img/logo.jpg" alt="" style="margin-top: 10px">
+                <img src="img/logo.jpg" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <input type="text" style="width: 100%;z-index: 2;margin-top: 5px" class="form-control" placeholder="Поиск">
+                <input type="text" class="form-control" placeholder="Поиск">
                 <span class="pull-right glyphicon glyphicon-search"></span>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -23,23 +23,21 @@
             <div class="navbar navbar-inverse">
 
                     <div class="navbar-header navmobile">
-                        <div style="float: left;">
-                            <div style="font-size: 10px">Звонок по России бесплатно</div>
-                            <div style="font-size: 20px">8-800-700-29-55</div>
+                        <div class="mob_left">
+                            <div class="mob_left_title">Звонок по России бесплатно</div>
+                            <div class="mob_left_phone">8-800-700-29-55</div>
                         </div>
-                        <div style="float: right">
+                        <div class="mob_right">
 
                             <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                    data-target=".navbar-collapse" style="float: right; margin: -3px 0px -13px;">
-                                <span class="icon-bar" style="width: 25px;height: 4px"></span>
-                                <span class="icon-bar" style="width: 25px;height: 4px"></span>
-                                <span class="icon-bar" style="width: 25px;height: 4px"></span>
+                                    data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
                             </button>
 
-                            <a href="#" style="float: right; margin: 3px"><span class="glyphicon glyphicon-phone"
-                                                                                style="font-size: 25px; color: #7bba2d"></span></a>
-                            <a href="#" style="float: right; margin: 3px"><span class="glyphicon glyphicon-search"
-                                                                                style="font-size: 25px; color: #7bba2d"></span></a>
+                            <a href="#" class="icon_mobile"><span class="glyphicon glyphicon-phone"></span></a>
+                            <a href="#" class="icon_mobile"><span class="glyphicon glyphicon-search"></span></a>
                         </div>
                     </div>
 
