@@ -3,12 +3,12 @@
 <body>
 <div id="wrapper">
     <div class="content logo_baner"><!--LOGO-->
-        <div class="row my_row">
+        <div class="row ">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <img src="img/logo.jpg" alt="" style="margin-top: 10px">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <input type="text" style="width: 100%;z-index: 2" class="form-control" placeholder="Поиск">
+                <input type="text" style="width: 100%;z-index: 2;margin-top: 5px" class="form-control" placeholder="Поиск">
                 <span class="pull-right glyphicon glyphicon-search"></span>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -37,9 +37,9 @@
                             </button>
 
                             <a href="#" style="float: right; margin: 3px"><span class="glyphicon glyphicon-phone"
-                                                                                style="font-size: 25px; color: #ffffff"></span></a>
+                                                                                style="font-size: 25px; color: #7bba2d"></span></a>
                             <a href="#" style="float: right; margin: 3px"><span class="glyphicon glyphicon-search"
-                                                                                style="font-size: 25px; color: #ffffff"></span></a>
+                                                                                style="font-size: 25px; color: #7bba2d"></span></a>
                         </div>
                     </div>
 

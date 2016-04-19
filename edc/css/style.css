@@ -4,7 +4,7 @@ body {color: #000;background-color: #ffffff;}
 #wrapper {height: auto !important;margin: 0 auto;min-height: 100%;}
 /*   -----   HEADER --------  */
 .logo-phone{font-size: 26px;font-family:  'Times New Roman', Times, serif;}
-.logo_baner{margin-bottom: 10px;vertical-align: middle}
+.logo_baner{margin-top:15px;margin-bottom: 10px;vertical-align: middle}
 .logo_baner img{width:100%;}
 .logo_baner .glyphicon-phone{margin-top: 5px;font-size: 28px;color: #a4a2a2; }
 .logo_baner .glyphicon-search{z-index: 1;margin:-28px 10px 0px 0px;font-size: 22px;color: #a4a2a2;}
@@ -14,18 +14,13 @@ body {color: #000;background-color: #ffffff;}
 .wrapper li{margin: 0 5px}
 
 .navbar-inverse .navbar-nav > li > a {background-color: #2d2f37;color: #ffffff;font-size: 14px;}
-.navbar-inverse, .navbar {border: none}
+.navbar-inverse, .navbar {border: none;background: none}
 .content.navbar-nav {margin: 0 auto;}
 .navbar-inverse, .navbar-inverse { background-color: #2d2f37;color: #ffffff;margin-bottom: 0px;border: none}
 .navbar-inverse .navbar-nav> li > a:hover, .navbar-inverse .navbar-nav> li > a:focus {color: #7bba2d;background-color: #2d2f37;}
 
 .mobile_logo{display: none}
 
-/*   -----   BANER --------  */
-.baner{margin-bottom: 5%}
-.baner img{width: 100%}
-.baner_text{margin-top: -320px; text-align: center; width: 40%; margin-left: 30%;}
-.baner_text_content{font-size: 15px;margin-top: 30px;width: 80%;margin-left: 10%;}
 
 /*   -----   TAB_PANEL --------  */
 .tab_panel{margin-bottom: 10px;padding:0px 40px}
@@ -39,7 +34,7 @@ body {color: #000;background-color: #ffffff;}
 .under_tab-panel_text{padding: 10px 20px;}
 
 /*   -----   CONTENT --------  */
-.content{margin-left: 20%;width: 60%;}
+.content{margin-left: 22%;width: 56%;}
 .content .my_row{padding-top: 30px}
 
 .catalog_item{margin-bottom: 20px;}
@@ -204,29 +199,25 @@ body {color: #000;background-color: #ffffff;}
 
     /*=====FOOTER=====*/
     .foot{height: 230px;text-align: center;float: none}
-    .foot img{width: 15%}
-    .foot_minus{border-bottom: 3px solid #d9251d;margin-left:45%;width: 10%;display: block}
-
 }
 
 
-@media (min-width: 769px) and (max-width: 1000px) {
-    .container .nav{margin-left: -10%}
-}
-
-@media (min-width: 550px) and (max-width: 777px){
-    .item img{width: 70%;margin-left: 15%}
-}
-
-@media (min-width: 780px) and (max-width: 900px){
+@media (min-width: 768px) and (max-width: 900px) {
     .content {margin-left: 5%; width: 90%}
-    .baner_text {margin-top: -150px}
-    .baner_text h2 {font-size: 15px}
-    .baner_text_content {font-size: 10px;margin-top: -5px}
+    .logo-phone{font-size: 18px;margin-top:5px;}
 }
-
 @media (min-width: 900px) and (max-width: 1300px){
     .content {margin-left: 15%; width: 70%}
-    .baner_text{margin-bottom: 100px}
-    .foot img{width: 60%}
+    .logo-phone{font-size: 18px;margin-top: 5px}
 }
+@media (min-width: 1300px) and (max-width: 1400px){
+    .logo-phone{font-size: 22px;margin-top: 3px}
+}
+@media (min-width: 1100px) and (max-width: 1650px){
+    .navbar-inverse .navbar-nav > li > a{font-size:12px;padding:15px 8px}
+}
+@media (min-width: 768px) and (max-width: 1100px){
+    .navbar-inverse .navbar-collapse{margin-left: -20px}
+    .navbar-inverse .navbar-nav > li > a{font-size:11px;padding:15px 5px}
+}
+
