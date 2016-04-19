@@ -4,10 +4,15 @@ const TRIANGLE_DOWN = '&#9660;';
 
 
 if (document.documentElement.clientWidth > SCREEN_WIDTH) {
-    $('#menu .triangle').addClass('hidden');
+    $('#catalog_main .triangle').addClass('hidden');
+    $('#catalog_for_item .triangle').addClass('hidden');
 } else {
-    if($('#menu li').hasClass('active')){
-        $('.tab-content').insertAfter($('#menu .active a'));
+    if($('#catalog_main li .active')){
+        $('.tab-content').insertAfter($('#catalog_main .active a'));
+    }
+    $('#catalog_for_item li').addClass('hidden');
+    if($('#catalog_for_item li .active')){
+        $('#catalog_for_item .active').removeClass('hidden');
     }
 
     $('.my_jumbotron > h2').parent().insertBefore($('.item_big'));
