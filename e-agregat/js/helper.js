@@ -15,7 +15,7 @@ if (document.documentElement.clientWidth > SCREEN_WIDTH) {
         $('#catalog_for_item .active').removeClass('hidden');
     }
 
-    $('.my_jumbotron > h2').parent().insertBefore($('.item_big'));
+    $('.my_jumbotron > h2').parent().insertBefore($('#itemCarousel'));
     $('.item_price').insertAfter($('.g_chrter'));
 }
 

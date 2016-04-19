@@ -15,14 +15,35 @@
 <!--End-->
 
 <div class="item_mob container">
-    <div class="col-lg-5 col-sm-5 col-xs-12" style="float: right;">
-        <img src="img/item.jpg" alt="" class="item_big">
-        <img src="img/item.jpg" alt="" class="item_small">
-        <img src="img/item.jpg" alt="" class="item_small">
-        <img src="img/item.jpg" alt="" class="item_small">
+    <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12" style="float: right;">
+        <div id="itemCarousel" class="carousel slide">
+
+            <ol class="carousel-indicators">
+                <li data-target="#mCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mCarousel" data-slide-to="1"></li>
+                <li data-target="#mCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/item/item_1.jpg"  alt="First slide">
+                </div>
+
+                <div class="item">
+                    <img src="img/item/item_2.jpg"  alt="Second slide">
+                </div>
+                <div class="item">
+                    <img src="img/item/item_3.jpg"  alt="Second slide">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#itemCarousel" data-slide="prev"><span
+                    class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#itemCarousel" data-slide="next"><span
+                    class="glyphicon glyphicon-chevron-right"></span></a>
+            <div class="clear"></div>
+        </div>
         <p class="item_price">Цена по запросу <a href="#">подробнее</a></p>
     </div>
-    <div class="col-lg-7 col-sm-7 col-xs-12" style="float: left">
+    <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12" style="float: left">
         <div class="my_jumbotron">
             <h2>ДИЗЕЛЬНАЯ ЭЛЕКТРОСТАНЦИЯ АД-30</h2>
         </div>

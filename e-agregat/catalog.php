@@ -32,7 +32,7 @@
                     </div>
                     <div class="row">
                         <a href="#">
-                            <img src="img/item.jpg"
+                            <img src="img/item/item_1.jpg"
                                  alt="Электрический регулятор оборотов  ПРТ-02"
                                  title="Электрический регулятор оборотов  ПРТ-02">
                         </a>
@@ -63,7 +63,7 @@
                     </div>
                     <div class="row">
                         <a href="#">
-                            <img src="img/item.jpg" alt="Дизельная электростанция АД-60"
+                            <img src="img/item/item_1.jpg" alt="Дизельная электростанция АД-60"
                                  title="Дизельная электростанция АД-60">
                         </a>
                     </div>
@@ -97,7 +97,7 @@
                     </div>
                     <div class="row">
                         <a href="#">
-                            <img src="img/item.jpg" alt="Электростанция газопоршневая АГ-100"
+                            <img src="img/item/item_1.jpg" alt="Электростанция газопоршневая АГ-100"
                                  title="Электростанция газопоршневая АГ-100">
                         </a>
                     </div>
@@ -130,7 +130,7 @@
                     </div>
                     <div class="row">
                         <a href="#">
-                            <img src="img/item.jpg"
+                            <img src="img/item/item_1.jpg"
                                  alt="Электрический регулятор оборотов  ПРТ-02"
                                  title="Электрический регулятор оборотов  ПРТ-02">
                         </a>
@@ -161,7 +161,7 @@
                     </div>
                     <div class="row">
                         <a href="#">
-                            <img src="img/item.jpg"
+                            <img src="img/item/item_1.jpg"
                                  alt="Электрический регулятор оборотов  ПРТ-02"
                                  title="Электрический регулятор оборотов  ПРТ-02">
                         </a>
@@ -193,7 +193,7 @@
                     </div>
                     <div class="row">
                         <a href="#">
-                            <img src="img/item.jpg" alt="Дизельная электростанция АД-60"
+                            <img src="img/item/item_1.jpg" alt="Дизельная электростанция АД-60"
                                  title="Дизельная электростанция АД-60">
                         </a>
                     </div>
@@ -227,7 +227,7 @@
                     </div>
                     <div class="row">
                         <a href="#">
-                            <img src="img/item.jpg" alt="Электростанция газопоршневая АГ-100"
+                            <img src="img/item/item_1.jpg" alt="Электростанция газопоршневая АГ-100"
                                  title="Электростанция газопоршневая АГ-100">
                         </a>
                     </div>
@@ -260,7 +260,7 @@
                     </div>
                     <div class="row">
                         <a href="#">
-                            <img src="img/item.jpg"
+                            <img src="img/item/item_1.jpg"  
                                  alt="Электрический регулятор оборотов  ПРТ-02"
                                  title="Электрический регулятор оборотов  ПРТ-02">
                         </a>
