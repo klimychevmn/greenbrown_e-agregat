@@ -120,13 +120,9 @@ body {color: #000;background-color: #ffffff;}
 
 
 /*   -----   FOOTER --------  */
-.foot{background-color:#e5e5e5; height: 90px;width: 100%}
-.foot div{padding-top: 20px}
-.foot span{color: #6f6f6f;padding-top: 5px; font-size: 15px}
-.foot img{width:100%}
-.foot_minus{display: none}
-
-
+.foot{background-color:#2d2f37;color: #acacae;width: 100%;min-height: 60px; font-size: 18px;padding: 15px 40px}
+.foot .foot_title{float: left;}
+.foot .foot_phone{float: right;}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -208,7 +204,11 @@ body {color: #000;background-color: #ffffff;}
     .mobile_logo img{width: 100%}
 
     /*=====FOOTER=====*/
-    .foot{height: 230px;text-align: center;float: none}
+    .foot{text-align: center;float: none;min-height: 50px;padding: 15px auto;font-size: 16px}
+    .foot .foot_phone{display: none;}
+    .foot .foot_title{float: none;}
+
+
 }
 
 

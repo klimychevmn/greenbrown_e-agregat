@@ -1,10 +1,10 @@
 </div>
 <div class="foot">
-    <div class="container">
-        <div style="float: left;margin-left: 15%">
+    <div class="content">
+        <div class="foot_title">
             <p class="text-center">ЭНЕРГОДИЗЕЛЬЦЕНТР &copy; 2016</p>
         </div>
-        <div style="float: right;margin-right: 15%">
+        <div class="foot_phone">
             <p class="text-center">+7 (48533) 70-80-6</p>
         </div>
     </div>
