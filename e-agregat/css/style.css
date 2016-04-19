@@ -137,7 +137,7 @@ body {color: #000;background: #ffffff;}
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
-    #menu.nav-tabs.nav-justified>li>a{border: none;}
+    #catalog_main.nav-tabs.nav-justified>li>a,#catalog_for_item.nav-tabs.nav-justified>li>a{border: none;}
     .navbar-nav>li>a{line-height: 50px}
     /* Remove the edge padding needed for mobile */
     .marketing {
@@ -270,7 +270,7 @@ body {color: #000;background: #ffffff;}
     .navbar .navbar-inverse.nav>li>a {padding:20px 5px;}
     .navbar-inverse .navbar-nav > li > a{font-size: 12px}
     .container-header .nav {margin-left: -20px}
-    #menu.nav-tabs.nav-justified>li>a{min-height: 50px; vertical-align: middle}
+    #catalog_main.nav-tabs.nav-justified>li>a, #catalog_for_item.nav-tabs.nav-justified>li>a{min-height: 50px; vertical-align: middle}
     .catalog-nav{margin-left:0px}
 }
 @media (min-width: 900px) and (max-width: 1200px){
