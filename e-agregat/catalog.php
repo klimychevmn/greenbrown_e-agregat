@@ -6,11 +6,11 @@
 <div class="item_mob catalog-nav">
     <ul id="menu" class="nav nav-tabs nav-justified" style="background-color: #990016">
         <li class="active"><a href="catalog.php">Дизельные электростанции<span class="pull-right triangle">&#9650;</span></a></li><!--Triangle up-->
-        <li><a href="#">Газопоршневые электростанции<span class="pull-right triangle">&#9660;</span></a></li>
-        <li><a href="#">Судовые электростанции<span class="pull-right triangle">&#9660;</span></a></li>
-        <li><a href="#">Силовые и насосные установки<span class="pull-right triangle">&#9660;</span></a></li>
-        <li><a href="#">Исполнения<span class="pull-right triangle">&#9660;</span></a></li>
-        <li><a href="#">Запасные части<span class="pull-right triangle">&#9660;</span></a></li>
+        <li><a href="#1">Газопоршневые электростанции<span class="pull-right triangle">&#9660;</span></a></li>
+        <li><a href="#2">Судовые электростанции<span class="pull-right triangle">&#9660;</span></a></li>
+        <li><a href="#3">Силовые и насосные установки<span class="pull-right triangle">&#9660;</span></a></li>
+        <li><a href="#4">Исполнения<span class="pull-right triangle">&#9660;</span></a></li>
+        <li><a href="#5">Запасные части<span class="pull-right triangle">&#9660;</span></a></li>
     </ul>
 </div>
 <!--End-->
