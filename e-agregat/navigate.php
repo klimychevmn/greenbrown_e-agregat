@@ -59,7 +59,7 @@
                                 <a href="#">ЗАДАТЬ ВОПРОС</a>
                             </li>
                             <li>
-                                <a href="#" style="margin-top: -5%">
+                                <a href="#">
                                     <div class="btn catalogBtn_nav">ОСТАТКИ НА СКЛАДЕ</div>
                                 </a>
                             </li>

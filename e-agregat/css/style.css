@@ -2,7 +2,7 @@ html, body {height: 100%;margin: 0;padding: 0;}
 body {color: #000;background: #ffffff;}
 .clear {clear: both;width:100%;display: table;}
 .navbar-wrapper {position: relative;z-index: 15;padding: 20px}
-.carousel {margin-bottom: 30px;margin-top: 50px;box-shadow: 0px 0px 12px rgba(0,0,0,0.4);border-bottom: 1px solid #f4f4f4;}
+.carousel {margin-bottom: 30px;box-shadow: 0px 0px 12px rgba(0,0,0,0.4);border-bottom: 1px solid #f4f4f4;}
 .carousel-caption {z-index: 10;}
 #wrapper {height: auto !important;margin: 0 auto 0;min-height: 100%; padding-bottom: 50px;}
 #foot, .catalogBtn {height: 50px; padding-top: 15px;margin-top: -30px;background-color: #990016;color: #FFFFFF}
@@ -22,7 +22,7 @@ body {color: #000;background: #ffffff;}
     background: -ms-linear-gradient(top, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%); /* IE10+ */
     background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b5484', endColorstr='#014275',GradientType=0 );}
-.navbar-inverse .navbar-nav > li > a {color: #000000;font-size: 14px;}
+.navbar-inverse .navbar-nav > li > a {color: #000000;}
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {background-color: #ffffff;color: #990016;}
 .navbar-static-top {border-width: 0 0 0;}
 .navbar-inverse .navbar-brand {color: #000000;}
@@ -41,7 +41,7 @@ body {color: #000;background: #ffffff;}
 
 
 /*------- Catalog Cart -----*/
-.ctlg_line{background-color: #990016; height: 38px;z-index: 1;margin-bottom: -38px}
+.ctlg_line{background-color: #990016; height: 38px;z-index: 1;margin-bottom: -38px;width: 100%}
 .catalog-list {margin-bottom: 30px;border-left: 1px solid #DDD; border-bottom: 1px solid #DDD;border-right: 1px solid #DDD; padding: 10px;background: #FFF;}
 .img-zoom-catalog {margin-right: 20px;}
 .base_state {width: 100%; padding: 10px;background: #fff;display: table;}
@@ -138,7 +138,7 @@ body {color: #000;background: #ffffff;}
 
 @media (min-width: 768px) {
     #menu.nav-tabs.nav-justified>li>a{border: none;}
-
+    .navbar-nav>li>a{line-height: 50px}
     /* Remove the edge padding needed for mobile */
     .marketing {
         padding-left: 0;
@@ -192,7 +192,7 @@ body {color: #000;background: #ffffff;}
 @media (max-width: 767px) {
 
     .nav>li>a {padding:8px 10px;}
-    .navbar.navbar-inverse.nav>li:last-child {margin-top: 20px}
+    .navbar.navbar-inverse.nav li:last-child {margin-top: 20px}
     .container-header .nav {margin-left: 50px}
 
     .navbar-wrapper{padding: 5px 10px;}
@@ -265,31 +265,33 @@ body {color: #000;background: #ffffff;}
     .desc_cat{margin-bottom: 40px}
 }
 @media (min-width: 768px) and (max-width: 900px){
-    .main{padding:5px 100px}
-    .container-header{padding: 10px 10px 10px 30px}
-    .navbar .navbar-inverse.nav>li>a {padding:20px 8px;}
-    .catalog-nav>li>a{padding: 10px 5px;font-size: 10px}
+    .main{padding:5px 70px}
+    .container-header{padding: 10px 10px 10px 10px}
+    .navbar .navbar-inverse.nav>li>a {padding:20px 5px;}
+    .navbar-inverse .navbar-nav > li > a{font-size: 12px}
+    .container-header .nav {margin-left: -20px}
+    #menu.nav-tabs.nav-justified>li>a{min-height: 50px; vertical-align: middle}
     .catalog-nav{margin-left:0px}
 }
 @media (min-width: 900px) and (max-width: 1200px){
-    .main{padding:5px 200px}
+    .main{padding:5px 170px}
     .container-header{padding: 10px 10px 10px 150px}
     .navbar .navbar-inverse.nav>li>a {padding:20px 10px;}
-    .container-header .nav {margin-left: 50px}
-    .catalog-nav>li>a{padding: 10px 5px;vertical-align: middle}
-    .catalog-nav{margin-left:10px}
+    .container-header .nav {margin-left: 10px}
+    .catalog-nav>li>a{padding: 10px 5px;}
+    .catalog-nav{margin-left:0px}
 
 }
 @media (min-width: 1200px) and (max-width: 1400px){
-    .main{padding:5px 350px}
+    .main{padding:5px 320px}
     .container-header{padding: 10px 10px 10px 250px}
     .navbar .navbar-inverse.nav>li>a {padding:20px 15px;}
-    .container-header .nav {margin-left: 50px}
+    .container-header .nav {margin-left: 30px}
     .catalog-nav>li>a{padding: 10px;}
-    .catalog-nav{margin-left:200px}
+    .catalog-nav{margin-left:150px}
 }
 @media (min-width: 1400px){
-    .main{padding:5px 500px}
+    .main{padding:5px 470px}
     .container-header{padding: 10px 10px 10px 400px}
     .navbar .navbar-inverse.nav>li>a {padding:20px 15px;}
     .container-header .nav {margin-left: 50px}

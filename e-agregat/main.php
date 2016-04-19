@@ -1,6 +1,6 @@
 <?php require('header.php'); ?>
 <?php require('navigate.php'); ?>
-<div id="myCarousel" class="carousel slide" style="margin-top: 0px">
+<div id="myCarousel" class="carousel slide">
 
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -61,7 +61,6 @@
 <div class="catalogBtn">
     <div class="container">
         <a href="catalog.php" style="color: #FFFFFF"><p class="text-center">Перейти в каталог</p></a>
-
     </div>
 </div>
 

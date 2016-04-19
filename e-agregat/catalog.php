@@ -12,13 +12,17 @@
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4><a href="#">Электрический регулятор оборотов ПРТ-02</a></h4>
+                                <h4>
+                                    <a href="#">Электрический регулятор оборотов ПРТ-02</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="img/item.jpg"
+                            <a href="#">
+                                <img src="img/item.jpg"
                                              alt="Электрический регулятор оборотов  ПРТ-02"
-                                             title="Электрический регулятор оборотов  ПРТ-02"></a>
+                                             title="Электрический регулятор оборотов  ПРТ-02">
+                            </a>
                         </div>
                         <div class="row">
                             <div class="desc_cat">
@@ -39,13 +43,16 @@
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4><a href="#">Дизельная
-                                        электростанция АД-60</a></h4>
+                                <h4>
+                                    <a href="#">Дизельная электростанция АД-60</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="img/item.jpg" alt="Дизельная электростанция АД-60"
-                                             title="Дизельная электростанция АД-60"></a>
+                            <a href="#">
+                                <img src="img/item.jpg" alt="Дизельная электростанция АД-60"
+                                             title="Дизельная электростанция АД-60">
+                            </a>
                         </div>
                         <div class="row">
                             <div class="desc_cat">
@@ -69,13 +76,17 @@
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4><a href="#">Электростанция
-                                        газопоршневая АГ-100</a></h4>
+                                <h4>
+                                    <a href="#">Электростанция
+                                        газопоршневая АГ-100</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="img/item.jpg" alt="Электростанция газопоршневая АГ-100"
-                                             title="Электростанция газопоршневая АГ-100"></a>
+                            <a href="#">
+                                <img src="img/item.jpg" alt="Электростанция газопоршневая АГ-100"
+                                             title="Электростанция газопоршневая АГ-100">
+                            </a>
                         </div>
                         <div class="row">
                             <div class="desc_cat">
@@ -98,14 +109,18 @@
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4><a href="#">Электрический
-                                        регулятор оборотов ПРТ-02</a></h4>
+                                <h4>
+                                    <a href="#">Электрический
+                                        регулятор оборотов ПРТ-02</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="img/item.jpg"
+                            <a href="#">
+                                <img src="img/item.jpg"
                                              alt="Электрический регулятор оборотов  ПРТ-02"
-                                             title="Электрический регулятор оборотов  ПРТ-02"></a>
+                                             title="Электрический регулятор оборотов  ПРТ-02">
+                            </a>
                         </div>
                         <div class="row">
                             <div class="desc_cat">
@@ -125,14 +140,18 @@
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4><a href="#">Электрический
-                                        регулятор оборотов ПРТ-02</a></h4>
+                                <h4>
+                                    <a href="#">Электрический
+                                        регулятор оборотов ПРТ-02</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="img/item.jpg"
+                            <a href="#">
+                                <img src="img/item.jpg"
                                              alt="Электрический регулятор оборотов  ПРТ-02"
-                                             title="Электрический регулятор оборотов  ПРТ-02"></a>
+                                             title="Электрический регулятор оборотов  ПРТ-02">
+                            </a>
                         </div>
                         <div class="row">
                             <div class="desc_cat">
@@ -153,13 +172,17 @@
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4><a href="#">Дизельная
-                                        электростанция АД-60</a></h4>
+                                <h4>
+                                    <a href="#">Дизельная
+                                        электростанция АД-60</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="img/item.jpg" alt="Дизельная электростанция АД-60"
-                                             title="Дизельная электростанция АД-60"></a>
+                            <a href="#">
+                                <img src="img/item.jpg" alt="Дизельная электростанция АД-60"
+                                             title="Дизельная электростанция АД-60">
+                            </a>
                         </div>
                         <div class="row">
                             <div class="desc_cat">
@@ -183,13 +206,17 @@
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4><a href="#">Электростанция
-                                        газопоршневая АГ-100</a></h4>
+                                <h4>
+                                    <a href="#">Электростанция
+                                        газопоршневая АГ-100</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="img/item.jpg" alt="Электростанция газопоршневая АГ-100"
-                                             title="Электростанция газопоршневая АГ-100"></a>
+                            <a href="#">
+                                <img src="img/item.jpg" alt="Электростанция газопоршневая АГ-100"
+                                             title="Электростанция газопоршневая АГ-100">
+                            </a>
                         </div>
                         <div class="row">
                             <div class="desc_cat">
@@ -212,14 +239,18 @@
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4><a href="#">Электрический
-                                        регулятор оборотов ПРТ-02</a></h4>
+                                <h4>
+                                    <a href="#">Электрический
+                                        регулятор оборотов ПРТ-02</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="img/item.jpg"
+                            <a href="#">
+                                <img src="img/item.jpg"
                                              alt="Электрический регулятор оборотов  ПРТ-02"
-                                             title="Электрический регулятор оборотов  ПРТ-02"></a>
+                                             title="Электрический регулятор оборотов  ПРТ-02">
+                            </a>
                         </div>
                         <div class="row">
                             <div class="desc_cat">
@@ -249,13 +280,17 @@
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4><a href="#">Дизельная
-                                        электростанция АД-60</a></h4>
+                                <h4>
+                                    <a href="#">Дизельная
+                                        электростанция АД-60</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="img/item.jpg" alt="Дизельная электростанция АД-60"
-                                             title="Дизельная электростанция АД-60"></a>
+                            <a href="#">
+                                <img src="img/item.jpg" alt="Дизельная электростанция АД-60"
+                                             title="Дизельная электростанция АД-60">
+                            </a>
                         </div>
                         <div class="row">
                             <div class="desc_cat">
@@ -287,13 +322,17 @@
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4><a href="#">Электрический регулятор оборотов ПРТ-02</a></h4>
+                                <h4>
+                                    <a href="#">Электрический регулятор оборотов ПРТ-02</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="img/item.jpg"
+                            <a href="#">
+                                <img src="img/item.jpg"
                                              alt="Электрический регулятор оборотов  ПРТ-02"
-                                             title="Электрический регулятор оборотов  ПРТ-02"></a>
+                                             title="Электрический регулятор оборотов  ПРТ-02">
+                            </a>
                         </div>
                         <div class="row">
                             <div class="desc_cat">
@@ -323,13 +362,17 @@
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4><a href="#">Дизельная
-                                        электростанция АД-60</a></h4>
+                                <h4>
+                                    <a href="#">Дизельная
+                                        электростанция АД-60</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="img/item.jpg" alt="Дизельная электростанция АД-60"
-                                             title="Дизельная электростанция АД-60"></a>
+                            <a href="#">
+                                <img src="img/item.jpg" alt="Дизельная электростанция АД-60"
+                                             title="Дизельная электростанция АД-60">
+                            </a>
                         </div>
                         <div class="row">
                             <div class="desc_cat">
@@ -362,13 +405,17 @@
                     <div class="electro_snipet">
                         <div class="row">
                             <div class="sn_title">
-                                <h4><a href="#">Электростанция
-                                        газопоршневая АГ-100</a></h4>
+                                <h4>
+                                    <a href="#">Электростанция
+                                        газопоршневая АГ-100</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="row">
-                            <a href="#"><img src="img/item.jpg" alt="Электростанция газопоршневая АГ-100"
-                                             title="Электростанция газопоршневая АГ-100"></a>
+                            <a href="#">
+                                <img src="img/item.jpg" alt="Электростанция газопоршневая АГ-100"
+                                             title="Электростанция газопоршневая АГ-100">
+                            </a>
                         </div>
                         <div class="row">
                             <div class="desc_cat">
