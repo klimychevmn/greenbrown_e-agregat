@@ -222,6 +222,7 @@ body {color: #000;background: #ffffff;}
     .navmobile {
         display: inline
     }
+    .navmobile .phones{clear:both;text-align: center;color: #990016;font-weight: 600;padding-top: 10px;font-size: 17px}
     .navbarBtn_mob{width: 40px; height: 40px; margin: 3px}
     /*   -----   Catalog row --------  */
     .electro_snipet img {display: none}
@@ -257,7 +258,7 @@ body {color: #000;background: #ffffff;}
 @media (max-width: 400px) {
     .carousel-img {margin-left: -200%; width: 500%;}
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1700px){
     .carousel-img {margin-left: -25%; width: 160%; }
 }
 

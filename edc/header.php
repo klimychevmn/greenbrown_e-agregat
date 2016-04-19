@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Главная страница</title>
 
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
-    
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
-    
-    <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
+
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
     <script src="libs/jquery-2.2.3.min.js"></script>
 
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>

@@ -33,9 +33,9 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a href="#" style="float: right"><img src="img/header.mobile/phone_mob.jpg" alt="Телефон" class="navbarBtn_mob"></a>
                             <a href="#" style="float: right"><img src="img/header.mobile/message_mob.jpg" alt="Сообщение" class="navbar_img navbarBtn_mob"></a>
-                        </div>
+                        </div >
+                        <div class="phones">+7 (4852) 98-99-95, 8-903-827-24-73</div>
                     </div>
 
                     <div class="navbar-collapse collapse">
