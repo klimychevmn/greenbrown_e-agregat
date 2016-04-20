@@ -2,18 +2,20 @@
 ================================================== -->
 <body>
 <div id="wrapper">
-    <div class="content logo_baner"><!--LOGO-->
-        <div class="row ">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <img src="img/logo.jpg" alt="">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <input type="text" class="form-control" placeholder="Поиск">
-                <span class="pull-right glyphicon glyphicon-search"></span>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <span class="pull-left glyphicon glyphicon-phone"></span>
-                <div class="logo-phone"><span style="color: #91c459;">+7 (48533) </span>70-80-6</div>
+    <div style="background-color: #FFFFFF;">
+        <div class="content logo_head" ><!--LOGO-->
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img src="img/logo.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <input type="text" class="form-control" placeholder="Поиск">
+                    <span class="pull-right glyphicon glyphicon-search"></span>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <span class="pull-left glyphicon glyphicon-phone"></span>
+                    <div class="logo-phone"><span style="color: #91c459;">+7 (48533) </span>70-80-6</div>
+                </div>
             </div>
         </div>
     </div><!--END-->
