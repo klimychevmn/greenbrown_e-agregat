@@ -77,25 +77,25 @@
                     <div class="item_right_row">
                         <div class="offer-title">ПОХОЖИЕ ПРЕДЛОЖЕНИЯ</div>
                         <div class="offer-item">
-                            <a>
+                            <a href="#">
                                 <span>СМЖ652 </span> Для резки круга, уголка, полосы, швуллера,
                                 пробивки отверстий
                             </a>
                         </div>
                         <div class="offer-item">
-                            <a>
+                            <a href="#">
                                 <span>СМЖ652 </span> Для резки круга, уголка, полосы, швуллера,
                                 пробивки отверстий
                             </a>
                         </div>
                         <div class="offer-item">
-                            <a>
+                            <a href="#">
                                 <span>СМЖ652 </span> Для резки круга, уголка, полосы, швуллера,
                                 пробивки отверстий
                             </a>
                         </div>
                         <div class="offer-item">
-                            <a>
+                            <a href="#">
                                 <span>СМЖ652 </span> Для резки круга, уголка, полосы, швуллера,
                                 пробивки отверстий
                             </a>
@@ -139,8 +139,4 @@
         </div>
     </div>
 
-
-    <script>
-
-    </script>
 <?php require('footer.php'); ?>

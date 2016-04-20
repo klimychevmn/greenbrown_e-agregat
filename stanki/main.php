@@ -24,19 +24,19 @@
 
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
-                        <a href="catalog.php">
+                        <a href="group-catalog.php">
                             <img src="img/catalog_img/catalog1.jpg" alt="" >
                             <div>ОБОРУДОВАНИЕ ДЛЯ ГИБКИ ЛИСТОВОГО МЕТАЛЛА</div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
-                        <a href="catalog.php">
+                        <a href="group-catalog.php">
                             <img src="img/catalog_img/catalog6.jpg" alt="" >
                             <div>ОБОРУДОВАНИЕ ДЛЯ РАСКРОЯ ЛИСТОВОГО МЕТАЛЛА</div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
-                        <a href="catalog.php">
+                        <a href="group-catalog.php">
                             <img src="img/catalog_img/catalog5.jpg" alt="" >
                             <div>ОБОРУДОВАНИЕ ДЛЯ ВЫПОЛНЕНИЯ КУЗНЕЧНЫХ РАБОТ</div>
                         </a>
@@ -45,40 +45,40 @@
 
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
-                        <a href="catalog.php">
+                        <a href="#">
                             <img src="img/catalog_img/catalog4.jpg" alt="" >
                             <div>ОБОРУДОВАНИЕ ДЛЯ ХОЛОДНОЙ ШТАМПОВКИ ЛИСТОВОГО МЕТАЛЛА</div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
-                        <a href="catalog.php">
+                        <a href="#">
                             <img src="img/catalog_img/catalog3.jpg" alt="" >
                             <div>ОБОРУДОВАНИЕ ДЛЯ ЛИСТОВОГО И ПРОФИЛЬНОГО РАСКРОЯ МЕТАЛЛА</div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
-                        <a href="catalog.php">
+                        <a href="#">
                             <img src="img/catalog_img/catalog2.jpg" alt="" >
                             <div>ИЗГОТОВЛЕНИЕ ПРОФНАСТИЛА МЕТАЛЛОЧЕРЕПИЦЫ И СЕТКИ ЦВПС</div>
                         </a>
                     </div>
                 </div>
-<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
-                        <a href="catalog.php">
+                        <a href="#">
                             <img src="img/catalog_img/catalog2.jpg" alt="" >
                             <div>ИЗГОТОВЛЕНИЕ НОЖЕЙ ДЛЯ НОЖНИЦ ГИЛЬОТИННЫХ. НОЖИ И ПУАНСОН МАТРИЦЫ ДЛЯ ПРЕСС НОЖНИЦ</div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
-                        <a href="catalog.php">
+                        <a href="#">
                             <img src="img/catalog_img/catalog2.jpg" alt="" >
                             <div>ИЗГОТОВЛЕНИЕ ЗАПАСНЫХ ЧАСТЕЙ К КПО И МЕТАЛЛОРЕЖУЩЕМУ ОБОРУДОВАНИЮ</div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
-                        <a href="catalog.php">
+                        <a href="#">
                             <img src="img/catalog_img/catalog2.jpg" alt="" >
                             <div>ОБОРУДОВАНИЕ ДЛЯ ПРЕССОВАНИЯ ПЛАСТМАСС И ВЫПОЛНЕНИЯ ПРАВИЛЬНО ЗАПРЕССОВОЧНЫХ РАБОТ</div>
                         </a>
@@ -87,13 +87,13 @@
 
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
-                        <a href="catalog.php">
+                        <a href="#">
                             <img src="img/catalog_img/catalog2.jpg" alt="" >
                             <div>ЛАЗЕРНАЯ РЕЗКА И МАРКИРОВКА</div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
-                        <a href="catalog.php">
+                        <a href="#">
                             <img src="img/catalog_img/catalog2.jpg" alt="" >
                             <div>ТРУБОГИБЫ ДОРНОВЫЕ ДЛЯ ГИБКИ ТРУБ ДИАМЕТРОМ 25-160 ММ</div>
                         </a>
