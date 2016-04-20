@@ -47,7 +47,7 @@
                         <ul class="nav navbar-nav">
                             <li><a href="main.php">ГЛАВНАЯ</a></li>
                             <li><a href="#">ЭЛЕКТРОСТАНЦИЯ 3D МОДЕЛЬ</a></li>
-                            <li><a href="#">ПРОДУКЦИЯ</a></li>
+                            <li><a href="catalog.php">ПРОДУКЦИЯ</a></li>
                             <li><a href="#">ДВИГАТЕЛИ И ЗАПЧАСТИ ЯМЗ, ТМЗ И ММЗ</a></li>
                             <li><a href="#">КОНТАКТЫ</a></li>
                         </ul>
