@@ -3,12 +3,12 @@
     require('navigate.php');
 ?>
 
-    <div class="baner">
-        <img src="img/baner.jpg" alt="Банер">
-        <div class="content baner_text">
+    <div class="main_img">
+        <img src="img/main_img.jpg" alt="Главное изображение">
+        <div class="content main_img_text">
             <h2>ПРОИЗВОДСТВО КУЗНЕЧНО-ПРЕССОВОГО <br>
                 МЕТАЛЛОРЕЖУЩЕГО ОБОРУДОВАНИЯ</h2>
-            <div class="baner_text_content">Машиностроительное Предприятие
+            <div class="main_img_text_content">Машиностроительное Предприятие
                 ПромСтройМаш это современный многопрофильный машиностроительный
                 завод Оренбургской области.Основная продукция КПО, станки, средства механизации.<br>
                 <br>

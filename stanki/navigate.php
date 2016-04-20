@@ -13,7 +13,7 @@
         </div>
     </div><!--END-->
 
-    <div class="content logo_baner"><!--LOGO-->
+    <div class="content logo_head"><!--LOGO-->
         <div class="row my_row">
             <div class="col-lg-3 col-md-2 col-sm-3 col-xs-12">
                 <img src="img/logo1.jpg" alt="">
