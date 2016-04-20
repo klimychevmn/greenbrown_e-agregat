@@ -100,13 +100,13 @@ body {color: #000;background-color: #ffffff;}
 /*   -----   ITEM-MAIN --------  */
 .item_main{margin: 20px auto;}
 .item-title{font-size: 22px; font-weight: 600;}
-.item-param-title{font-size: 20px; font-weight: 600;width: 100%;}
+.item-param-title{font-size: 20px; font-weight: 600;width: 100%; margin-top: 40px}
 .item-param-content .table tr td:last-child{font-weight: 600}
 
 /*   -----   ITEM-CAROUSEL --------  */
 .carousel-caption {z-index: 10;}
 .carousel .item {height: 400px;}
-.carousel-inner > .item > img {position: absolute;padding: 10%}
+.carousel-inner > .item > img {position: absolute;padding:50px}
 .carousel-control.left, .carousel-control.right {background-image: none;background-repeat: repeat-x;top:35%}
 
 
@@ -269,4 +269,7 @@ body {color: #000;background-color: #ffffff;}
     .content {margin-left: 15%; width: 70%}
     .main_img_text{margin-bottom: 100px}
     .foot img{width: 60%}
+}
+@media (min-width: 1680px) and (max-width: 2000px){
+    .carousel-inner > .item > img{padding: 10px 50px }
 }
