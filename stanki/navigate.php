@@ -68,8 +68,7 @@
     <div class="navbar-wrapper" style="clear: both"><!--NAVBAR-->
         <div class="content">
             <div class="navbar navbar-inverse">
-                <div class="container">
-                    
+
                     <div class="navbar-header navmobile">
                         <div style="float: left;">
                            <div style="font-size: 10px">Звонок по России бесплатно</div>
@@ -104,7 +103,6 @@
                         </ul>
                     </div>
 
-                </div>
             </div>
 
         </div>

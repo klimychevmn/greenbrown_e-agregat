@@ -23,7 +23,7 @@ body {color: #000;background-color: #ffffff;}
 
 .navbar-inverse .navbar-nav > li > a {color: #FFFFFF;font-size: 14px;}
 .navbar-nav {margin: 0 auto;}
-.navbar-inverse { background: none;margin-bottom: 0px;border: none}
+.navbar-inverse { background: none;margin-bottom: 0px;border: none;margin-left: 50px;}
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {color: #000000;background-color: #d9251d;}
 
 .mobile_logo{display: none}
