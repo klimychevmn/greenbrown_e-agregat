@@ -110,14 +110,39 @@
                         </p>
                     </div>
             </div>
-            <!-- <?php /*require('template-table-catalog.php'); */ ?>
-                <?php /*require('template-table-catalog.php'); */ ?>
-               --> <!-- START  TEST VERSION OF TABLE -->
-            <div class="col-lg-2" style="border: 1px solid #000000;background-color: #4cae4c;padding: 0px">1</div>
-            <div class="col-lg-2" style="border: 1px solid #000000;background-color: #4cae4c;padding: 0px">2</div>
-            <div class="col-lg-2" style="border: 1px solid #cccccc;background-color: #2aabd2;padding: 0px">3</div>
-            <div class="col-lg-2" style="border: 1px solid #cccccc;background-color: #2aabd2;padding: 0px">3</div>
-            <div class="col-lg-4" style="border: 1px solid #cccccc;background-color: #2aabd2;padding: 0px">3</div>
+            <!-- START TEST VERSION OF TABLE -->
+            <div class="catalog-table-item" style="display: table;width: 100%">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12" style="border: 1px solid #000000;background-color: #4cae4c;padding: 0px">
+                    <div ><img src="img/catalog-item.jpg" alt="" style="width: 100%"></div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12" style="height:50px;border: 1px solid #000000;background-color: #4cae4c;padding: 0px">
+                    <div style="display:table-cell;vertical-align:middle;margin:auto;">2</div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12" style="height:50px;border: 1px solid #cccccc;background-color: #2aabd2;padding: 0px">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6" style="border: 1px solid #cccccc;background-color: red;padding: 0px">
+                        <div style="display:table-cell;vertical-align:middle;margin:auto;">31</div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6" style="border: 1px solid #cccccc;background-color: red;padding: 0px">
+                        <div style="display:table-cell;vertical-align:middle;margin:auto;">32</div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12" style="height:50px;border: 1px solid #cccccc;background-color: #2aabd2;padding: 0px">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6" style="border: 1px solid #cccccc;background-color: red;padding: 0px">
+                        <div style="display:table-cell;vertical-align:middle;margin:auto;">41</div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6" style="border: 1px solid #cccccc;background-color: red;padding: 0px">
+                        <div style="display:table-cell;vertical-align:middle;margin:auto;">42</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="height:50px;border: 1px solid #cccccc;background-color: #2aabd2;padding: 0px">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6" style="border: 1px solid #cccccc;background-color: red;padding: 0px">
+                        <div style="display:table-cell;vertical-align:middle;margin:auto;">51</div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6" style="border: 1px solid #cccccc;background-color: red;padding: 0px">
+                        <div style="display:table-cell;vertical-align:middle;margin:auto;">52</div>
+                    </div>
+                </div>
+            </div>
             <!-- END TEST VERSION OF TABLE -->
             <div style="margin-bottom: 100px"></div>
 
