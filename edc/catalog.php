@@ -87,10 +87,10 @@
                 </div>
             </div>
             <div class="catalog-item">
-                    <div class="catalog-title active">ДИЗЕЛЬНЫЙ ГЕНЕРАТОР 30 КВТ
-                        <span class="pull-right cursor">-</span>
+                    <div class="catalog-title">ДИЗЕЛЬНЫЙ ГЕНЕРАТОР 30 КВТ
+                        <span class="pull-right cursor">+</span>
                     </div>
-                    <div class="catalog-content">
+                    <div class="catalog-content hidden">
                         <p>
                             Равным образом сложившаяся структура организации играет важную роль в формировании
                             дальнейших
@@ -122,10 +122,10 @@
             <div style="margin-bottom: 100px"></div>
 
             <div class="catalog-item">
-                <div class="catalog-title">ДИЗЕЛЬНЫЙ ГЕНЕРАТОР 40 КВТ
-                    <span class="pull-right cursor">+</span>
+                <div class="catalog-title active">ДИЗЕЛЬНЫЙ ГЕНЕРАТОР 40 КВТ
+                    <span class="pull-right cursor">-</span>
                 </div>
-                <div class="catalog-content hidden">
+                <div class="catalog-content">
                     <p>
                         Дизельный генератор 50 кВт обладают мощностью 50 кВт и частотой 50 Гц. Эти установки отличаются
                         высоким качеством выробатываемой электроэнергии, легкостью и неприхотливостью в обращении, очень
