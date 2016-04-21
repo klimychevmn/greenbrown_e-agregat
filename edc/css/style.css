@@ -54,16 +54,13 @@ body {color: #000;background: url("../img/background.jpg"); background-size: 100
 
 
 /*   -----   CATALOG-MAIN --------  */
-.panel-group .panel-heading{background-color: #e5e5e5;color: #d9251d;font-size: 15px}
-.panel-group a:hover{text-decoration: none;color: #FFFFFF}
-.panel-group a {text-decoration: none}
-.panel-group .panel-heading.active, .panel-group .panel-heading:focus, .panel-group .panel-heading:hover{background-color: #d9251d;color: #FFFFFF;}
-.panel-group .triangle{margin-top: -5px}
-.panel-body{padding:0;}
-.panel-heading {width: 100%;display: table;position: relative;}
-.panel-heading span {display: table-cell;}
-.panel-heading span:first-child {padding-right: 40px;}
-.panel-heading span.triangle {display: inline-block;vertical-align: middle;position: absolute;top: 50%;right: 10px;margin-top: -0.625em;}
+.catalog-item{margin: 20px -20px;}
+.catalog-item .catalog-title{padding:10px 20px;background-color: #7bba2d; color:#ffffff;font-weight: 600;font-size: 15px}
+.catalog-item .catalog-title .cursor{margin-top:-13px;font-size: 35px}
+.catalog-item .catalog-content{padding: 20px;background-color: #daecc5}
+
+.catalog-content ul{color: #7bba2d;font-size: 20px}
+.catalog-content ul li p{color: #000;font-size: 14px;margin-bottom: 0px}
 
 
 /*   -----   ITEM-MAIN --------  */
@@ -176,6 +173,10 @@ body {color: #000;background: url("../img/background.jpg"); background-size: 100
     .foot .foot_phone{display: none;}
     .foot .foot_title{float: none;}
 
+
+    /*=====CATALOG_MAIN=====*/
+    .catalog-item{margin:0px}
+    .catalog-content .catalog-text{padding:20px}
 
     /*=====CATALOG_TABLE=====*/
     .col-1, .col-2{width: 100%}
