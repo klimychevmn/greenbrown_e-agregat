@@ -7,25 +7,25 @@ require('navigator.php');
         <div class="catalog" id="catalog">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 catalog_item">
-                    <a href="#1">
+                    <a href="catalog.php#1">
                         <img src="img/catalog/catalog_1.jpg" alt="">
                         <div><p>ГАЗОПРОРШНЕВЫЕ ЭЛЕКТРОСТАНЦИИ</p></div>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 catalog_item">
-                    <a href="#2" class="active">
+                    <a href="catalog.php#2" class="active">
                         <img src="img/catalog/catalog_2.jpg" alt="">
                         <div><p>ДИЗЕЛЬ-ГЕНЕРАТОРЫ</p></div>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 catalog_item">
-                    <a href="#3">
+                    <a href="catalog.php#3">
                         <img src="img/catalog/catalog_3.jpg" alt="">
                         <div><p>ЭНЕРГЕТИЧЕСКИЕ КОМПЛЕКСЫ</p></div>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 catalog_item">
-                    <a href="#4">
+                    <a href="catalog.php#4">
                         <img src="img/catalog/catalog_4.jpg" alt="">
                         <div><p>ЭЛЕКТРОСТНЦИИ В КОНТРЕЙНЕРЕ</p></div>
                     </a>
