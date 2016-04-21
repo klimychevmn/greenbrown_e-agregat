@@ -13,14 +13,18 @@ const TRIANGLE_DOWN = '&#9660;';
 
         function collapseParam(e) {
             e = e || window.event;
-            if ($(e.target).hasClass('active')) {
-                $(e.target).removeClass('active');
-                $(e.target.children).html(TRIANGLE_DOWN);
+            $target = (e.target.nodeName == "SPAN")
+                ? $(e.target.parentNode)
+                : $(e.target);
+
+            if ($target.hasClass('active')) {
+                $target.removeClass('active');
+                $target.find('span.triangle').html(TRIANGLE_DOWN);
                 $('.item-param-content').addClass('hidden');
                 e.preventDefault();
             } else {
-                $(e.target).addClass('active');
-                $(e.target.children).html(TRIANGLE_UP);
+                $target.addClass('active');
+                $target.find('span.triangle').html(TRIANGLE_UP);
                 $('.item-param-content').removeClass('hidden');
                 e.preventDefault();
             }
