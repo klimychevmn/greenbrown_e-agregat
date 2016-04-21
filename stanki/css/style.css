@@ -35,7 +35,7 @@ body {color: #000;background-color: #ffffff;}
 .main_img_text_content{font-size: 15px;margin-top: 30px;width: 80%;margin-left: 10%;}
 
 /*   -----   TAB_PANEL --------  */
-.tab_panel{margin-bottom: 10px;padding:0px}
+.tab_panel{margin-bottom: 10px;padding:0px 20px}
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {background-color: #d9251d;color: #ffffff;text-decoration: none;}
 .nav-tabs.nav-justified>li>a {color: #d9251d;text-decoration: underline;}
 
@@ -102,6 +102,7 @@ body {color: #000;background-color: #ffffff;}
 .item-title{font-size: 22px; font-weight: 600;}
 .item-param-title{font-size: 20px; font-weight: 600;width: 100%; margin-top: 40px}
 .item-param-content .table tr td:last-child{font-weight: 600}
+.tab-item{padding:0px 10px}
 
 /*   -----   ITEM-CAROUSEL --------  */
 .carousel-caption {z-index: 10;}

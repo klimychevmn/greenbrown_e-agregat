@@ -132,7 +132,7 @@
 
             </div>
 
-            <div class="tab_panel row my_row">
+            <div class="tab_panel row my_row tab-item">
                 <?php require('tab-panel.php'); ?>
             </div>
 
