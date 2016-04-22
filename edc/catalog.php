@@ -110,41 +110,33 @@
                         </p>
                     </div>
             </div>
-            <!-- START TEST VERSION OF TABLE -->
-            <div class="catalog-table-item" style="display: table;width: 100%">
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12" style="border: 1px solid #000000;background-color: #4cae4c;padding: 0px">
-                    <div ><img src="img/catalog-item.jpg" alt="" style="width: 100%"></div>
+
+            <?php for($i=0;$i<3;$i++):?>
+                <div class="catalog-table-item">
+
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 cell-1">
+                        <img src="img/catalog-item.jpg" alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 cell-2"><a href="item.php">АД30С-Т400-1Р</a></div>
+
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 cell-3" >
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-1">Мощность,<br>кВт (кВА)</div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-2">30 (37.5)</div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 cell-4">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-1">Дизельный <br> двигатель</div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-2">Д246.1 <br> (ОАО "ММЗ")</div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 cell-5">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-1">Генератор <br> синхронный</div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-2">БГ-30, БГО-30 <br> (ООО "БАРАЧИНСКИЙ ЭМЗ", РОССИЯ)</div>
+                    </div>
+
                 </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12" style="height:50px;border: 1px solid #000000;background-color: #4cae4c;padding: 0px">
-                    <div style="display:table-cell;vertical-align:middle;margin:auto;">2</div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12" style="height:50px;border: 1px solid #cccccc;background-color: #2aabd2;padding: 0px">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6" style="border: 1px solid #cccccc;background-color: red;padding: 0px">
-                        <div style="display:table-cell;vertical-align:middle;margin:auto;">31</div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6" style="border: 1px solid #cccccc;background-color: red;padding: 0px">
-                        <div style="display:table-cell;vertical-align:middle;margin:auto;">32</div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12" style="height:50px;border: 1px solid #cccccc;background-color: #2aabd2;padding: 0px">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6" style="border: 1px solid #cccccc;background-color: red;padding: 0px">
-                        <div style="display:table-cell;vertical-align:middle;margin:auto;">41</div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6" style="border: 1px solid #cccccc;background-color: red;padding: 0px">
-                        <div style="display:table-cell;vertical-align:middle;margin:auto;">42</div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="height:50px;border: 1px solid #cccccc;background-color: #2aabd2;padding: 0px">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6" style="border: 1px solid #cccccc;background-color: red;padding: 0px">
-                        <div style="display:table-cell;vertical-align:middle;margin:auto;">51</div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6" style="border: 1px solid #cccccc;background-color: red;padding: 0px">
-                        <div style="display:table-cell;vertical-align:middle;margin:auto;">52</div>
-                    </div>
-                </div>
-            </div>
-            <!-- END TEST VERSION OF TABLE -->
-            <div style="margin-bottom: 100px"></div>
+            <?php endfor;?>
 
             <div class="catalog-item">
                 <div class="catalog-title active">ДИЗЕЛЬНЫЙ ГЕНЕРАТОР 40 КВТ
@@ -159,7 +151,7 @@
                         использованием двигателей ММЗ.
                     </p>
                     <p>Преимущества: </p>
-                    <ul style="color: #7bba2d;font-size: 20px">
+                    <ul>
                         <li><p>Мобильность</p></li>
                         <li><p>Отечественные генераторы дешевле зарубежных</p></li>
                         <li><p>На русские генераторы легче доставть запчасти и комплектующие</p></li>
@@ -174,6 +166,34 @@
                     </p>
                 </div>
             </div>
+
+            <?php for($i=0;$i<2;$i++):?>
+                <div class="catalog-table-item">
+
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 cell-1">
+                        <img src="img/catalog-item.jpg" alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 cell-2"><a href="item.php">АД30С-Т400-1Р</a></div>
+
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 cell-3" >
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-1">Мощность,<br>кВт (кВА)</div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-2">30 (37.5)</div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 cell-4">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-1">Дизельный <br> двигатель</div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-2">Д246.1 <br> (ОАО "ММЗ")</div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 cell-5">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-1">Генератор <br> синхронный</div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-2">БГ-30, БГО-30 <br> (ООО "БАРАЧИНСКИЙ ЭМЗ", РОССИЯ)</div>
+                    </div>
+
+                </div>
+            <?php endfor;?>
+
         </div>
 
     </div>

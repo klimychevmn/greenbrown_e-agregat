@@ -76,12 +76,17 @@ body {color: #000;background: url("../img/background.jpg"); background-size: 100
 
 
 /*=====CATALOG_TABLE=====*/
-.table .table-bordered{display: table;text-align: center}
-.col-1, .col-2{width: 20%}
-.col-2{background-color: #eeeeee;font-weight: 600;text-decoration: underline;display: table-cell;vertical-align: middle}
-.col-3{width: 15%;background-color: #c9c9c9;display: table-cell;vertical-align: middle}
-.col-4{width: 15%;background-color: #c9c9c9;display: table-cell;vertical-align: middle}
-.col-5{width: 30%;background-color: #c9c9c9;display: table-cell;vertical-align: middle}
+.catalog-table-item{width: 100%;height: 150px;text-align: center;margin-bottom: 10px}
+.cell-1, .cell-2{width:20%;height:150px;border: 1px solid #a4a2a3;padding: 0px}
+.cell-3, .cell-4{width:15%;height:150px;border: 1px solid #a4a2a3;padding: 0px}
+.cell-5 {width:30%;height:150px;border: 1px solid #a4a2a3;padding: 0px}
+
+.cell-1 img{width: 100%}
+.cell-2 {background-color: #eeeeee;font-weight: 600;text-decoration: underline;font-size: 16px}
+.cell-2 a, .cell-2 a:focus, .cell-2 a:hover{color: #2d2f37}
+.cell-2, .cell-3, .cell-4, .cell-5{border-left: none}
+.cell-3 .row-1, .cell-4 .row-1, .cell-5 .row-1 {font-size:15px;height:40%;background-color: #c9c9c9;border-bottom: 1px solid #a4a2a3;color: #2d2f37}
+.cell-3 .row-2, .cell-4 .row-2, .cell-5 .row-2 {font-size:15px;height:60%;background-color: #eeeeee;font-weight: 600;color: #2d2f37}
 
 
 
@@ -135,7 +140,7 @@ body {color: #000;background: url("../img/background.jpg"); background-size: 100
     .main-text{padding:20px}
     .main-text h4{font-size: 20px}
     .main-text p{font-size: 16px}
-    .about-desktop, .main img {display: none}
+    .about-desktop, .main-text img {display: none}
 
 
     /*=====NAVBAR_LOGO=====*/
@@ -152,8 +157,10 @@ body {color: #000;background: url("../img/background.jpg"); background-size: 100
     .catalog-content .catalog-text{padding:20px}
 
     /*=====CATALOG_TABLE=====*/
-    .col-1, .col-2{width: 100%}
-    .col-3, .col-4, .col-5, .table .table-bordered tr:nth-child(2) {display: none}
+    .catalog-table-item{padding: 30px;border-bottom: 2px solid #a4a2a2;height: 600px}
+    .cell-1, .cell-2 {width: 100%;height: auto;border: none}
+    .cell-2{margin-top:20px;background: none;font-size: 18px}
+    .cell-3, .cell-4, .cell-5 {display: none}
 
 
 
@@ -184,3 +191,12 @@ body {color: #000;background: url("../img/background.jpg"); background-size: 100
     .navbar-inverse .navbar-nav > li > a{font-size:11px;padding:15px 5px}
 }
 
+@media (max-width: 600px) {
+    .catalog-table-item{height: 500px}
+}
+@media (max-width: 500px) {
+    .catalog-table-item{height: 400px}
+}
+@media (max-width: 400px) {
+    .catalog-table-item{height: 300px}
+}
