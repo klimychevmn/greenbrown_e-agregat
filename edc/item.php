@@ -74,19 +74,22 @@ require('navigator.php');
                         </div>
 
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 cell-3">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-1">Мощность,<br>кВт (кВА)</div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-2">30 (37.5)</div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-1"><span>Мощность, кВт (кВА)</span>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-2"><span>30 (37.5)</span></div>
                         </div>
 
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 cell-4">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-1">Дизельный <br> двигатель</div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-2">Д246.1 <br> (ОАО "ММЗ")</div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-1"><span>Дизельный  двигатель</span>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-2"><span>Д246.1  (ОАО "ММЗ")</span>
+                            </div>
                         </div>
 
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 cell-5">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-1">Генератор <br> синхронный</div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-2">БГ-30, БГО-30 <br> (ООО
-                                "БАРАЧИНСКИЙ ЭМЗ", РОССИЯ)
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-1"><span>Генератор  синхронный</span>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 row-2"><span>БГ-30, БГО-30  (ООО "БАРАЧИНСКИЙ ЭМЗ", РОССИЯ)</span>
                             </div>
                         </div>
 

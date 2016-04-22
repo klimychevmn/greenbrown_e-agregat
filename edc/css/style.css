@@ -54,6 +54,7 @@ body {color: #000;background: url("../img/background.jpg"); background-size: 100
 
 
 /*   -----   CATALOG-MAIN --------  */
+.catalog-tbl {display: table;}
 .catalog-item{margin: 20px -20px;}
 .catalog-item .catalog-title{padding:10px 20px;background-color: #7bba2d; color:#ffffff;font-weight: 600;font-size: 15px}
 .catalog-item .catalog-title .cursor{margin-top:-13px;font-size: 35px}
@@ -83,10 +84,13 @@ body {color: #000;background: url("../img/background.jpg"); background-size: 100
 
 .cell-1 img{width: 100%}
 .cell-2 {background-color: #eeeeee;font-weight: 600;text-decoration: underline;font-size: 16px}
-.cell-2 a, .cell-2 a:focus, .cell-2 a:hover{color: #2d2f37}
+.catalog-tbl .cell-2 a{line-height: 150px}
+.cell-2 a, .cell-2 a:focus, .cell-2 a:hover{color: #2d2f37;}
 .cell-2, .cell-3, .cell-4, .cell-5{border-left: none}
-.cell-3 .row-1, .cell-4 .row-1, .cell-5 .row-1 {font-size:15px;height:40%;background-color: #c9c9c9;border-bottom: 1px solid #a4a2a3;color: #2d2f37}
-.cell-3 .row-2, .cell-4 .row-2, .cell-5 .row-2 {font-size:15px;height:60%;background-color: #eeeeee;font-weight: 600;color: #2d2f37}
+.cell-3 .row-1, .cell-4 .row-1, .cell-5 .row-1 {font-size:15px;height:40%;background-color: #c9c9c9;border-bottom: 1px solid #a4a2a3;color: #2d2f37;}
+.cell-3 .row-2, .cell-4 .row-2, .cell-5 .row-2 {font-size:13px;height:60%;background-color: #eeeeee;font-weight: 600;color: #2d2f37;}
+.catalog-tbl .row-2 span {display:table-cell; vertical-align: middle;height:90px;width: 100%}
+.catalog-tbl .row-1 span{display:table-cell; vertical-align: middle;height:60px;width: 100%;}
 
 
 
@@ -163,7 +167,7 @@ body {color: #000;background: url("../img/background.jpg"); background-size: 100
     .catalog-tbl .cell-3, .catalog-tbl .cell-4, .catalog-tbl .cell-5 {display: none}
 
     /*=====ITEM_TABLE=====*/
-    .item.catalog-table-item{height: 600px}
+    .item.catalog-table-item{height: 800px}
     .item .cell-2{margin-bottom: 20px}
     .item .cell-3, .item .cell-4, .item .cell-5 {width: 100%;height: 40px;border: none;margin: 5px auto;}
     .item .cell-3 .row-1, .item .cell-4 .row-1, .item .cell-5 .row-1 {width:45%;background: none;border: none;text-align: right;padding: 0px}
@@ -199,10 +203,13 @@ body {color: #000;background: url("../img/background.jpg"); background-size: 100
 
 @media (max-width: 600px) {
     .catalog-table-item{height: 500px}
+    .item.catalog-table-item{height: 700px}
 }
 @media (max-width: 500px) {
     .catalog-table-item{height: 400px}
+    .item.catalog-table-item{height: 600px}
 }
 @media (max-width: 400px) {
     .catalog-table-item{height: 300px}
+    .item.catalog-table-item{height: 500px}
 }
