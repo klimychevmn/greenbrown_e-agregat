@@ -112,7 +112,7 @@
             </div>
 
             <?php for($i=0;$i<3;$i++):?>
-                <div class="catalog-table-item">
+                <div class="catalog-tbl catalog-table-item">
 
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 cell-1">
                         <img src="img/catalog-item.jpg" alt="">
@@ -168,7 +168,7 @@
             </div>
 
             <?php for($i=0;$i<2;$i++):?>
-                <div class="catalog-table-item">
+                <div class="catalog-tbl catalog-table-item">
 
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 cell-1">
                         <img src="img/catalog-item.jpg" alt="">

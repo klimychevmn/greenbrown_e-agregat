@@ -5,8 +5,10 @@ const MINUS = '-';
 function resize() {
     if(document.documentElement.clientWidth < SCREEN_WIDTH) {
         $('#catalog').insertAfter($('#content'));
+        $('.item br').addClass('hidden');
     } else {
         $('#content').insertAfter($('#catalog'));
+        $('.item br').removeClass('hidden');
     }
 }
 if(document.documentElement.clientWidth < SCREEN_WIDTH) {resize();}

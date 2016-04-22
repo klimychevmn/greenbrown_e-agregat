@@ -160,8 +160,14 @@ body {color: #000;background: url("../img/background.jpg"); background-size: 100
     .catalog-table-item{padding: 30px;border-bottom: 2px solid #a4a2a2;height: 600px}
     .cell-1, .cell-2 {width: 100%;height: auto;border: none}
     .cell-2{margin-top:20px;background: none;font-size: 18px}
-    .cell-3, .cell-4, .cell-5 {display: none}
+    .catalog-tbl .cell-3, .catalog-tbl .cell-4, .catalog-tbl .cell-5 {display: none}
 
+    /*=====ITEM_TABLE=====*/
+    .item.catalog-table-item{height: 600px}
+    .item .cell-2{margin-bottom: 20px}
+    .item .cell-3, .item .cell-4, .item .cell-5 {width: 100%;height: 40px;border: none;margin: 5px auto;}
+    .item .cell-3 .row-1, .item .cell-4 .row-1, .item .cell-5 .row-1 {width:45%;background: none;border: none;text-align: right;padding: 0px}
+    .item .cell-3 .row-2, .item .cell-4 .row-2, .item .cell-5 .row-2 {width:55%;background: none;text-align: left;}
 
 
 }
