@@ -1,5 +1,5 @@
 html, body {height: 100%;margin: 0;padding: 0;}
-body {color: #000;background: url("../img/background.jpg"); background-size: 100%}
+body {color: #000;background-image: url("../img/background.jpg"); background-size: 100%;background-position: center;background-attachment: fixed;}
 
 #wrapper {height: auto !important;margin: 0 auto;min-height: 100%;}
 /*   -----   HEADER --------  */

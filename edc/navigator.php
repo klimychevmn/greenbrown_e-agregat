@@ -6,7 +6,7 @@
         <div class="content logo_head" ><!--LOGO-->
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <img src="img/logo.jpg" alt="">
+                    <a href="main.php"><img src="img/logo.jpg" alt=""></a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <input type="text" class="form-control" placeholder="Поиск">
@@ -59,5 +59,5 @@
     </div><!--END-->
 
     <div class="col-xs-12 mobile_logo"><!--MOBILE_LOGO-->
-        <img src="img/logo.jpg" alt="">
+        <a href="main.php"><img src="img/logo.jpg" alt=""></a>
     </div> <!--END-->
