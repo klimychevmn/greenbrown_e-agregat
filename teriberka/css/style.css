@@ -10,7 +10,7 @@ html, body {height: 100%;margin: 0;padding: 0;}
 .navbar-inverse .navbar-nav> li > a:hover, .navbar-inverse .navbar-nav> li > a:focus {color: #2b8383;background-color: #ffffff;}
 
 /*   -----   BLOCK 1 --------  */
-.block1{min-width: 100%}
+.block1{min-width: 100%;}
 .block1 img{width: 100%;z-index: 1;position: relative;}
 .block1 .icons{z-index: 1001;position: relative;}
 .block1 .icons div{width:50px;height: 50px;margin-top: -5%;}
@@ -18,11 +18,15 @@ html, body {height: 100%;margin: 0;padding: 0;}
 .block1 .icons .vk{margin-right: 7%;}
 .block1 .icons .fb{margin-right: 11%;}
 
-/*   -----   BLOCK 1 --------  */
-.block2{min-width: 100%}
-.block2 img{width: 100%}
-.block2 .text{margin-top: -33%;width: 85%;margin-left: 7%}
+/*   -----   BLOCK 2 --------  */
+.block2{min-width: 100%;}
+.block2 img{width: 100%;z-index: 1;position: relative;}
+.block2 .text{width: 85%;margin-left: 7%;z-index: 1;position: relative;}
 
+/*   -----   BLOCK 3 --------  */
+.block3{min-width: 100%;min-height: 2000px}
+.block3 .col-lg-12{padding:20px}
+.block3 .col-lg-12 img{width: 100%}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -32,7 +36,7 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .navbar-inverse, .navbar{padding-right: 30px}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     /*=======NAVBAR======*/
     .navbar-wrapper{background-color: #2b8383}
@@ -44,6 +48,12 @@ html, body {height: 100%;margin: 0;padding: 0;}
     }
     .block2 p{font-size: 10px}
 }
+@media (min-width: 768px) and (max-width: 1600px) {
+    /*=======NAVBAR======*/
+    .navbar-inverse .navbar-nav > li > a{min-height: 50px;font-size:16px;line-height: normal}
+}
+
+
 /* Text for second slide */
 @media (min-width: 768px) and (max-width: 980px){
     .block2 p{font-size: 12px}
