@@ -107,9 +107,11 @@ body {color: #000;background-color: #ffffff;}
 /*   -----   ITEM-CAROUSEL --------  */
 .carousel-caption {z-index: 10;}
 .carousel-indicators{bottom: 0}
-.carousel .item {height: 400px; padding: 11%}
+.carousel .item {height: 500px; padding: 11%;}
 .carousel .item .carousel-caption {color:#000; font-size: 16px;padding-bottom:10px}
-.carousel .item img{height: 100%;width:auto; margin: auto;}
+.carousel .item img{max-height: 98%;max-width:100%;display:inline-block; margin:0 auto; vertical-align: middle;}
+.carousel .item span.img_carousel{height:100%;display: block;text-align: center;}
+.carousel .item .img_carousel:after{display: inline-block;vertical-align: middle;content: "";height: 100%;}
 .carousel-control.left, .carousel-control.right {background-image: none;background-repeat: repeat-x;}
 .carousel-indicators li{border: 1px solid #d9251d}
 .carousel-indicators .active {background-color: #d9251d;}
@@ -234,6 +236,7 @@ body {color: #000;background-color: #ffffff;}
 
     /*   -----   ITEM-CAROUSEL --------  */
     .carousel .item {height: 300px; }
+    .carousel .item span#img_carousel{height: 230px}
 
     /*=====ITEM-RIGHT=====*/
     .offer-title{display: block}
