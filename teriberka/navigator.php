@@ -16,7 +16,7 @@
 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">о проекте</a></li>
+                        <li><a href="#block2">о проекте</a></li>
                         <li><a href="#">фестиваль</a></li>
                         <li><a href="#">транспорт и проживание</a></li>
                         <li><a href="#">принять участие</a></li>
