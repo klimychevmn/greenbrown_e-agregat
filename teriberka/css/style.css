@@ -5,17 +5,23 @@ html, body {height: 100%;margin: 0;padding: 0;}
 .navbar{margin-bottom: 0}
 .navbar-wrapper {position: relative;z-index: 15;background-color: #2b8383;color: #ffffff;}
 
-.navbar-inverse .navbar-nav > li > a {background-color: #2b8383;color: #ffffff;}
-.navbar-inverse, .navbar {border: none;background: none}
+.navbar-inverse .navbar-nav > li > a {background-color: #2b8383;color: #ffffff;min-height: 90px;font-size:24px;line-height: 50px}
+.navbar-inverse, .navbar {border: none;background: #2b8383}
 .navbar-inverse .navbar-nav> li > a:hover, .navbar-inverse .navbar-nav> li > a:focus {color: #2b8383;background-color: #ffffff;}
 
 /*   -----   BLOCK 1 --------  */
 .block1{min-width: 100%}
-.block1 img{width: 100%}
+.block1 img{width: 100%;z-index: 1;position: relative;}
+.block1 .icons{z-index: 1001;position: relative;}
+.block1 .icons div{width:50px;height: 50px;margin-top: -5%;}
+.block1 .icons .inst{margin-right: 4%;}
+.block1 .icons .vk{margin-right: 7%;}
+.block1 .icons .fb{margin-right: 11%;}
 
 /*   -----   BLOCK 1 --------  */
 .block2{min-width: 100%}
 .block2 img{width: 100%}
+.block2 .text{margin-top: -33%;width: 85%;margin-left: 7%}
 
 
 /* RESPONSIVE CSS
@@ -23,17 +29,54 @@ html, body {height: 100%;margin: 0;padding: 0;}
 
 @media (min-width: 768px) {
     .navbar-inverse .navbar-collapse {float: right !important;}
-    .navbar-inverse, .navbar{margin-right: 100px}
+    .navbar-inverse, .navbar{padding-right: 30px}
 }
 
 @media (max-width: 767px) {
 
     /*=======NAVBAR======*/
     .navbar-wrapper{background-color: #2b8383}
+    .navbar-inverse .navbar-nav > li > a{min-height: 50px;font-size:16px;line-height: normal}
 
     .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
         background-color: #2b8383;
         border: none;
     }
+    .block2 p{font-size: 10px}
+}
+/* Text for second slide */
+@media (min-width: 768px) and (max-width: 980px){
+    .block2 p{font-size: 12px}
+}
+@media (min-width: 1280px) and (max-width: 1440px){
+    .block2 p{font-size: 18px}
+}
+@media (min-width: 1440px) and (max-width: 1680px){
+    .block2 p{font-size: 22px}
+}
+@media (min-width: 1680px) and (max-width: 2000px){
+    .block2 p{font-size: 26px}
+}
+@media (max-width: 590px){
+    /* TODO: заглушка! */
+    .block2 p{display: none}
 }
 
+
+/* Icons for first slide */
+@media (min-width: 1500px) and (max-width: 2000px){
+    .block1 .icons div{width:50px;height: 50px}
+}
+@media (min-width: 1000px) and (max-width: 1500px){
+    .block1 .icons div{width:33px;height: 33px}
+}
+@media (min-width: 768px) and (max-width: 1000px){
+    .block1 .icons div{width:27px;height: 27px}
+}
+@media (min-width: 420px) and (max-width: 768px){
+    .block1 .icons div{width:20px;height: 20px}
+}
+@media (max-width: 420px){
+    .block1 .icons div{width:15px;height:15px}
+
+}

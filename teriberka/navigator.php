@@ -3,8 +3,8 @@
 <body>
 <div id="wrapper">
     <div class="navbar-wrapper"><!--NAVBAR-->
-            <div class="navbar navbar-inverse navbar-static-top">
-
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <!--<a href="#" class="navbar-brand" style="font-size: 30px;padding: 30px 50px">ТЕРИБEРКА</a>-->
                 <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse"
                                 data-target=".navbar-collapse">
