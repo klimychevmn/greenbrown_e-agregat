@@ -129,12 +129,14 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .block7 .contacts{font-size: 16px}
     .navbar-inverse .navbar-brand{font-size: 27px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 19px}
+    .contacts h4{font-size: 26px}
 }
 @media (min-width: 1680px) and (max-width: 2000px){
     .block2 .text{font-size: 26px}
     .block7 .contacts{font-size: 18px}
     .navbar-inverse .navbar-brand{font-size: 30px;padding: 30px 50px;}
     .navbar-inverse .navbar-brand span{font-size: 22px}
+    .contacts h4{font-size: 26px}
 }
 @media (max-width: 590px){
     .navbar-inverse .navbar-brand{font-size: 18px;padding: 5px 40px}
