@@ -1,4 +1,4 @@
-<div class="block3" style="background-color: #c4e3db;padding: 100px 50px 50px">
+<div class="block3" id="block3">
     <div class="head_text">
         <p>
             12-14 августа 2016 года проект "Большая Земля" при поддержке кооперативов LavkaLavka (Московская область) и

@@ -4,4 +4,8 @@
     require('block1.php');
     require('block2.php');
     require('block3.php');
+    require('block4.php');
+    require('block5.php');
+    require('block6.php');
+    require('block7.php');
 ?>

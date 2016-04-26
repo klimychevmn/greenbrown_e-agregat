@@ -3,7 +3,7 @@ html, body {height: 100%;margin: 0;padding: 0;}
 #wrapper {height: auto !important;margin: 0 auto;min-height: 100%;}
 /*   -----   HEADER --------  */
 .navbar{margin-bottom: 0}
-.navbar-wrapper {position: relative;z-index: 15;background-color: #2b8383;color: #ffffff;}
+.navbar-wrapper {position: relative;z-index: 1500;background-color: #2b8383;color: #ffffff;}
 
 .navbar-inverse .navbar-nav > li > a {background-color: #2b8383;color: #ffffff;min-height: 90px;font-size:24px;line-height: 50px}
 .navbar-inverse, .navbar {border: none;background: #2b8383}
@@ -19,14 +19,38 @@ html, body {height: 100%;margin: 0;padding: 0;}
 .block1 .icons .fb{margin-right: 11%;}
 
 /*   -----   BLOCK 2 --------  */
-.block2{min-width: 100%;}
-.block2 img{width: 100%;z-index: 1;position: relative;}
-.block2 .text{width: 85%;margin-left: 7%;z-index: 1;position: relative;}
+.block2{min-width: 100%;position: relative;}
+.block2 img{width: 100%;}
+.block2 .text{width: 85%;margin-left: 7%;top:30%;position: absolute;z-index:1001;}
 
 /*   -----   BLOCK 3 --------  */
-.block3{min-width: 100%;min-height: 2000px}
+.block3{min-width: 100%;min-height: 2000px;background-color: #c4e3db;padding: 50px}
 .block3 .col-lg-12{padding:20px}
 .block3 .col-lg-12 img{width: 100%}
+.block3 p{font-size: 16px}
+.block3 h3{margin-top: 0}
+
+
+/*   -----   BLOCK 4 --------  */
+.block4{min-width: 100%;min-height: 2000px;background-color: #fce0e2;padding: 50px}
+.block4 h3, .block4 h4 {font-weight: 600}
+.block4 p {font-size: 20px}
+
+/*   -----   BLOCK 5 --------  */
+.block5{min-width: 100%;position: relative;}
+.block5 img{width: 100%;}
+.content{width: 90%;margin-left:5%;top:10%;position: absolute;z-index:1001;}
+
+/*   -----   BLOCK 6 --------  */
+.block6{min-width: 100%;}
+.block6 img{width: 100%;}
+
+/*   -----   BLOCK 7 --------  */
+.block7{min-width: 100%;position: relative;}
+.block7 img{width: 100%;}
+.contacts{width: 90%;margin-left:5%;top:10%;position: absolute;z-index:1001;color: #ffffff}
+.contacts a{text-decoration: none; color: #ffffff;}
+.contacts a:focus, .contacts a:hover{text-decoration: underline;}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -55,23 +79,25 @@ html, body {height: 100%;margin: 0;padding: 0;}
 
 
 /* Text for second slide */
+@media (min-width: 590px) and (max-width: 768px){
+    .block2 .text{font-size: 10px}
+}
 @media (min-width: 768px) and (max-width: 980px){
-    .block2 p{font-size: 12px}
+    .block2 .text{font-size: 12px}
 }
 @media (min-width: 1280px) and (max-width: 1440px){
-    .block2 p{font-size: 18px}
+    .block2 .text{font-size: 16px}
 }
 @media (min-width: 1440px) and (max-width: 1680px){
-    .block2 p{font-size: 22px}
+    .block2 .text{font-size: 22px}
 }
 @media (min-width: 1680px) and (max-width: 2000px){
-    .block2 p{font-size: 26px}
+    .block2 .text{font-size: 26px}
 }
 @media (max-width: 590px){
     /* TODO: заглушка! */
-    .block2 p{display: none}
+    .block2 .text{display: none}
 }
-
 
 /* Icons for first slide */
 @media (min-width: 1500px) and (max-width: 2000px){
@@ -88,5 +114,4 @@ html, body {height: 100%;margin: 0;padding: 0;}
 }
 @media (max-width: 420px){
     .block1 .icons div{width:15px;height:15px}
-
 }
