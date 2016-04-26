@@ -27,11 +27,11 @@ html, body {height: 100%;margin: 0;padding: 0;}
 .block2 .text{width: 85%;margin-left: 7%;top:30%;position: absolute;z-index:1001;}
 
 /*   -----   FESTIVAL --------  */
-.block3{min-width: 100%;background-color: #c4e3db;padding: 50px}
-.block3 .col-lg-12{padding:20px}
-.block3 .col-lg-12 img{width: 100%}
-.block3 p{font-size: 16px}
-.block3 h3{margin-top: 0}
+.festival{min-width: 100%;background-color: #c4e3db;padding: 50px}
+.festival .col-lg-12{padding:20px}
+.festival .col-lg-12 img{width: 100%}
+.festival p{font-size: 16px}
+.festival h3{margin-top: 0}
 
 
 /*   -----   TRANSPORT&LIVING --------  */
@@ -147,8 +147,8 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .block5 input{min-height: 20px}
     .block5 textarea{min-height: 40px}
     .block5 .btn{height: 25px;width: 100px;padding: 0px}
-    .block3, .block4{padding: 15px}
-    .block3 p, .block4 p{font-size: 14px}
+    .festival, .block4{padding: 15px}
+    .festival p, .block4 p{font-size: 14px}
     .contacts h4{font-size: 12px;margin-top: -5px}
     .block7 .contacts{font-size: 8px}
     .block2 .text{font-size: 9px}
