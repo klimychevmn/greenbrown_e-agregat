@@ -101,6 +101,6 @@
             <a href="#">Подробнее</a>
         </div>
     </div>
-
+    <div style="clear: both"></div>
 
 </div>

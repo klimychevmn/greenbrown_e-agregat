@@ -8,49 +8,57 @@ html, body {height: 100%;margin: 0;padding: 0;}
 .navbar-inverse .navbar-nav > li > a {background-color: #2b8383;color: #ffffff;min-height: 90px;font-size:24px;line-height: 50px}
 .navbar-inverse, .navbar {border: none;background: #2b8383}
 .navbar-inverse .navbar-nav> li > a:hover, .navbar-inverse .navbar-nav> li > a:focus {color: #2b8383;background-color: #ffffff;}
+.navbar-inverse .navbar-brand{font-size: 30px;padding: 30px 50px;color: #ffffff; font-weight: 600}
+.navbar-inverse .navbar-brand span{font-size: 22px;font-weight: 400;padding:5px;letter-spacing:5px}
 
-/*   -----   BLOCK 1 --------  */
+
+/*   -----   HEAD IMG --------  */
 .block1{min-width: 100%;}
 .block1 img{width: 100%;z-index: 1;position: relative;}
-.block1 .icons{z-index: 1001;position: relative;}
-.block1 .icons div{width:50px;height: 50px;margin-top: -5%;}
-.block1 .icons .inst{margin-right: 4%;}
-.block1 .icons .vk{margin-right: 7%;}
-.block1 .icons .fb{margin-right: 11%;}
+.block1 .icons-head{z-index: 1001;position: relative;}
+.block1 .icons-head div{width:50px;height: 50px;margin-top: -5%;}
+.block1 .icons-head .inst{margin-right: 4%;}
+.block1 .icons-head .vk{margin-right: 7%;}
+.block1 .icons-head .fb{margin-right: 11%;}
 
-/*   -----   BLOCK 2 --------  */
+/*   -----   ABOUT --------  */
 .block2{min-width: 100%;position: relative;}
 .block2 img{width: 100%;}
 .block2 .text{width: 85%;margin-left: 7%;top:30%;position: absolute;z-index:1001;}
 
-/*   -----   BLOCK 3 --------  */
-.block3{min-width: 100%;min-height: 2000px;background-color: #c4e3db;padding: 50px}
+/*   -----   FESTIVAL --------  */
+.block3{min-width: 100%;background-color: #c4e3db;padding: 50px}
 .block3 .col-lg-12{padding:20px}
 .block3 .col-lg-12 img{width: 100%}
 .block3 p{font-size: 16px}
 .block3 h3{margin-top: 0}
 
 
-/*   -----   BLOCK 4 --------  */
-.block4{min-width: 100%;min-height: 2000px;background-color: #fce0e2;padding: 50px}
+/*   -----   TRANSPORT&LIVING --------  */
+.block4{min-width: 100%;background-color: #fce0e2;padding: 50px}
 .block4 h3, .block4 h4 {font-weight: 600}
 .block4 p {font-size: 20px}
 
-/*   -----   BLOCK 5 --------  */
+/*   -----   PARTICIPATE --------  */
 .block5{min-width: 100%;position: relative;}
 .block5 img{width: 100%;}
 .content{width: 90%;margin-left:5%;top:10%;position: absolute;z-index:1001;}
 
-/*   -----   BLOCK 6 --------  */
+/*   -----   CLIENTS --------  */
 .block6{min-width: 100%;}
 .block6 img{width: 100%;}
 
-/*   -----   BLOCK 7 --------  */
+/*   -----  CONTACTS --------  */
 .block7{min-width: 100%;position: relative;}
 .block7 img{width: 100%;}
 .contacts{width: 90%;margin-left:5%;top:10%;position: absolute;z-index:1001;color: #ffffff}
 .contacts a{text-decoration: none; color: #ffffff;}
 .contacts a:focus, .contacts a:hover{text-decoration: underline;}
+.block7 .icons-foot{z-index: 1001;position: relative;}
+.block7 .icons-foot div{width:50px;height: 50px;margin-top: -6%;}
+.block7 .icons-foot .fb{margin-left: 4%;}
+.block7 .icons-foot .vk{margin-left: 8%;}
+.block7 .icons-foot .inst{margin-left: 12%;}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -78,7 +86,7 @@ html, body {height: 100%;margin: 0;padding: 0;}
 }
 
 
-/* Text for second slide */
+/* Text for about slide */
 @media (min-width: 590px) and (max-width: 768px){
     .block2 .text{font-size: 10px}
 }
@@ -99,19 +107,19 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .block2 .text{display: none}
 }
 
-/* Icons for first slide */
+/* Icons for main_img slide */
 @media (min-width: 1500px) and (max-width: 2000px){
-    .block1 .icons div{width:50px;height: 50px}
+    .block1 .icons-head div, .block7 .icons-foot div{width:50px;height: 50px}
 }
 @media (min-width: 1000px) and (max-width: 1500px){
-    .block1 .icons div{width:33px;height: 33px}
+    .block1 .icons-head div, .block7 .icons-foot div{width:33px;height: 33px}
 }
 @media (min-width: 768px) and (max-width: 1000px){
-    .block1 .icons div{width:27px;height: 27px}
+    .block1 .icons-head div, .block7 .icons-foot div{width:27px;height: 27px}
 }
 @media (min-width: 420px) and (max-width: 768px){
-    .block1 .icons div{width:20px;height: 20px}
+    .block1 .icons-head div, .block7 .icons-foot div{width:20px;height: 20px}
 }
 @media (max-width: 420px){
-    .block1 .icons div{width:15px;height:15px}
+    .block1 .icons-head div, .block7 .icons-foot div{width:15px;height:15px}
 }

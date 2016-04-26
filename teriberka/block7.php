@@ -21,4 +21,9 @@
         </p>
 
     </div>
+    <div class="icons-foot">
+        <a href="#fb"><div class="pull-left fb"></div></a>
+        <a href="#vk"><div class="pull-left vk"></div></a>
+        <a href="#inst"><div class="pull-left inst"></div></a>
+    </div>
 </div>
