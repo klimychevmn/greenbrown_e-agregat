@@ -34,13 +34,13 @@
     </div>
 </div>
 
-<div class="block6" id="block6">
+<div class="clients" id="clients">
     <img src="img/clients.jpg" alt="Партнеры">
 </div>
 
-<div class="block7" id="block7" >
+<div class="contacts" id="contacts" >
     <img src="img/contacts.jpg" alt="Контакты">
-    <div class="contacts">
+    <div class="contacts-main">
         <h4>КОНТАКТЫ</h4>
 
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

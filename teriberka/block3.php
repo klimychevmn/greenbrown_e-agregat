@@ -1,4 +1,4 @@
-<div class="block4" id="block4">
+<div class="transport" id="transport">
     <div class="text">
         <h3>КАК ДОБРАТЬСЯ</h3><br>
         <p>Добраться до Териберки общественным транспортом не составляет труда.
