@@ -8,8 +8,8 @@ html, body {height: 100%;margin: 0;padding: 0;}
 .navbar-inverse .navbar-nav > li > a {background-color: #2b8383;color: #ffffff;min-height: 90px;font-size:24px;line-height: 50px}
 .navbar-inverse, .navbar {border: none;background: #2b8383}
 .navbar-inverse .navbar-nav> li > a:hover, .navbar-inverse .navbar-nav> li > a:focus {color: #2b8383;background-color: #ffffff;}
-.navbar-inverse .navbar-brand{padding: 30px 50px;color: #ffffff; font-weight: 600}
-.navbar-inverse .navbar-brand span{font-size: 22px;font-weight: 400;padding:5px;letter-spacing:5px}
+.navbar-inverse .navbar-brand{color: #ffffff; font-weight: 600}
+.navbar-inverse .navbar-brand span{font-weight: 400;padding:5px;letter-spacing:5px}
 
 
 /*   -----   HEAD IMG --------  */
@@ -42,7 +42,12 @@ html, body {height: 100%;margin: 0;padding: 0;}
 /*   -----   PARTICIPATE --------  */
 .block5{min-width: 100%;position: relative;}
 .block5 img{width: 100%;}
-.content{width: 90%;margin-left:5%;top:10%;position: absolute;z-index:1001;}
+.block5 .content{position: absolute;z-index:1001;margin-top: -50%}
+.block5 .title{margin-bottom: 50px;font-size: 24px;font-weight: 600;margin-left: 30px}
+.block5 input {width: 90%;min-height: 40px;margin-bottom: 30px}
+.block5 textarea {width: 90%;min-height: 100px;margin-bottom: 30px}
+.block5 .btn{width: 150px;height: 40px;}
+.block5 .right_text{color: #ffffff}
 
 /*   -----   CLIENTS --------  */
 .block6{min-width: 100%;}
@@ -92,23 +97,32 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .block2 .text, .block7 .contacts{font-size: 10px}
     .navbar-inverse .navbar-brand{font-size: 18px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 7px;}
+    .block5 .title {margin-bottom: 10px;font-size: 16px}
+    .block5 .right_text{font-size: 12px}
+    .block5 input{height:20px;margin-bottom: 5px}
+    .block5 textarea{height: 50px;margin-bottom: 5px}
 }
 @media (min-width: 768px) and (max-width: 980px){
     .block2 .text{font-size: 12px}
     .block7 .contacts{font-size: 10px}
     .navbar-inverse .navbar-brand{font-size: 19px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 10px;}
+    .block5 .title {margin-bottom: 20px}
+    .block5 .right_text{font-size: 15px;margin-top: -20px}
 }
 @media (min-width: 980px) and (max-width: 1280px){
     .block2 .text, .block7 .contacts{font-size: 12px}
     .navbar-inverse .navbar-brand{font-size: 21px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 13px;}
+    .block5 .title {margin-bottom: 20px}
+    .block5 .right_text{font-size: 18px}
 }
 @media (min-width: 1280px) and (max-width: 1440px){
     .block2 .text{font-size: 16px}
     .block7 .contacts{font-size: 14px}
     .navbar-inverse .navbar-brand{font-size: 24px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 16px}
+    .block5 .right_text{font-size: 18px}
 }
 @media (min-width: 1440px) and (max-width: 1680px){
     .block2 .text{font-size: 22px}
@@ -119,15 +133,19 @@ html, body {height: 100%;margin: 0;padding: 0;}
 @media (min-width: 1680px) and (max-width: 2000px){
     .block2 .text{font-size: 26px}
     .block7 .contacts{font-size: 18px}
-    .navbar-inverse .navbar-brand{font-size: 30px}
+    .navbar-inverse .navbar-brand{font-size: 30px;padding: 30px 50px;}
     .navbar-inverse .navbar-brand span{font-size: 22px}
 }
 @media (max-width: 590px){
     .navbar-inverse .navbar-brand{font-size: 18px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 7px;}
+    .block5 .title, .block5 input, .block5 textarea {margin-bottom: 5px}
+    .block3{padding: 15px}
+    .block3 p, .block4 p{font-size: 14px}
     /* TODO: заглушка! */
     .block2 .text{display: none}
     .block7 .contacts{display: none}
+    .block5 .right_text{display: none}
 }
 
 /* Icons for main_img slide */
