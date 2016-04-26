@@ -13,18 +13,18 @@ html, body {height: 100%;margin: 0;padding: 0;}
 
 
 /*   -----   HEAD IMG --------  */
-.block1{min-width: 100%;}
-.block1 img{width: 100%;z-index: 1;position: relative;}
-.block1 .icons-head{z-index: 1001;position: relative;}
-.block1 .icons-head div{width:50px;height: 50px;margin-top: -5%;}
-.block1 .icons-head .inst{margin-right: 4%;}
-.block1 .icons-head .vk{margin-right: 7%;}
-.block1 .icons-head .fb{margin-right: 11%;}
+.main_img{min-width: 100%;}
+.main_img img{width: 100%;z-index: 1;position: relative;}
+.main_img .icons-head{z-index: 1001;position: relative;}
+.main_img .icons-head div{width:50px;height: 50px;margin-top: -5%;}
+.main_img .icons-head .inst{margin-right: 4%;}
+.main_img .icons-head .vk{margin-right: 7%;}
+.main_img .icons-head .fb{margin-right: 11%;}
 
 /*   -----   ABOUT --------  */
-.block2{min-width: 100%;position: relative;overflow: hidden}
-.block2 img{width: 100%;}
-.block2 .text{width: 85%;margin-left: 7%;top:30%;position: absolute;z-index:1001;}
+.about{min-width: 100%;position: relative;overflow: hidden}
+.about img{width: 100%;}
+.about .text{width: 85%;margin-left: 7%;top:30%;position: absolute;z-index:1001;}
 
 /*   -----   FESTIVAL --------  */
 .festival{min-width: 100%;background-color: #c4e3db;padding: 50px}
@@ -40,9 +40,10 @@ html, body {height: 100%;margin: 0;padding: 0;}
 .block4 p {font-size: 20px}
 
 /*   -----   PARTICIPATE --------  */
-.block5{min-width: 100%;position: relative;overflow: hidden}
-.block5 img{width: 100%;}
-.block5 .content{position: absolute;z-index:1001;margin-top: -52%}
+.block5{min-width: 100%;position: relative;overflow: hidden;background-color: #0068ac}
+.block5 img{width: 100%;bottom: 0;position: absolute;}
+.block5 .part_st{display: none;}
+.block5 .content{/*position: absolute;z-index:1001;margin-top: -52%*/}
 .block5 .title{margin-bottom: 50px;font-size: 24px;font-weight: 600;margin-left: 30px}
 .block5 input {width: 90%;min-height: 40px;margin-bottom: 30px}
 .block5 textarea {width: 90%;min-height: 100px;margin-bottom: 30px}
@@ -84,7 +85,7 @@ html, body {height: 100%;margin: 0;padding: 0;}
         background-color: #2b8383;
         border: none;
     }
-    .block2 p{font-size: 10px}
+    .about p{font-size: 10px}
 }
 @media (min-width: 768px) and (max-width: 1600px) {
     /*=======NAVBAR======*/
@@ -94,7 +95,7 @@ html, body {height: 100%;margin: 0;padding: 0;}
 
 /* Text for about slide */
 @media (min-width: 590px) and (max-width: 768px){
-    .block2 .text, .block7 .contacts{font-size: 10px}
+    .about .text, .block7 .contacts{font-size: 10px}
     .navbar-inverse .navbar-brand{font-size: 18px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 7px;}
     .block5 .title {margin-bottom: 5px;font-size: 14px}
@@ -103,7 +104,7 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .block5 textarea{height: 50px;margin-bottom: 5px}
 }
 @media (min-width: 768px) and (max-width: 980px){
-    .block2 .text{font-size: 12px}
+    .about .text{font-size: 12px}
     .block7 .contacts{font-size: 10px}
     .navbar-inverse .navbar-brand{font-size: 19px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 10px;}
@@ -111,21 +112,21 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .block5 .right_text{font-size: 15px;margin-top: -20px}
 }
 @media (min-width: 980px) and (max-width: 1280px){
-    .block2 .text, .block7 .contacts{font-size: 12px}
+    .about .text, .block7 .contacts{font-size: 12px}
     .navbar-inverse .navbar-brand{font-size: 21px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 13px;}
     .block5 .title {margin-bottom: 20px}
     .block5 .right_text{font-size: 18px}
 }
 @media (min-width: 1280px) and (max-width: 1440px){
-    .block2 .text{font-size: 16px}
+    .about .text{font-size: 16px}
     .block7 .contacts{font-size: 14px}
     .navbar-inverse .navbar-brand{font-size: 24px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 16px}
     .block5 .right_text{font-size: 18px}
 }
 @media (min-width: 1440px) and (max-width: 1680px){
-    .block2 .text{font-size: 22px}
+    .about .text{font-size: 22px}
     .block7 .contacts{font-size: 16px}
     .navbar-inverse .navbar-brand{font-size: 27px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 19px}
@@ -133,7 +134,7 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .block5 .right_text{font-size: 24px}
 }
 @media (min-width: 1680px) and (max-width: 2000px){
-    .block2 .text{font-size: 26px}
+    .about .text{font-size: 26px}
     .block7 .contacts{font-size: 18px}
     .navbar-inverse .navbar-brand{font-size: 30px;padding: 30px 50px;}
     .navbar-inverse .navbar-brand span{font-size: 22px}
@@ -153,22 +154,32 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .festival p, .block4 p{font-size: 14px}
     .contacts h4{font-size: 12px;margin-top: -5px}
     .block7 .contacts{font-size: 8px}
-    .block2 .text{font-size: 9px}
+    .about .text{font-size: 9px}
 }
+
+@media (max-width: 836px) {
+    .block5 .title{color: yellow}
+    .block5{padding: 10px 0 10px}
+}
+@media (max-width: 450px){
+    .block7{background-color: #585d66}
+    .block7 img{margin-top: 60px}
+}
+
 
 /* Icons for main_img slide */
 @media (min-width: 1500px) and (max-width: 2000px){
-    .block1 .icons-head div, .block7 .icons-foot div{width:50px;height: 50px}
+    .main_img .icons-head div, .block7 .icons-foot div{width:50px;height: 50px}
 }
 @media (min-width: 1000px) and (max-width: 1500px){
-    .block1 .icons-head div, .block7 .icons-foot div{width:33px;height: 33px}
+    .main_img .icons-head div, .block7 .icons-foot div{width:33px;height: 33px}
 }
 @media (min-width: 768px) and (max-width: 1000px){
-    .block1 .icons-head div, .block7 .icons-foot div{width:27px;height: 27px}
+    .main_img .icons-head div, .block7 .icons-foot div{width:27px;height: 27px}
 }
 @media (min-width: 420px) and (max-width: 768px){
-    .block1 .icons-head div, .block7 .icons-foot div{width:20px;height: 20px}
+    .main_img .icons-head div, .block7 .icons-foot div{width:20px;height: 20px}
 }
 @media (max-width: 420px){
-    .block1 .icons-head div, .block7 .icons-foot div{width:15px;height:15px}
+    .main_img .icons-head div, .block7 .icons-foot div{width:15px;height:15px}
 }

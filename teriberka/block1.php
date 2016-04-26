@@ -1,4 +1,4 @@
-<div class="block1" id="block1">
+<div class="main_img" id="main_img">
     <img src="img/main_page.jpg" alt="Териберка" >
     <div class="icons-head">
         <a href="#inst"><div class="pull-right inst"></div></a>
@@ -6,7 +6,7 @@
         <a href="#fb"><div class="pull-right fb"></div></a>
     </div>
 </div>
-<div class="block2" id="block2">
+<div class="about" id="about">
     <img src="img/main_page_2.jpg" alt="Триберка_2">
     <div class="text">
 

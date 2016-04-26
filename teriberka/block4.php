@@ -5,7 +5,7 @@
             <div class="title">ПРИНЯТЬ УЧАСТИЕ</div>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-5">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <input type="text" placeholder="ФИО">
                 </div>
@@ -19,7 +19,7 @@
                     <input type="submit" class="btn btn-primary" >
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-7">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <span class="right_text">
                     Организаторы и участники фестиваля не зарабатывают на продаже билетов и предоставлении услуг;
                     приглашенные организации, спикеры, повара, туроператоры и артисты не получают гонораров за счет
@@ -38,7 +38,7 @@
     <img src="img/clients.jpg" alt="Партнеры">
 </div>
 
-<div class="block7" id="block7">
+<div class="block7" id="block7" >
     <img src="img/contacts.jpg" alt="Контакты">
     <div class="contacts">
         <h4>КОНТАКТЫ</h4>
