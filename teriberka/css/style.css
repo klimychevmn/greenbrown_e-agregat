@@ -40,15 +40,14 @@ html, body {height: 100%;margin: 0;padding: 0;}
 .transport p {font-size: 20px}
 
 /*   -----   PARTICIPATE --------  */
-.block5{min-width: 100%;position: relative;overflow: hidden;background-color: #0068ac}
-.block5 img{width: 100%;bottom: 0;position: absolute;}
-.block5 .part_st{display: none;}
-.block5 .content{/*position: absolute;z-index:1001;margin-top: -52%*/}
-.block5 .title{margin-bottom: 50px;font-size: 24px;font-weight: 600;margin-left: 30px}
-.block5 input {width: 90%;min-height: 40px;margin-bottom: 30px}
-.block5 textarea {width: 90%;min-height: 100px;margin-bottom: 30px}
-.block5 .btn{width: 150px;height: 40px;}
-.block5 .right_text{color: #ffffff}
+.participate{min-width: 100%;position: relative;overflow: hidden;background-color: #0068ac}
+.participate img{width: 100%;bottom: 0;position: absolute;}
+.participate .part_st{display: none;}
+.participate .title{margin-bottom: 50px;font-size: 24px;font-weight: 600;margin-left: 30px}
+.participate input {width: 90%;min-height: 40px;margin-bottom: 30px}
+.participate textarea {width: 90%;min-height: 100px;margin-bottom: 30px}
+.participate .btn{width: 150px;height: 40px;}
+.participate .part_text{color: #ffffff}
 
 /*   -----   CLIENTS --------  */
 .clients{min-width: 100%;}
@@ -75,6 +74,10 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .navbar-inverse, .navbar{padding-right: 30px}
 }
 
+@media (min-width: 850px){
+    .participate img{position: relative;}
+    .participate .content{position: absolute;z-index:1001;margin-top: -52%}
+}
 @media (max-width: 768px) {
 
     /*=======NAVBAR======*/
@@ -98,32 +101,32 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .about .text, .contacts .contacts-main{font-size: 10px}
     .navbar-inverse .navbar-brand{font-size: 18px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 7px;}
-    .block5 .title {margin-bottom: 5px;font-size: 14px}
-    .block5 .right_text{font-size: 11px}
-    .block5 input{height:20px;margin-bottom: 5px}
-    .block5 textarea{height: 50px;margin-bottom: 5px}
+    .participate .title {margin-bottom: 5px;font-size: 14px}
+    .participate .part_text{font-size: 11px}
+    .participate input{height:20px;margin-bottom: 5px}
+    .participate textarea{height: 50px;margin-bottom: 5px}
 }
 @media (min-width: 768px) and (max-width: 980px){
     .about .text{font-size: 12px}
     .contacts .contacts-main{font-size: 10px}
     .navbar-inverse .navbar-brand{font-size: 19px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 10px;}
-    .block5 .title {margin-bottom: 20px}
-    .block5 .right_text{font-size: 15px;margin-top: -20px}
+    .participate .title {margin-bottom: 20px}
+    .participate .part_text{font-size: 15px;margin-top: -20px}
 }
 @media (min-width: 980px) and (max-width: 1280px){
     .about .text, .contacts .contacts-main{font-size: 12px}
     .navbar-inverse .navbar-brand{font-size: 21px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 13px;}
-    .block5 .title {margin-bottom: 20px}
-    .block5 .right_text{font-size: 18px}
+    .participate .title {margin-bottom: 20px}
+    .participate .part_text{font-size: 18px}
 }
 @media (min-width: 1280px) and (max-width: 1440px){
     .about .text{font-size: 16px}
     .contacts .contacts-main{font-size: 14px}
     .navbar-inverse .navbar-brand{font-size: 24px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 16px}
-    .block5 .right_text{font-size: 18px}
+    .participate .part_text{font-size: 18px}
 }
 @media (min-width: 1440px) and (max-width: 1680px){
     .about .text{font-size: 22px}
@@ -131,7 +134,7 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .navbar-inverse .navbar-brand{font-size: 27px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 19px}
     .contacts h4{font-size: 26px}
-    .block5 .right_text{font-size: 24px}
+    .participate .part_text{font-size: 24px}
 }
 @media (min-width: 1680px) and (max-width: 2000px){
     .about .text{font-size: 26px}
@@ -139,17 +142,17 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .navbar-inverse .navbar-brand{font-size: 30px;padding: 30px 50px;}
     .navbar-inverse .navbar-brand span{font-size: 22px}
     .contacts-main h4{font-size: 26px}
-    .block5 .right_text{font-size: 24px}
+    .participate .part_text{font-size: 24px}
 }
 @media (max-width: 590px){
     .navbar-inverse .navbar-brand{font-size: 18px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 7px;}
-    .block5 .title{font-size: 13px}
-    .block5 .right_text{font-size: 10px;}
-    .block5 .title, .block5 input, .block5 textarea {margin-bottom: 5px}
-    .block5 input{min-height: 20px}
-    .block5 textarea{min-height: 40px}
-    .block5 .btn{height: 25px;width: 100px;padding: 0px}
+    .participate .title{font-size: 13px}
+    .participate .part_text{font-size: 10px;}
+    .participate .title, .participate input, .participate textarea {margin-bottom: 5px}
+    .participate input{min-height: 20px}
+    .participate textarea{min-height: 40px}
+    .participate .btn{height: 25px;width: 100px;padding: 0px}
     .festival, .transport{padding: 15px}
     .festival p, .transport p{font-size: 14px}
     .contacts-main h4{font-size: 12px;margin-top: -5px}
@@ -158,8 +161,8 @@ html, body {height: 100%;margin: 0;padding: 0;}
 }
 
 @media (max-width: 836px) {
-    .block5 .title{color: yellow}
-    .block5{padding: 10px 0 10px}
+    .participate .title{color: yellow}
+    .participate{padding: 10px 0 10px}
 }
 @media (max-width: 450px){
     .contacts{background-color: #585d66}
