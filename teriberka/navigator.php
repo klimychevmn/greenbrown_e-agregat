@@ -4,7 +4,7 @@
 <div id="wrapper">
     <div class="navbar-wrapper"><!--NAVBAR-->
             <div class="navbar navbar-inverse navbar-fixed-top">
-                <div class="navbar-brand">ТЕРИБEРКА <br> <span>новая жизнь</span></div>
+                <div class="navbar-brand pull-left">ТЕРИБEРКА <br> <span>новая жизнь</span></div>
                 <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse"
                                 data-target=".navbar-collapse">

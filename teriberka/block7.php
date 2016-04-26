@@ -1,11 +1,11 @@
 <div class="block7" id="block7">
     <img src="img/block7.jpg" alt="Контакты">
-    <div class="contacts" style="color: #ffffff">
-        <h3>КОНТАКТЫ</h3><br>
+    <div class="contacts">
+        <h4>КОНТАКТЫ</h4>
         <p>
             Информация для гостей фестиваля: festival@bolshayazemlya.ru <br>
             Предложения по участию: teriberka@bolshayazemlya.ru
-        </p><br>
+        </p>
         <p>
             Информационные ресурсы проекта <br>
             Большая земля <br>
