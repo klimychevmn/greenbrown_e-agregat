@@ -20,6 +20,7 @@
                         <li><a href="index.php">Главная</a></li>
                         <li><a href="items.php">Товары</a></li>
                         <li><a href="contacts.php">Контакты</a></li>
+                        <li><a href="forms.php">Обратная связь</a></li>
                     </ul>
                 </div>
             </div>

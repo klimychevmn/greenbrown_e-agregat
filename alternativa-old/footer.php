@@ -6,5 +6,6 @@
     </div>
 </div>
 
+<script src="js/helper.js"></script>
 </body>
 </html>
