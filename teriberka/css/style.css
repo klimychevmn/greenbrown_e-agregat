@@ -3,30 +3,68 @@ html, body {height: 100%;margin: 0;padding: 0;}
 #wrapper {height: auto !important;margin: 0 auto;min-height: 100%;}
 /*   -----   HEADER --------  */
 .navbar{margin-bottom: 0}
-.navbar-wrapper {position: relative;z-index: 15;background-color: #2b8383;color: #ffffff;}
+.navbar-wrapper {position: relative;z-index: 1500;background-color: #2b8383;color: #ffffff;}
 
 .navbar-inverse .navbar-nav > li > a {background-color: #2b8383;color: #ffffff;min-height: 90px;font-size:24px;line-height: 50px}
 .navbar-inverse, .navbar {border: none;background: #2b8383}
 .navbar-inverse .navbar-nav> li > a:hover, .navbar-inverse .navbar-nav> li > a:focus {color: #2b8383;background-color: #ffffff;}
+.navbar-inverse .navbar-brand{color: #ffffff; font-weight: 600}
+.navbar-inverse .navbar-brand span{font-weight: 400;padding:5px;letter-spacing:5px}
 
-/*   -----   BLOCK 1 --------  */
-.block1{min-width: 100%;}
-.block1 img{width: 100%;z-index: 1;position: relative;}
-.block1 .icons{z-index: 1001;position: relative;}
-.block1 .icons div{width:50px;height: 50px;margin-top: -5%;}
-.block1 .icons .inst{margin-right: 4%;}
-.block1 .icons .vk{margin-right: 7%;}
-.block1 .icons .fb{margin-right: 11%;}
 
-/*   -----   BLOCK 2 --------  */
-.block2{min-width: 100%;}
-.block2 img{width: 100%;z-index: 1;position: relative;}
-.block2 .text{width: 85%;margin-left: 7%;z-index: 1;position: relative;}
+/*   -----   HEAD IMG --------  */
+.main_img{min-width: 100%;}
+.main_img img{width: 100%;z-index: 1;position: relative;}
+.main_img .icons-head{z-index: 1001;position: relative;}
+.main_img .icons-head div{width:50px;height: 50px;margin-top: -5%;}
+.main_img .icons-head .inst{margin-right: 4%;}
+.main_img .icons-head .vk{margin-right: 7%;}
+.main_img .icons-head .fb{margin-right: 11%;}
 
-/*   -----   BLOCK 3 --------  */
-.block3{min-width: 100%;min-height: 2000px}
-.block3 .col-lg-12{padding:20px}
-.block3 .col-lg-12 img{width: 100%}
+/*   -----   ABOUT --------  */
+.about{min-width: 100%;position: relative;overflow: hidden}
+.about img{width: 100%;}
+.about .text{width: 85%;margin-left: 7%;top:30%;position: absolute;z-index:1001;}
+
+/*   -----   FESTIVAL --------  */
+.festival{min-width: 100%;background-color: #c4e3db;padding: 50px}
+.festival .col-lg-12{padding:20px}
+.festival .col-lg-12 img{width: 100%}
+.festival p{font-size: 16px}
+.festival h3{margin-top: 0}
+
+
+/*   -----   TRANSPORT&LIVING --------  */
+.transport{min-width: 100%;background-color: #fce0e2;padding: 50px}
+.transport h3, .transport h4 {font-weight: 600}
+.transport p {font-size: 20px}
+
+/*   -----   PARTICIPATE --------  */
+.participate{min-width: 100%;position: relative;overflow: hidden;background-color: #0068ac}
+.participate img{width: 100%;bottom: 0;position: absolute;}
+.participate .part_st{display: none;}
+.participate .title{margin-bottom: 50px;font-size: 24px;font-weight: 600;margin-left: 30px}
+.participate input {width: 90%;min-height: 40px;margin-bottom: 30px}
+.participate textarea {width: 90%;min-height: 100px;margin-bottom: 30px}
+.participate .btn{width: 150px;height: 40px;}
+.participate .part_text{color: #ffffff}
+
+/*   -----   CLIENTS --------  */
+.clients{min-width: 100%;}
+.clients img{width: 100%;}
+
+/*   -----  CONTACTS --------  */
+.contacts{min-width: 100%;position: relative;}
+.contacts img{width: 100%;}
+.contacts-main{width: 90%;margin-left:5%;top:7%;position: absolute;z-index:1001;color: #ffffff}
+.contacts-main h4{font-weight: 600}
+.contacts-main a{text-decoration: none; color: #ffffff;}
+.contacts-main a:focus, .contacts-main a:hover{text-decoration: underline;}
+.contacts .icons-foot{z-index: 1001;position: relative;}
+.contacts .icons-foot div{width:50px;height: 50px;margin-top: -6%;}
+.contacts .icons-foot .fb{margin-left: 4%;}
+.contacts .icons-foot .vk{margin-left: 8%;}
+.contacts .icons-foot .inst{margin-left: 12%;}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -36,6 +74,10 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .navbar-inverse, .navbar{padding-right: 30px}
 }
 
+@media (min-width: 850px){
+    .participate img{position: relative;}
+    .participate .content{position: absolute;z-index:1001;margin-top: -52%}
+}
 @media (max-width: 768px) {
 
     /*=======NAVBAR======*/
@@ -46,7 +88,7 @@ html, body {height: 100%;margin: 0;padding: 0;}
         background-color: #2b8383;
         border: none;
     }
-    .block2 p{font-size: 10px}
+    .about p{font-size: 10px}
 }
 @media (min-width: 768px) and (max-width: 1600px) {
     /*=======NAVBAR======*/
@@ -54,39 +96,93 @@ html, body {height: 100%;margin: 0;padding: 0;}
 }
 
 
-/* Text for second slide */
+/* Text for about slide */
+@media (min-width: 590px) and (max-width: 768px){
+    .about .text, .contacts .contacts-main{font-size: 10px}
+    .navbar-inverse .navbar-brand{font-size: 18px;padding: 5px 40px}
+    .navbar-inverse .navbar-brand span{font-size: 7px;}
+    .participate .title {margin-bottom: 5px;font-size: 14px}
+    .participate .part_text{font-size: 11px}
+    .participate input{height:20px;margin-bottom: 5px}
+    .participate textarea{height: 50px;margin-bottom: 5px}
+}
 @media (min-width: 768px) and (max-width: 980px){
-    .block2 p{font-size: 12px}
+    .about .text{font-size: 12px}
+    .contacts .contacts-main{font-size: 10px}
+    .navbar-inverse .navbar-brand{font-size: 19px;padding: 5px 40px}
+    .navbar-inverse .navbar-brand span{font-size: 10px;}
+    .participate .title {margin-bottom: 20px}
+    .participate .part_text{font-size: 15px;margin-top: -20px}
+}
+@media (min-width: 980px) and (max-width: 1280px){
+    .about .text, .contacts .contacts-main{font-size: 12px}
+    .navbar-inverse .navbar-brand{font-size: 21px;padding: 5px 40px}
+    .navbar-inverse .navbar-brand span{font-size: 13px;}
+    .participate .title {margin-bottom: 20px}
+    .participate .part_text{font-size: 18px}
 }
 @media (min-width: 1280px) and (max-width: 1440px){
-    .block2 p{font-size: 18px}
+    .about .text{font-size: 16px}
+    .contacts .contacts-main{font-size: 14px}
+    .navbar-inverse .navbar-brand{font-size: 24px;padding: 5px 40px}
+    .navbar-inverse .navbar-brand span{font-size: 16px}
+    .participate .part_text{font-size: 18px}
 }
 @media (min-width: 1440px) and (max-width: 1680px){
-    .block2 p{font-size: 22px}
+    .about .text{font-size: 22px}
+    .contacts .contacts-main{font-size: 16px}
+    .navbar-inverse .navbar-brand{font-size: 27px;padding: 5px 40px}
+    .navbar-inverse .navbar-brand span{font-size: 19px}
+    .contacts h4{font-size: 26px}
+    .participate .part_text{font-size: 24px}
 }
 @media (min-width: 1680px) and (max-width: 2000px){
-    .block2 p{font-size: 26px}
+    .about .text{font-size: 26px}
+    .contacts .contacts-main{font-size: 18px}
+    .navbar-inverse .navbar-brand{font-size: 30px;padding: 30px 50px;}
+    .navbar-inverse .navbar-brand span{font-size: 22px}
+    .contacts-main h4{font-size: 26px}
+    .participate .part_text{font-size: 24px}
 }
 @media (max-width: 590px){
-    /* TODO: заглушка! */
-    .block2 p{display: none}
+    .navbar-inverse .navbar-brand{font-size: 18px;padding: 5px 40px}
+    .navbar-inverse .navbar-brand span{font-size: 7px;}
+    .participate .title{font-size: 13px}
+    .participate .part_text{font-size: 10px;}
+    .participate .title, .participate input, .participate textarea {margin-bottom: 5px}
+    .participate input{min-height: 20px}
+    .participate textarea{min-height: 40px}
+    .participate .btn{height: 25px;width: 100px;padding: 0px}
+    .festival, .transport{padding: 15px}
+    .festival p, .transport p{font-size: 14px}
+    .contacts-main h4{font-size: 12px;margin-top: -5px}
+    .contacts .contacts-main{font-size: 8px}
+    .about .text{font-size: 9px}
+}
+
+@media (max-width: 836px) {
+    .participate .title{color: yellow}
+    .participate{padding: 10px 0 10px}
+}
+@media (max-width: 450px){
+    .contacts{background-color: #585d66}
+    .contacts img{margin-top: 60px}
 }
 
 
-/* Icons for first slide */
+/* Icons for main_img slide */
 @media (min-width: 1500px) and (max-width: 2000px){
-    .block1 .icons div{width:50px;height: 50px}
+    .main_img .icons-head div, .contacts .icons-foot div{width:50px;height: 50px}
 }
 @media (min-width: 1000px) and (max-width: 1500px){
-    .block1 .icons div{width:33px;height: 33px}
+    .main_img .icons-head div, .contacts .icons-foot div{width:33px;height: 33px}
 }
 @media (min-width: 768px) and (max-width: 1000px){
-    .block1 .icons div{width:27px;height: 27px}
+    .main_img .icons-head div, .contacts .icons-foot div{width:27px;height: 27px}
 }
 @media (min-width: 420px) and (max-width: 768px){
-    .block1 .icons div{width:20px;height: 20px}
+    .main_img .icons-head div, .contacts .icons-foot div{width:20px;height: 20px}
 }
 @media (max-width: 420px){
-    .block1 .icons div{width:15px;height:15px}
-
+    .main_img .icons-head div, .contacts .icons-foot div{width:15px;height:15px}
 }
