@@ -1,0 +1,13 @@
+html, body {height: 100%;margin: 0;padding: 0;}
+body {color: #000;background: linear-gradient(to top, #e9e26a 0%, #f6d51d 20%, #ffa513 80%, #ff8718 100%);min-width: 100%;}
+
+#wrapper{min-height: 100%;margin-bottom: -50px}
+/*   -----   HEADER --------  */
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {color: #ffa513;}
+.alert-text{font-size: 30px;color: #ff001e;font-weight: 700;}
+#wrapper .navbar-brand, #wrapper .navbar-brand:hover, #wrapper .navbar-brand:focus{font-size:20px;font-weight:600;color: #ffa513}
+
+
+/*   -----   FOOTER --------  */
+.foot{min-height: 50px;background: linear-gradient(to bottom,#3c3c3c 0,#222 100%);}
+.foot .foot-text{color: #ff8718;font-size: 18px;padding: 10px}
