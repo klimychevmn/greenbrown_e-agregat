@@ -1,4 +1,5 @@
 html, body {height: 100%;margin: 0;padding: 0;}
+body {margin:90px 0 0}
 
 #wrapper {height: auto !important;margin: 0 auto;min-height: 100%;}
 /*   -----   HEADER --------  */
@@ -22,27 +23,27 @@ html, body {height: 100%;margin: 0;padding: 0;}
 .main_img .icons-head .fb{margin-right: 11%;}
 
 /*   -----   ABOUT --------  */
-.about{min-width: 100%;position: relative;overflow: hidden}
-.about img{width: 100%;}
-.about .text{width: 85%;margin-left: 7%;top:30%;position: absolute;z-index:1001;}
+.about{min-width: 100%;position: relative;overflow: hidden;background-color: #c4e3db}
+.about img{width: 100%;top: 0;position: absolute;z-index: 1}
+.about .text{width: 85%;margin: auto 45px;z-index: 1001}
 
 /*   -----   FESTIVAL --------  */
-.festival{min-width: 100%;background-color: #c4e3db;padding: 50px}
-.festival .col-lg-12{padding:20px}
+.festival{min-width: 100%;background-color: #c4e3db;padding: 45px}
+.festival .col-lg-12{padding:20px 0px}
+.festival .col-lg-12 .col-lg-5{padding-left:0px}
 .festival .col-lg-12 img{width: 100%}
 .festival p{font-size: 16px}
 .festival h3{margin-top: 0}
 
 
 /*   -----   TRANSPORT&LIVING --------  */
-.transport{min-width: 100%;background-color: #fce0e2;padding: 50px}
+.transport{min-width: 100%;background-color: #fce0e2;padding: 45px}
 .transport h3, .transport h4 {font-weight: 600}
 .transport p {font-size: 20px}
 
 /*   -----   PARTICIPATE --------  */
-.participate{min-width: 100%;position: relative;overflow: hidden;background-color: #0068ac}
-.participate img{width: 100%;bottom: 0;position: absolute;}
-.participate .part_st{display: none;}
+.participate{min-width: 100%;position: relative;overflow: hidden;background-color: #c4e3db}
+.participate img{width: 100%;top: 0;position: absolute;}
 .participate .title{margin-bottom: 50px;font-size: 24px;font-weight: 600;margin-left: 30px}
 .participate input {width: 90%;min-height: 40px;margin-bottom: 30px}
 .participate textarea {width: 90%;min-height: 100px;margin-bottom: 30px}
@@ -54,9 +55,9 @@ html, body {height: 100%;margin: 0;padding: 0;}
 .clients img{width: 100%;}
 
 /*   -----  CONTACTS --------  */
-.contacts{min-width: 100%;position: relative;}
-.contacts img{width: 100%;}
-.contacts-main{width: 90%;margin-left:5%;top:7%;position: absolute;z-index:1001;color: #ffffff}
+.contacts{min-width: 100%;position: relative;overflow: hidden;background-color: #c4e3db}
+.contacts img{width: 100%;top: 0;position: absolute;}
+.contacts-main{width: 90%;margin: auto 45px;top:7%;color: #ffffff}
 .contacts-main h4{font-weight: 600}
 .contacts-main a{text-decoration: none; color: #ffffff;}
 .contacts-main a:focus, .contacts-main a:hover{text-decoration: underline;}
@@ -75,20 +76,29 @@ html, body {height: 100%;margin: 0;padding: 0;}
 }
 
 @media (min-width: 850px){
-    .participate img{position: relative;}
-    .participate .content{position: absolute;z-index:1001;margin-top: -52%}
+    .participate img, .about img, .contacts img{position: relative;}
+    .participate .content {position: absolute;z-index:1001;margin-top: -52%}
+    .about .text {position: absolute;z-index:1001;margin-top: -33%}
+    .contacts .contacts-main {position: absolute;z-index:1001;margin-top: -2%}
 }
 @media (max-width: 768px) {
-
+    body {margin:50px 0 0}
     /*=======NAVBAR======*/
     .navbar-wrapper{background-color: #2b8383}
     .navbar-inverse .navbar-nav > li > a{min-height: 50px;font-size:16px;line-height: normal}
+    .navbar-inverse .navbar-brand{padding: 7px 20px}
+    .about .text,.contacts-main {margin: auto 20px}
+    .about .text{margin: 50px 20px; position: relative}
+    .festival,.transport{padding: 10px 20px}
+    .festival .col-lg-12 .col-lg-7{padding-left: 0;}
+    .participate .part_text{color: #fc4a5d;}
+    .contacts .contacts-main,.contacts .contacts-main a{color: #fc4a5d;}
 
     .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
         background-color: #2b8383;
         border: none;
     }
-    .about p{font-size: 10px}
+
 }
 @media (min-width: 768px) and (max-width: 1600px) {
     /*=======NAVBAR======*/
@@ -98,8 +108,8 @@ html, body {height: 100%;margin: 0;padding: 0;}
 
 /* Text for about slide */
 @media (min-width: 590px) and (max-width: 768px){
-    .about .text, .contacts .contacts-main{font-size: 10px}
-    .navbar-inverse .navbar-brand{font-size: 18px;padding: 5px 40px}
+    .about .text, .contacts .contacts-main{font-size: 12px}
+    .navbar-inverse .navbar-brand{font-size: 18px;}
     .navbar-inverse .navbar-brand span{font-size: 7px;}
     .participate .title {margin-bottom: 5px;font-size: 14px}
     .participate .part_text{font-size: 11px}
@@ -145,28 +155,20 @@ html, body {height: 100%;margin: 0;padding: 0;}
     .participate .part_text{font-size: 24px}
 }
 @media (max-width: 590px){
-    .navbar-inverse .navbar-brand{font-size: 18px;padding: 5px 40px}
+    .navbar-inverse .navbar-brand{font-size: 18px;}
     .navbar-inverse .navbar-brand span{font-size: 7px;}
     .participate .title{font-size: 13px}
-    .participate .part_text{font-size: 10px;}
     .participate .title, .participate input, .participate textarea {margin-bottom: 5px}
     .participate input{min-height: 20px}
     .participate textarea{min-height: 40px}
     .participate .btn{height: 25px;width: 100px;padding: 0px}
-    .festival, .transport{padding: 15px}
     .festival p, .transport p{font-size: 14px}
     .contacts-main h4{font-size: 12px;margin-top: -5px}
-    .contacts .contacts-main{font-size: 8px}
-    .about .text{font-size: 9px}
+
 }
 
 @media (max-width: 836px) {
-    .participate .title{color: yellow}
-    .participate{padding: 10px 0 10px}
-}
-@media (max-width: 450px){
-    .contacts{background-color: #585d66}
-    .contacts img{margin-top: 60px}
+    .participate, .about, .contacts{padding: 10px 0 10px}
 }
 
 
