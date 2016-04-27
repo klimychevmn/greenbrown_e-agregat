@@ -50,9 +50,11 @@ body {margin:90px 0 0}
 .participate .btn{width: 150px;height: 40px;}
 .participate .part_text{color: #ffffff}
 
-/*   -----   CLIENTS --------  */
-.clients{min-width: 100%;}
-.clients img{width: 100%;}
+/*   -----   PARTNERS --------  */
+.clients{min-width: 100%;padding: 50px}
+.clients h3{font-weight:600;}
+.clients .col-lg-12{padding: 0px}
+
 
 /*   -----  CONTACTS --------  */
 .contacts{min-width: 100%;position: relative;overflow: hidden;background-color: #c4e3db}
@@ -93,7 +95,7 @@ body {margin:90px 0 0}
     .festival .col-lg-12 .col-lg-7{padding-left: 0;}
     .participate .part_text{color: #fc4a5d;}
     .contacts .contacts-main,.contacts .contacts-main a{color: #fc4a5d;}
-
+    .clients{padding: 20px}
     .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
         background-color: #2b8383;
         border: none;

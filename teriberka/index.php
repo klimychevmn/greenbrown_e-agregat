@@ -397,7 +397,40 @@
     </div>
 
     <div class="clients" id="clients">
-        <img src="img/clients.jpg" alt="Партнеры">
+        <h3>ПАРТНЕРЫ</h3>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center" >
+                <a href="#1"><img src="img/partners/partner_1.jpg" alt="" ></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#2"><img src="img/partners/partner_2.jpg" alt="" ></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#3"><img src="img/partners/partner_3.jpg" alt="" ></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#4"><img src="img/partners/partner_4.jpg" alt="" ></a>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#5"><img src="img/partners/partner_5.jpg" alt="" ></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#6"><img src="img/partners/partner_6.jpg" alt="" ></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#7"><img src="img/partners/partner_7.jpg" alt="" ></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#8"><img src="img/partners/partner_8.jpg" alt="" ></a>
+            </div>
+        </div> <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#9"><img src="img/partners/partner_9.jpg" alt="" ></a>
+            </div>
+        </div>
+
     </div>
 
     <div class="contacts" id="contacts">
@@ -411,9 +444,9 @@
                     Предложения по участию: teriberka@bolshayazemlya.ru
                 </p>
                 <p>
-                    Второй Арктический фестиваль развития территории "Териберка: Новая жизнь – 2016"
-                    Россия, Мурманская область, поселок Териберка
-                    12 – 14 августа 2016 г.
+                    Второй Арктический фестиваль развития территории "Териберка: Новая жизнь – 2016" <br>
+                    Россия, Мурманская область, поселок Териберка <br>
+                    12 – 14 августа 2016 г. <br>
                 </p>
             </div>
 
