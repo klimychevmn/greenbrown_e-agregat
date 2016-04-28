@@ -1,7 +1,7 @@
 <?php require("header.php");?>
 <?php require("navigator.php");?>
 
-<div class="container">
+<div class="my_container">
     <h1 class="text-center">Сетка сварная, Сетка рабица</h1>
     <h3>Основные направления деятельности компании:</h3>
     <ul>

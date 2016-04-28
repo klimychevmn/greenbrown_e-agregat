@@ -1,7 +1,7 @@
 <?php require("header.php"); ?>
 <?php require("navigator.php"); ?>
 
-<div class="container">
+<div class="my_container">
     <div class="contacts">
         <h3 class="text-center">ООО «АЛЬТЕРНАТИВА-СВД»</h3>
         <h4>Офис:</h4>

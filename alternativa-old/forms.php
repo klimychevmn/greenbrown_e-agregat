@@ -1,7 +1,7 @@
 <?php require("header.php"); ?>
 <?php require("navigator.php"); ?>
 
-<div class="container">
+<div class="my_container">
     <div class="forms">
         <form class="form-horizontal">
             <div class="form-group">
