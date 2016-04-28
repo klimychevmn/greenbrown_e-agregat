@@ -1,3 +1,6 @@
+<!--https://jsfiddle.net/ianclark001/aShQL/-->
+<!--http://uradresok.ru/css/style.css-->
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -38,7 +41,7 @@
                     <li><a href="#festival">фестиваль</a></li>
                     <li><a href="#transport">транспорт и проживание</a></li>
                     <li><a href="#participate">принять участие</a></li>
-                    <li><a href="#clients">парнеры</a></li>
+                    <li><a href="#clients">партнеры</a></li>
                     <li><a href="#contacts">контакты</a></li>
                 </ul>
             </div>
@@ -82,6 +85,7 @@
     </div>
     <div class="festival" id="festival">
         <div class="head_text">
+            <h3>Фестиваль</h3><br>
             <p>
                 12-14 августа 2016 года проект "Большая Земля" при поддержке кооперативов LavkaLavka (Московская
                 область) и
@@ -92,9 +96,10 @@
                 интересном месте на берегу Баренцева моря.
             </p>
             <p>
-                Площадки фестиваля устроены так, чтобы раскрыть все потенциальные точки развития и показать самое
-                главное,
-                чем богат и интересен российский север, Мурманская область и конкретно поселок Териберка.
+                Все вместе мы докажем всему миру, что жизнь кипит не только в крупных городах! Отдаленные регионы,
+                небольшие городки и поселки – это будущее нашей страны и именно с них начинается развитие. Площадки
+                фестиваля устроены так, чтобы раскрыть все потенциальные точки развития и показать самое главное, чем
+                богат и интересен российский север, Мурманская область и конкретно поселок Териберка.
             </p>
         </div>
 
@@ -392,7 +397,40 @@
     </div>
 
     <div class="clients" id="clients">
-        <img src="img/clients.jpg" alt="Партнеры">
+        <h3>ПАРТНЕРЫ</h3>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center" >
+                <a href="#1"><img src="img/partners/partner_1.jpg" alt="" ></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#2"><img src="img/partners/partner_2.jpg" alt="" ></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#3"><img src="img/partners/partner_3.jpg" alt="" ></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#4"><img src="img/partners/partner_4.jpg" alt="" ></a>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#5"><img src="img/partners/partner_5.jpg" alt="" ></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#6"><img src="img/partners/partner_6.jpg" alt="" ></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#7"><img src="img/partners/partner_7.jpg" alt="" ></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#8"><img src="img/partners/partner_8.jpg" alt="" ></a>
+            </div>
+        </div> <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <a href="#9"><img src="img/partners/partner_9.jpg" alt="" ></a>
+            </div>
+        </div>
+
     </div>
 
     <div class="contacts" id="contacts">
@@ -405,12 +443,16 @@
                     Информация для гостей фестиваля: festival@bolshayazemlya.ru <br>
                     Предложения по участию: teriberka@bolshayazemlya.ru
                 </p>
+                <p>
+                    Второй Арктический фестиваль развития территории "Териберка: Новая жизнь – 2016" <br>
+                    Россия, Мурманская область, поселок Териберка <br>
+                    12 – 14 августа 2016 г. <br>
+                </p>
             </div>
 
             <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
                 <p>
-                    Информационные ресурсы проекта <br>
-                    Большая земля <br>
+                    <b>Информационные ресурсы проекта:</b><br>
                     <a href="http://www.bolshayazemlya.ru/">Сайт проекта Большая земля </a><br>
                     <a href="http://facebook.com/Bozemlya">Facebook проекта Большая земля </a><br>
                     <a href="http://lavkagazeta.com/bolshaya-zemlya">Рубрика Большая Земля в газете LavkaLavka </a><br>
@@ -445,5 +487,6 @@
         </div>
     </div>
 </div>
+<script src="js/helper.js"></script>
 </body>
 </html>
