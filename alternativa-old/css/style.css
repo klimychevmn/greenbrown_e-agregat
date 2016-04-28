@@ -2,7 +2,7 @@ html, body {height: 100%;margin: 0;padding: 0;}
 body {color: #000;background: linear-gradient(to top, #e9e26a 0%, #f6d51d 20%, #ffa513 80%, #ff8718 100%);background-position: center;background-attachment: fixed;min-width: 100%;}
 
 .content{width: 70%;margin:0 auto;height: 82%}
-.fon{background: #ffffff; width: 90%; margin: 0 auto; padding-bottom:100px;border-bottom-left-radius:15px;border-bottom-right-radius: 15px;font-size: 16px}
+.fon{background: #ffffff; margin: 0 30px; padding-bottom:100px;border-bottom-left-radius:15px;border-bottom-right-radius: 15px;font-size: 16px}
 #wrapper{height: auto !important;margin: 0 auto;min-height: 100%;}
 
 
@@ -26,7 +26,6 @@ body {color: #000;background: linear-gradient(to top, #e9e26a 0%, #f6d51d 20%, #
 /*   -----   CAROUSEL --------  */
 .carousel{margin: 10px auto 50px}
 .carousel .item img{max-height: 100%;max-width:100%;display:inline-block; margin:0 auto; vertical-align: middle;}
-.carousel-inner{height: 700px}
 .carousel-inner .carousel-caption{color: #ff8718}
 .carousel .item{margin-top: 0}
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next{color:#ff8718}
@@ -41,10 +40,3 @@ body {color: #000;background: linear-gradient(to top, #e9e26a 0%, #f6d51d 20%, #
 /*   -----   FOOTER --------  */
 .foot{min-height: 50px;background: linear-gradient(to bottom,#3c3c3c 0,#222 100%);border-radius: 7px}
 .foot .foot-text{color: #ff8718;font-size: 18px;padding:0 10px}
-
-@media (min-width: 1720px) and (max-width: 1830px) {
-    .carousel-inner .carousel-caption{bottom: 60px}
-}
-@media (min-width: 1830px) and (max-width: 1930px) {
-    .carousel-inner .carousel-caption{bottom: 120px}
-}
