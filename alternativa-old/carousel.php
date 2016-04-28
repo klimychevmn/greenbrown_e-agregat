@@ -1,4 +1,4 @@
-<div class="my_container">
+
     <div id="itemCarousel" class="carousel slide">
 
         <div class="carousel-inner">
@@ -117,4 +117,3 @@
 
     </div>
 
-</div>

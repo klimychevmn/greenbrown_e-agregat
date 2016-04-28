@@ -1,21 +1,19 @@
 html, body {height: 100%;margin: 0;padding: 0;}
 body {color: #000;background: linear-gradient(to top, #e9e26a 0%, #f6d51d 20%, #ffa513 80%, #ff8718 100%);background-position: center;background-attachment: fixed;min-width: 100%;}
 
-.content{width: 70%;margin:0 auto;height: 82%}
-.fon{background: #ffffff; margin: 0 30px; padding-bottom:100px;border-bottom-left-radius:15px;border-bottom-right-radius: 15px;font-size: 16px}
+.content{width: 70%;margin:0 auto;height: 96%}
+.fon{background: #ffffff; margin: 0 30px; padding-bottom:100px;border-bottom-left-radius:5px;border-bottom-right-radius: 5px;font-size: 16px}
 #wrapper{height: auto !important;margin: 0 auto;min-height: 100%;}
 
 
 .my_container{padding: 10px 20px}
+.my_container-nav{padding: 0}
 
 /*   -----   HEADER --------  */
-.logo{background: #63666f; font-size: 100px;color: #ff8718;text-shadow: 4px 11px 10px black, 0 0 2em red;}
-
-.navbar .navbar-nav {display: inline-block;float: none;}
-.navbar .navbar-collapse {text-align: center;}
+#wrapper .navbar-nav {float: none;text-align: center;}
+#wrapper .navbar-nav li {float: none;display: inline-block;}
 #wrapper .navbar{margin-bottom: 0}
-#wrapper .navbar-inverse ul{text-align: center !important;}
-#wrapper .navbar-inverse .navbar-nav>li>a{padding: 10px 40px;font-size: 20px}
+#wrapper .navbar-inverse .navbar-nav>li>a{padding: 10px 30px}
 #wrapper .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {color: #ffa513;}
 .alert-text{font-size: 30px;color: #ff001e;font-weight: 700;}
 #wrapper .navbar-brand, #wrapper .navbar-brand:hover, #wrapper .navbar-brand:focus{font-size:20px;font-weight:600;color: #ffa513}
@@ -39,9 +37,9 @@ body {color: #000;background: linear-gradient(to top, #e9e26a 0%, #f6d51d 20%, #
 .forms{margin-top: 50px}
 
 /*   -----   ABOUT --------  */
-.contacts{padding: 10px 40px}
+.contacts .contact-title{font-weight: 600}
 .contacts span{text-decoration: underline}
 
 /*   -----   FOOTER --------  */
-.foot{min-height: 50px;background: linear-gradient(to bottom,#3c3c3c 0,#222 100%);border-top-left-radius: 10px;border-top-right-radius: 10px;}
-.foot .foot-text{color: #ff8718;font-size: 18px;padding:0 10px}
+.foot{min-height: 50px;background: linear-gradient(to bottom,#3c3c3c 0,#222 100%);border-top-left-radius: 5px;border-top-right-radius: 5px;}
+.foot .foot-text{color: #ff8718;padding:0 10px}
