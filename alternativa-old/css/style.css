@@ -11,7 +11,11 @@ body {color: #000;background: linear-gradient(to top, #e9e26a 0%, #f6d51d 20%, #
 /*   -----   HEADER --------  */
 .logo{background: #63666f; font-size: 100px;color: #ff8718;text-shadow: 4px 11px 10px black, 0 0 2em red;}
 
+.navbar .navbar-nav {display: inline-block;float: none;}
+.navbar .navbar-collapse {text-align: center;}
 #wrapper .navbar{margin-bottom: 0}
+#wrapper .navbar-inverse ul{text-align: center !important;}
+#wrapper .navbar-inverse .navbar-nav>li>a{padding: 10px 40px;font-size: 20px}
 #wrapper .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {color: #ffa513;}
 .alert-text{font-size: 30px;color: #ff001e;font-weight: 700;}
 #wrapper .navbar-brand, #wrapper .navbar-brand:hover, #wrapper .navbar-brand:focus{font-size:20px;font-weight:600;color: #ffa513}
@@ -20,13 +24,14 @@ body {color: #000;background: linear-gradient(to top, #e9e26a 0%, #f6d51d 20%, #
 /*   -----   ITEM --------  */
 .item{margin-top: 20px}
 .item h3{margin-bottom: 20px}
-.item a.itm{color: #0f0f0f}
-.item a.itm:hover, .item a.itm:focus{text-decoration: underline; color: #ffffff}
+.btn.btn-warning{color: #0f0f0f}
 
 /*   -----   CAROUSEL --------  */
 .carousel{margin: 10px auto 50px}
 .carousel .item img{max-height: 100%;max-width:100%;display:inline-block; margin:0 auto; vertical-align: middle;}
-.carousel-inner .carousel-caption{color: #ff8718}
+.carousel-inner .carousel-caption{font-weight: 600;}
+.carousel-inner .carousel-caption h3{font-size: 28px}
+.carousel-inner .carousel-caption p{font-size: 20px}
 .carousel .item{margin-top: 0}
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next{color:#ff8718}
 
@@ -34,9 +39,9 @@ body {color: #000;background: linear-gradient(to top, #e9e26a 0%, #f6d51d 20%, #
 .forms{margin-top: 50px}
 
 /*   -----   ABOUT --------  */
-.contacts{padding: 10px 200px}
+.contacts{padding: 10px 40px}
 .contacts span{text-decoration: underline}
 
 /*   -----   FOOTER --------  */
-.foot{min-height: 50px;background: linear-gradient(to bottom,#3c3c3c 0,#222 100%);border-radius: 7px}
+.foot{min-height: 50px;background: linear-gradient(to bottom,#3c3c3c 0,#222 100%);border-top-left-radius: 10px;border-top-right-radius: 10px;}
 .foot .foot-text{color: #ff8718;font-size: 18px;padding:0 10px}

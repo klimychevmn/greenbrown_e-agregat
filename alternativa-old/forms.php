@@ -11,6 +11,12 @@
                 </div>
             </div>
             <div class="form-group">
+                <label class="col-sm-2 control-label">Интересующий вопрос</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" placeholder="Интересующий вопрос" disabled></textarea>
+                </div>
+            </div>
+            <div class="form-group">
                 <label class="col-sm-2 control-label">e-mail</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" placeholder="e-mail" disabled>
@@ -20,12 +26,6 @@
                 <label class="col-sm-2 control-label">Телефон</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" placeholder="Телефон" disabled>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-sm-2 control-label">Комментарий</label>
-                <div class="col-sm-10">
-                    <textarea class="form-control" placeholder="Password" disabled></textarea>
                 </div>
             </div>
             <div class="form-group">
