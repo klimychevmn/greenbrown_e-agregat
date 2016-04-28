@@ -89,12 +89,13 @@ body {margin:90px 0 0}
     .navbar-wrapper{background-color: #2b8383}
     .navbar-inverse .navbar-nav > li > a{min-height: 50px;font-size:16px;line-height: normal}
     .navbar-inverse .navbar-brand{padding: 7px 20px}
+    .about img, .contacts img{position: relative;}
     .about .text,.contacts-main {margin: auto 20px}
-    .about .text{margin: 50px 20px; position: relative}
+    .about .text, .contacts .contacts-main{position: relative;}
     .festival,.transport{padding: 10px 20px}
     .festival .col-lg-12 .col-lg-7{padding-left: 0;}
     .participate .part_text{color: #fc4a5d;}
-    .contacts .contacts-main,.contacts .contacts-main a{color: #fc4a5d;}
+    .contacts .contacts-main,.contacts .contacts-main a{color: #000000;}
     .clients{padding: 20px}
     .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
         background-color: #2b8383;
@@ -165,12 +166,12 @@ body {margin:90px 0 0}
     .participate textarea{min-height: 40px}
     .participate .btn{height: 25px;width: 100px;padding: 0px}
     .festival p, .transport p{font-size: 14px}
-    .contacts-main h4{font-size: 12px;margin-top: -5px}
+    .contacts-main h4{font-size: 12px;}
 
 }
 
 @media (max-width: 836px) {
-    .participate, .about, .contacts{padding: 10px 0 10px}
+    .participate{padding: 10px 0 10px}
 }
 
 
