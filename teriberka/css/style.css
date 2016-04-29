@@ -39,6 +39,9 @@ body {margin:90px 0 0; font-family: 'proxima_nova_rgregular', Arial, sans-serif;
 .about{min-width: 100%;position: relative;overflow: hidden;background-color: #c4e3db}
 .about img{width: 100%;top: 0;position: absolute;z-index: 1}
 .about .text{width: 85%;margin: auto 45px;z-index: 1001}
+.about .text ul{font-size:15px;color:#ff0000;}
+.about .text ul a{color:#ff0000;}
+.about .text ul a:hover,.about .text ul a:focus{color:#990000;}
 
 /*   -----   FESTIVAL --------  */
 .festival{min-width: 100%;background-color: #c4e3db;padding: 45px}
@@ -156,7 +159,7 @@ body {margin:90px 0 0; font-family: 'proxima_nova_rgregular', Arial, sans-serif;
     .participate .part_text{font-size: 18px}
 }
 @media (min-width: 1440px) and (max-width: 1680px){
-    .about .text{font-size: 22px}
+    .about .text{font-size: 20px}
     .contacts .contacts-main{font-size: 16px}
     .navbar-inverse .navbar-brand{font-size: 27px;padding: 5px 40px}
     .navbar-inverse .navbar-brand span{font-size: 19px}
@@ -164,7 +167,7 @@ body {margin:90px 0 0; font-family: 'proxima_nova_rgregular', Arial, sans-serif;
     .participate .part_text{font-size: 24px}
 }
 @media (min-width: 1680px) and (max-width: 2000px){
-    .about .text{font-size: 26px}
+    .about .text{font-size: 24px}
     .contacts .contacts-main{font-size: 18px}
     .navbar-inverse .navbar-brand{font-size: 30px;padding: 30px 50px;}
     .navbar-inverse .navbar-brand span{font-size: 22px}

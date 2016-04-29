@@ -1,6 +1,6 @@
 <?
 if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['email'])&&$_POST['email']!="")&&(isset($_POST['comment'])&&$_POST['comment']!="")){ 
-    $to = 'teriberka@bolshayazemlya.ru'; 
+    $to = 'festival@bolshayazemlya.ru'; 
     $subject = 'Принять участие Териберка'; 
     $message = '
                 <html>

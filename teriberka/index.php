@@ -65,7 +65,6 @@
     <div class="about" id="about">
         <img src="img/main_page_2.jpg" alt="Триберка_2">
         <div class="text">
-
             “Большая Земля” – это сообщество активных и успешных жителей России и проект развития провинциальных
             территорий и сельской местности. Цель проекта – доказать, что жизнь кипит не только в крупных городах и
             “экономических
@@ -78,19 +77,23 @@
             жизнь в своем регионе.<br>
             «Большая Земля» дает возможность посмотреть новым взглядом на свою страну и увидеть, что вокруг живет
             множество людей, которые делают мир лучше прямо сейчас!
+                <ul>
+                    <li><a href="http://www.bolshayazemlya.ru/">Сайт проекта Большая земля</a></li>
+                    <li><a href="https://www.facebook.com/Bozemlya">Facebook проекта Большая земля</a></li>
+                    <li><a href="http://lavkagazeta.com/bolshaya-zemlya">Рубрика Большая Земля в газете LavkaLavka</a></li>
+                </ul>
         </div>
     </div>
     <div class="festival" id="festival">
         <div class="head_text">
-            <h3>Фестиваль</h3><br>
+            <h3><b>Фестиваль</b></h3><br>
             <p>
                 12-14 августа 2016 года проект "Большая Земля" при поддержке кооперативов LavkaLavka (Московская
                 область) и
                 Марк и Лев (Тульская область), Правительства Мурманской области и других общественных и
                 правительственных
                 организаций, проводит Второй Арктический фестиваль развития территорий в Териберке – невероятно красивом
-                и
-                интересном месте на берегу Баренцева моря.
+                и интересном месте на берегу Баренцева моря.
             </p>
             <p>
                 Все вместе мы докажем всему миру, что жизнь кипит не только в крупных городах! Отдаленные регионы,
@@ -176,6 +179,21 @@
             </div>
         </div>
 
+
+        <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <img src="img/festival/festival_1.jpg" alt="">
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <h3>Дети</h3>
+                <p>
+                    Для детей Териберки и маленьких гостей фестиваля, совместно со Студией арт-терапии <a href="http://selfstudio.ru/">САМО</a>, креативным агентством <a href="http://teriberka.mostcreativecamp.ru/">Most Creative Club</a>, приложением для родителей и детей <a href="http://getwhats.com/">WhatWhat</a> и <a href="https://www.facebook.com/ZelenayaShkola">Зеленой школой</a> мы устроим на фестивале творческие занятия, всевозможные развлечения, квесты и игры – здесь не будет скучно никому! Дети будут вспоминать это путешествие всю жизнь!
+                </p>
+                <a href="#">Подробнее</a>
+            </div>
+
+        </div>
 
         <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
 
@@ -416,40 +434,63 @@
 
     <div class="clients" id="clients">
         <h3>ПАРТНЕРЫ</h3>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center" >
-                <a href="#1"><img src="img/partners/partner_1.jpg" alt="" ></a>
+        <div class='scrivaem-parterov' style="display: none">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center" >
+                    <a href="#1"><img src="img/partners/partner_1.jpg" alt="" ></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                    <a href="#2"><img src="img/partners/partner_2.jpg" alt="" ></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                    <a href="#3"><img src="img/partners/partner_3.jpg" alt="" ></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                    <a href="#4"><img src="img/partners/partner_4.jpg" alt="" ></a>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
-                <a href="#2"><img src="img/partners/partner_2.jpg" alt="" ></a>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                    <a href="#5"><img src="img/partners/partner_5.jpg" alt="" ></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                    <a href="#6"><img src="img/partners/partner_6.jpg" alt="" ></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                    <a href="#7"><img src="img/partners/partner_7.jpg" alt="" ></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                    <a href="#8"><img src="img/partners/partner_8.jpg" alt="" ></a>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
-                <a href="#3"><img src="img/partners/partner_3.jpg" alt="" ></a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
-                <a href="#4"><img src="img/partners/partner_4.jpg" alt="" ></a>
-            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <a href="#9"><img src="img/partners/partner_9.jpg" alt="" ></a>
+                </div>
+            </div>    
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
-                <a href="#5"><img src="img/partners/partner_5.jpg" alt="" ></a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
-                <a href="#6"><img src="img/partners/partner_6.jpg" alt="" ></a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
-                <a href="#7"><img src="img/partners/partner_7.jpg" alt="" ></a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
-                <a href="#8"><img src="img/partners/partner_8.jpg" alt="" ></a>
-            </div>
+            <ul>
+                <li>Фонд «Перспектива»</li>                
+                <li>ОПОРА РОССИИ Мурманск</li>
+                <li>Правительство Мурманской области</li>
+                <li>Администрация Кольского района</li>
+                <li>Администрация Териберки</li>
+                <li>Friday Milk Мурманск</li>
+                <li>Ресторанный синдикат Мурманск</li>
+                <li>LavkaLavka</li>
+                <li>Марк и Лев</li>
+                <li>Велегож парк</li>
+                <li>Sasha Bread</li>
+                <li>Cody’s Fish & Chips</li>
+                <li>Большое радио Мурманск</li>
+                <li>Most Creative Club</li>
+                <li>SkimGeneration</li>
+                <li>ТВ-21 Мурманск</li>
+                <li>Lenta.ru</li>
+            </ul>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <a href="#9"><img src="img/partners/partner_9.jpg" alt="" ></a>
-            </div>
-        </div>
-
+        
     </div>
 
     <div class="contacts" id="contacts">
