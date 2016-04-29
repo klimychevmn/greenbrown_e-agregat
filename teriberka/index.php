@@ -425,8 +425,9 @@
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
                 <a href="#8"><img src="img/partners/partner_8.jpg" alt="" ></a>
             </div>
-        </div> <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                 <a href="#9"><img src="img/partners/partner_9.jpg" alt="" ></a>
             </div>
         </div>
@@ -435,6 +436,17 @@
 
     <div class="contacts" id="contacts">
         <img src="img/contacts.jpg" alt="Контакты">
+        <div class="icons-foot" >
+            <a href="#fb">
+                <div class="pull-left fb"></div>
+            </a>
+            <a href="#vk">
+                <div class="pull-left vk"></div>
+            </a>
+            <a href="#inst">
+                <div class="pull-left inst"></div>
+            </a>
+        </div>
         <div class="contacts-main">
             <h4>КОНТАКТЫ</h4>
 
@@ -474,17 +486,7 @@
             </div>
 
         </div>
-        <div class="icons-foot">
-            <a href="#fb">
-                <div class="pull-left fb"></div>
-            </a>
-            <a href="#vk">
-                <div class="pull-left vk"></div>
-            </a>
-            <a href="#inst">
-                <div class="pull-left inst"></div>
-            </a>
-        </div>
+
     </div>
 </div>
 <script src="js/helper.js"></script>
