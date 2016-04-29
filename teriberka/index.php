@@ -183,7 +183,7 @@
         <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
 
             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                <img src="img/festival/festival_1.jpg" alt="">
+                <img src="img/festival/festival_6.jpg" alt="">
             </div>
             <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                 <h3>Дети</h3>
