@@ -88,7 +88,7 @@ body {margin:90px 0 0; font-family: 'proxima_nova_rgregular', Arial, sans-serif;
 @media (min-width: 768px) {
     .navbar-inverse .navbar-collapse {float: right !important;}
     .navbar-inverse, .navbar{padding-right: 30px}
-}
+    #myModalBox .modal-dialog {margin: 200px auto;}
 
 @media (min-width: 850px){
     .participate img, .about img, .contacts img{position: relative;}
@@ -117,6 +117,7 @@ body {margin:90px 0 0; font-family: 'proxima_nova_rgregular', Arial, sans-serif;
 
 }
 @media (min-width: 768px) and (max-width: 1600px) {
+    body {margin:50px 0 0}
     /*=======NAVBAR======*/
     .navbar-inverse .navbar-nav > li > a{min-height: 50px;font-size:16px;line-height: normal}
 }

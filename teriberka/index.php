@@ -1,6 +1,3 @@
-<!--https://jsfiddle.net/ianclark001/aShQL/-->
-<!--http://uradresok.ru/css/style.css-->
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -367,20 +364,41 @@
                 <div class="title">ПРИНЯТЬ УЧАСТИЕ</div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <form id="form">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <input type="text" placeholder="ФИО">
+                        <input type="text" name="name" placeholder="ФИО" required>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <input type="email" placeholder="e-mail">
+                        <input type="email" name="email" placeholder="e-mail" required>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <textarea placeholder="Комментарий"></textarea>
+                        <textarea name="comment" placeholder="Комментарий" required></textarea>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <input type="submit" class="btn btn-primary">
                     </div>
                 </div>
+            </form>
+            <div class="modal fade" id="myModalBox" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <!-- Заголовок модального окна -->
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h3 class="modal-title">Принять участие в Фестивале</h4>
+                        </div>
+                    <!-- Основное содержимое модального окна -->
+                        <div class="modal-body">
+                            
+                        </div>
+                    <!-- Футер модального окна -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <span class="part_text">
                     Организаторы и участники фестиваля не зарабатывают на продаже билетов и предоставлении услуг;
