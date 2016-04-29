@@ -92,7 +92,7 @@ body {margin:90px 0 0; font-family: 'proxima_nova_rgregular', Arial, sans-serif;
     .navbar-inverse .navbar-collapse {float: right !important;}
     .navbar-inverse, .navbar{padding-right: 30px}
     #myModalBox .modal-dialog {margin: 200px auto;}
-
+}
 @media (min-width: 850px){
     .participate img, .about img, .contacts img{position: relative;}
     .participate .content {position: absolute;z-index:1001;margin-top: -52%}
