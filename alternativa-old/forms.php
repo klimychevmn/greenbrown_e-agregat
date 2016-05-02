@@ -40,7 +40,7 @@
                     <!-- Заголовок модального окна -->
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                            <h3 class="modal-title">Уведомление об отправлении информации</h4>
+                            <h3 class="modal-title">Уведомление об отправлении информации</h3>
                         </div>
                     <!-- Основное содержимое модального окна -->
                         <div class="modal-body">
