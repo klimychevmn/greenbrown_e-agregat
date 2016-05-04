@@ -19,9 +19,9 @@
         <div id="itemCarousel" class="carousel slide">
 
             <ol class="carousel-indicators">
-                <li data-target="#mCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#mCarousel" data-slide-to="1"></li>
-                <li data-target="#mCarousel" data-slide-to="2"></li>
+                <li data-target="#itemCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#itemCarousel" data-slide-to="1"></li>
+                <li data-target="#itemCarousel" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="item active">

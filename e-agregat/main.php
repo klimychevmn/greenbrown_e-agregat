@@ -10,7 +10,7 @@
     <div class="carousel-inner">
         <div class="item active">
             <div class="container">
-                <img src="img/baner/baner_1.jpg" class="carousel-img" alt="First slide">
+                <img src="img/main-img/main-img_1.jpg" class="carousel-img" alt="First slide">
                 <div class="carousel-caption">
                     <h2 class="carousel-title">ГАЗОПОРШНЕВЫЕ ЭЛЕКТРОСТАНЦИИ.</h2>
                     <div class="carousel-content">
@@ -24,7 +24,7 @@
         </div>
         <div class="item">
             <div class="container">
-                <img src="img/baner/baner_2.jpg" class="carousel-img" alt="Second slide">
+                <img src="img/main-img/main-img_2.jpg" class="carousel-img" alt="Second slide">
                 <div class="carousel-caption">
                     <h2 class="carousel-title">СИЛОВЫЕ И НАСОСНЫЕ УСТАНОВКИ.</h2>
                     <div class="carousel-content">
@@ -38,7 +38,7 @@
         </div>
         <div class="item">
             <div class="container">
-                <img src="img/baner/baner_3.jpg" class="carousel-img" alt="Second slide">
+                <img src="img/main-img/main-img_3.jpg" class="carousel-img" alt="Second slide">
                 <div class="carousel-caption">
                     <h2 class="carousel-title">СИЛОВЫЕ УСТАНОВКИ ЯСУ</h2>
                     <div class="carousel-content">
