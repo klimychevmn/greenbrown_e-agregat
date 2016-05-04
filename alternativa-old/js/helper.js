@@ -23,4 +23,4 @@ function fake_alert(){
     return false;
 }
 
-$('.item .price a').click(fake_alert);
+//$('.item .price a').click(fake_alert);

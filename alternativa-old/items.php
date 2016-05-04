@@ -5,11 +5,11 @@
     <div class="item">
 
         <h3 class="text-center">Наша продукция</h3>
-        
-        <?php require('carousel.php');?>
+
+        <?php require('carousel.php'); ?>
 
         <div class="price row text-center">
-            <a href="#" class="btn btn-warning">Скачать прайс-лист</a>
+            <a href="price.php" class="btn btn-warning">Просмотреть прайс-лист</a>
         </div>
     </div>
 </div>
