@@ -2,7 +2,7 @@
 <?php require('navigate.php'); ?>
 
 <!--Catalog navbar-->
-<div class="row ctlg_line"></div>
+<div class="ctlg_line"></div>
 <div class="item_mob catalog-nav">
     <ul id="catalog_main" class="nav nav-tabs nav-justified" style="background-color: #990016">
         <li class="active"><a href="catalog.php">Дизельные электростанции<span class="pull-right triangle">&#9650;</span></a></li><!--Triangle up-->
