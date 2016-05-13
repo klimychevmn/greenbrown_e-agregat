@@ -1,5 +1,6 @@
 <?php require('header.php'); ?>
 <?php require('navigate.php'); ?>
+
 <!--Catalog navbar-->
 <div class="ctlg_line"></div>
 <div class="catalog-nav">

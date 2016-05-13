@@ -3,7 +3,7 @@
 
 <!--Catalog navbar-->
 <div class="ctlg_line"></div>
-<div class="item_mob catalog-nav">
+<div class="catalog-nav">
     <ul id="catalog_main" class="nav nav-tabs nav-justified">
         <li class="active"><a href="catalog.php">Дизельные электростанции<span class="pull-right triangle">&#9650;</span></a></li><!--Triangle up-->
         <li><a href="#1">Газопоршневые электростанции<span class="pull-right triangle">&#9660;</span></a></li>
