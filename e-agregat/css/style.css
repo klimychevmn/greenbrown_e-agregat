@@ -36,6 +36,9 @@ body {
     background-color: #990016;
     color: #FFFFFF
 }
+.catalogBtn  div a{
+    color: #FFFFFF
+}
 
 .catalogBtnSlider, .catalogBtn_nav {
     padding: 10px;
@@ -102,14 +105,37 @@ body {
     color: #990016;
     background-color: #ffffff;
 }
-.navbar-inverse {border: none;margin-bottom: 0px}
+.navbar-inverse {
+    border: none;
+    margin-bottom: 0px
+}
+.navmobile .logo{
+    float: left;
+}
+.navmobile .btns, .navmobile .btns button, .navmobile .btns a{
+    float: right;
+}
 
 /* ------ Home  -------*/
 .carousel-caption {
     height: 100%
 }
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+    margin: auto;
+}
 .main h2{
     text-align: left;
+}
+.main p {
+    text-align: justify;
+}
+.main span {
+    font-size: small;
+}
+.main a {
+    color: #a12635;
 }
 
 /* ---- Contact BAr ------ */
@@ -133,6 +159,12 @@ body {
 
 
 /*------- Catalog Cart -----*/
+
+#catalog_main,
+#catalog_for_item {
+    background-color: #990016; 
+}
+
 .ctlg_line{
     background-color: #990016; 
     height: 38px;
@@ -164,6 +196,10 @@ body {
 .base_state h4 {
     text-align: center;
     margin-left: 15px;
+}
+
+.item-main > div {
+    float: right;
 }
 
 
@@ -233,6 +269,7 @@ body {
     height: 130px; 
     overflow: hidden;
     margin: 5px;
+    margin-bottom: 20px;
     font-size: 15px;
 }
 
@@ -307,6 +344,12 @@ body {
     color: #000000 
 }
 
+.item-wrapper {
+    margin: 0 auto;
+}
+.catalog-wrapper{
+    margin: 5px auto;
+}
 
 .item_price {
     margin: 10%  15% 0 0; 
@@ -352,6 +395,10 @@ body {
     color: #9f0816;
     font-size: 30px;
     margin-top: -8px;
+}
+
+.carousel-img {
+    margin-left: calc( (-1904px + 100%) / 2);
 }
 
 
@@ -409,9 +456,14 @@ body {
     }
 
     .carousel-img {
-        margin-left: -50%; 
+        height: 100%;/* 
+        margin-left: -100px; */
+        /* margin-left: -50%; 
         width: 300%; 
-        margin-top: -15%
+        margin-top: -15% */
+    }
+    .catalog-wrapper{
+        padding: 5px 20px
     }
 }
 
@@ -428,9 +480,11 @@ body {
     }
 
     .carousel-img {
-        margin-left: -50%; 
+        height: 100%;    /* 
+        margin-left: -100px; */
+        /* margin-left: -50%; 
         width: 200%;
-        margin-bottom: -50%
+        margin-bottom: -50% */
     }
 }
 
@@ -577,8 +631,18 @@ body {
         text-align: left;
     }
 
+    .carousel-img {
+        height: 100%;/* 
+        margin-left: -500px;
+        margin-top: -100px; */
+        /* margin-left: -50%; 
+        width: 300%; 
+        margin-top: -15% */
+    }
+
+
 }
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     .carousel-img {
         margin-left: -200%; 
         width: 500%;
@@ -600,13 +664,13 @@ body {
         margin-left: -25%; 
         width: 160%; 
     }
-}
+} */
 
-@media (min-width: 770px) and (max-width: 1200px){
+/* @media (min-width: 770px) and (max-width: 1200px){
     .desc_cat{
         margin-bottom: 40px
     }
-}
+} */
 @media (min-width: 768px) and (max-width: 800px){
 
     .main{
@@ -632,6 +696,12 @@ body {
         width: 1000px;
         margin:0 auto;
     }
+    
+}
+@media (min-width: 1200px) {
+    .item-wrapper, .catalog-wrapper{
+        width: 1200px;
+    }
 }
 @media (min-width: 768px) and (max-width: 900px){
     .main{
@@ -646,13 +716,12 @@ body {
     }
     .navbar .navbar-inverse.nav>li>a {
         padding:20px 5px;
-    }
+    }/* 
     .navbar-inverse .navbar-nav > li > a{
         font-size: 12px
-    }
-    .container-header .nav {
+    }.container-header .nav {
         margin-left: 10px
-    }
+    } */
     #catalog_main.nav-tabs.nav-justified>li>a, #catalog_for_item.nav-tabs.nav-justified>li>a{
         min-height: 50px; 
         vertical-align: middle
@@ -671,10 +740,10 @@ body {
     }
     .navbar .navbar-inverse.nav>li>a {
         padding:20px 10px;
-    }
+    }/* 
     .container-header .nav {
         margin-left: 10px
-    }
+    } */
     .catalog-nav>li>a{
         padding: 10px 5px;
     }
@@ -694,10 +763,10 @@ body {
     }
     .navbar .navbar-inverse.nav>li>a {
         padding:20px 15px;
-    }
+    }/* 
     .container-header .nav {
         margin-left: 10px
-    }
+    } */
     .catalog-nav>li>a{
         padding: 10px;
     }
@@ -715,10 +784,10 @@ body {
     }
     .navbar .navbar-inverse.nav>li>a {
         padding:20px 15px;
-    }
+    }/* 
     .container-header .nav {
         margin-left: 10px
-    }
+    } */
     .catalog-nav>li>a{
         padding: 10px;
     }

@@ -1,4 +1,5 @@
 </div>
+<div class="clear"></div>
 <div id="foot">
     <p class="text-center">e-agregat.ru &copy; 2016</p>
 </div>

@@ -23,17 +23,16 @@
             </div>
             <div class="navbar navbar-inverse">
                     <div class="navbar-header navmobile">
-                        <div style="float: left">
+                        <div class="logo">
                             <a href="main.php" ><img src="img/logo.gif" alt="Электрогрегат"></a>
                         </div>
-                        <div style="float: right">
-
-                            <button type="button" class="navbarBtn_mob navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="float: right">
+                        <div class="btns">
+                            <button type="button" class="navbarBtn_mob navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a href="#" style="float: right"><img src="img/header.mobile/message_mob.jpg" alt="Сообщение" class="navbar_img navbarBtn_mob"></a>
+                            <a href="#"><img src="img/header.mobile/message_mob.jpg" alt="Сообщение" class="navbar_img navbarBtn_mob"></a>
                         </div >
                         <div class="phones">+7 (4852) 98-99-95, 8-903-827-24-73</div>
                     </div>

@@ -4,7 +4,7 @@
 <!--Catalog navbar-->
 <div class="ctlg_line"></div>
 <div class="item_mob catalog-nav">
-    <ul id="catalog_main" class="nav nav-tabs nav-justified" style="background-color: #990016">
+    <ul id="catalog_main" class="nav nav-tabs nav-justified">
         <li class="active"><a href="catalog.php">Дизельные электростанции<span class="pull-right triangle">&#9650;</span></a></li><!--Triangle up-->
         <li><a href="#1">Газопоршневые электростанции<span class="pull-right triangle">&#9660;</span></a></li>
         <li><a href="#2">Судовые электростанции<span class="pull-right triangle">&#9660;</span></a></li>
@@ -18,7 +18,7 @@
 <!--Catalog content-->
 <div class="tab-content">
 
-    <div class="container">
+    <div class="my-container catalog-wrapper">
         <div class="row">
 
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "><!-- Catalog item -->
