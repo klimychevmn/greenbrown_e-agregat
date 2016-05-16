@@ -22,7 +22,7 @@
 
     <div class="navbar-wrapper" style="clear: both"><!--NAVBAR-->
         <div class="content">
-            <div class="navbar navbar-inverse">
+            <div class="navbar navbar-inverse text-center">
 
                     <div class="navbar-header navmobile">
                         <div class="mob_left">
