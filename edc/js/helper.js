@@ -1,4 +1,4 @@
-const SCREEN_WIDTH = 767;
+const SCREEN_WIDTH = 767-15; /* поправка для document.documentElement.clientWidth */
 const PLUS = '+';
 const MINUS = '-';
 

@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <span class="pull-left glyphicon glyphicon-phone"></span>
-                    <div class="logo-phone"><span style="color: #91c459;">+7 (48533) </span>70-80-6</div>
+                    <div class="logo-phone"><span>+7 (48533) </span>70-80-6</div>
                 </div>
             </div>
         </div>

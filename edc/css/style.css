@@ -21,6 +21,9 @@ body {
     font-size: 26px;
     font-family:  'Times New Roman', Times, serif;
 }
+.logo-phone span {
+    color: #91c459;
+}
 .logo_head{
     padding:25px;
 }
@@ -524,14 +527,14 @@ body {
 }
 
 
-@media (min-width: 768px) and (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 850px) {
     /*.content {margin-left: 5%; width: 90%}*/
     .logo-phone{
         font-size: 18px;
         margin-top:5px;
     }
 }
-@media (min-width: 900px) and (max-width: 1300px){
+/*@media (min-width: 900px) and (max-width: 1300px){
     .logo-phone{
         font-size: 18px;
         margin-top: 5px
@@ -542,7 +545,7 @@ body {
         font-size: 22px;
         margin-top: 3px
     }
-}
+}*/
 /*@media (min-width: 1100px) and (max-width: 1700px){*/
     /*.navbar-inverse {padding-left: 50px}*/
     /*.navbar-inverse .navbar-nav > li > a{font-size:12px;padding:15px 8px}*/
@@ -611,7 +614,21 @@ body {
     .navbar-inverse .nav {
         padding-left: 40px;
     }
-    .main{
+    .main {
         margin-bottom: 100px !important;
     }
 }
+@media (min-width: 1000px) and (max-width: 1100px) {
+    .foot{
+        padding: 0;
+    }
+    .foot .foot_phone, .foot .foot_title {
+        padding: 15px 40px;
+    }
+}
+
+
+
+/*
+    От 1000 до 1100 уезжает телефон
+*/
