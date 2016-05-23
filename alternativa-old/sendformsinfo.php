@@ -3,8 +3,8 @@ if((isset($_POST['name'])&&$_POST['name']!="")&&
     (isset($_POST['comment'])&&$_POST['comment']!="")&&
     (isset($_POST['email'])&&$_POST['email']!="")&&
     (isset($_POST['phone'])&&$_POST['phone']!="")){ 
-        $to = 'roydash@mail.ru'; 
-        $subject = 'Проверка связи Алтернатива-СВД тест'; 
+        $to = 'alternativa-svd@yandex.ru'; 
+        $subject = 'Проверка связи Альтернатива-СВД тест'; 
         $message = '
                     <html>
                         <head>
