@@ -58,6 +58,8 @@
         </div>
     </div><!--END-->
 
-    <div class="col-xs-12 mobile_logo"><!--MOBILE_LOGO-->
-        <a href="main.php"><img src="img/logo.jpg" alt=""></a>
+    <div class="col-xs-12 mobile_logo text-center"><!--MOBILE_LOGO-->
+        <a href="main.php">
+            <img src="img/logo.jpg" alt="">
+        </a>
     </div> <!--END-->

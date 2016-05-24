@@ -396,9 +396,17 @@ body {
     .navmobile {
         display: inline
     }
-    .mobile_logo{
-        display: block
+    .mobile_logo {
+        display: block;
+    }/*
+    .mobile_logo a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
     }
+    .mobile_logo span {
+        color: #7bba2d;
+    }*/
 
     /*=====CONTENT=====*/
     .content{
@@ -443,9 +451,9 @@ body {
 
 
     /*=====NAVBAR_LOGO=====*/
-    .mobile_logo img{
+    /*.mobile_logo img{
         width: 100%
-    }
+    }*/
 
     /*=====FOOTER=====*/
     .foot{
@@ -626,9 +634,3 @@ body {
         padding: 15px 40px;
     }
 }
-
-
-
-/*
-    От 1000 до 1100 уезжает телефон
-*/
