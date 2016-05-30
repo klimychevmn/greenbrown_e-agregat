@@ -14,8 +14,52 @@
     </div><!--END-->
 
     <div class="content logo_head"><!--LOGO-->
-        <div class="row my_row">
-            <div class="col-lg-3 col-md-2 col-sm-3 col-xs-12">
+            <div class="col-lg-8 col-md-8 col-sm-9 col-xs-12">
+                <a href="main.php"><img src="img/mainlogo.gif" alt="Главное лого"></a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-12">
+                <script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
+                <div style="display:inline-block;text-align:right;width:100%;margin:20px 10px" class="yashare-auto-init"
+                     data-yasharel10n="ru" data-yasharetype="none"
+                     data-yasharequickservices="vkontakte,facebook,twitter,odnoklassniki,lj,gplus"><span
+                        class="b-share"><a
+                            rel="nofollow" target="_blank" title="ВКонтакте"
+                            class="b-share__handle b-share__link b-share-btn__vkontakte"
+                            href="https://share.yandex.net/go.xml?service=vkontakte&amp;url=http%3A%2F%2Fwww.stanki-zavod.ru%2F&amp;title=%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%87%D0%BD%D0%BE-%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%20%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D0%BE%D1%80%D0%B5%D0%B6%D1%83%D1%89%D0%B5%D0%B3%D0%BE%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F."
+                            data-service="vkontakte"><span class="b-share-icon b-share-icon_vkontakte"></span></a><a
+                            rel="nofollow" target="_blank" title="Facebook"
+                            class="b-share__handle b-share__link b-share-btn__facebook"
+                            href="https://share.yandex.net/go.xml?service=facebook&amp;url=http%3A%2F%2Fwww.stanki-zavod.ru%2F&amp;title=%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%87%D0%BD%D0%BE-%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%20%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D0%BE%D1%80%D0%B5%D0%B6%D1%83%D1%89%D0%B5%D0%B3%D0%BE%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F."
+                            data-service="facebook"><span class="b-share-icon b-share-icon_facebook"></span></a><a
+                            rel="nofollow" target="_blank" title="Twitter"
+                            class="b-share__handle b-share__link b-share-btn__twitter"
+                            href="https://share.yandex.net/go.xml?service=twitter&amp;url=http%3A%2F%2Fwww.stanki-zavod.ru%2F&amp;title=%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%87%D0%BD%D0%BE-%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%20%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D0%BE%D1%80%D0%B5%D0%B6%D1%83%D1%89%D0%B5%D0%B3%D0%BE%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F."
+                            data-service="twitter"><span class="b-share-icon b-share-icon_twitter"></span></a><a
+                            rel="nofollow"
+                            target="_blank"
+                            title="Одноклассники"
+                            class="b-share__handle b-share__link b-share-btn__odnoklassniki"
+                            href="https://share.yandex.net/go.xml?service=odnoklassniki&amp;url=http%3A%2F%2Fwww.stanki-zavod.ru%2F&amp;title=%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%87%D0%BD%D0%BE-%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%20%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D0%BE%D1%80%D0%B5%D0%B6%D1%83%D1%89%D0%B5%D0%B3%D0%BE%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F."
+                            data-service="odnoklassniki"><span
+                                class="b-share-icon b-share-icon_odnoklassniki"></span></a><a rel="nofollow"
+                                                                                              target="_blank"
+                                                                                              title="LiveJournal"
+                                                                                              class="b-share__handle b-share__link b-share-btn__lj"
+                                                                                              href="https://share.yandex.net/go.xml?service=lj&amp;url=http%3A%2F%2Fwww.stanki-zavod.ru%2F&amp;title=%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%87%D0%BD%D0%BE-%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%20%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D0%BE%D1%80%D0%B5%D0%B6%D1%83%D1%89%D0%B5%D0%B3%D0%BE%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F."
+                                                                                              data-service="lj"><span
+                                class="b-share-icon b-share-icon_lj"></span></a><a rel="nofollow" target="_blank"
+                                                                                   title="Google Plus"
+                                                                                   class="b-share__handle b-share__link b-share-btn__gplus"
+                                                                                   href="https://share.yandex.net/go.xml?service=gplus&amp;url=http%3A%2F%2Fwww.stanki-zavod.ru%2F&amp;title=%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%87%D0%BD%D0%BE-%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%20%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D0%BE%D1%80%D0%B5%D0%B6%D1%83%D1%89%D0%B5%D0%B3%D0%BE%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F."
+                                                                                   data-service="gplus"><span
+                                class="b-share-icon b-share-icon_gplus"></span></a></span></div>
+                <div class="logo-title">Звонок по России
+                    бесплатно
+                </div>
+                <div class="logo-title">8-800-700-29-55</div>
+            </div>
+            <!-- OLD VER -->
+            <!-- <div class="col-lg-3 col-md-2 col-sm-3 col-xs-12">
                 <img src="img/logo1.jpg" alt="">
             </div>
             <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
@@ -61,8 +105,7 @@
                     бесплатно
                 </div>
                 <div class="logo-title">8-800-700-29-55</div>
-            </div>
-        </div>
+            </div> -->
     </div><!--END-->
 
     <div class="navbar-wrapper" style="clear: both"><!--NAVBAR-->
@@ -93,12 +136,19 @@
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li><a href="main.php">Главная</a></li>
+                            <li class="slash">|</li>
                             <li><a href="catalog.php">Продукция</a></li>
+                            <li class="slash">|</li>
                             <li><a href="#">Запчасти</a></li>
+                            <li class="slash">|</li>
                             <li><a href="#">Упаковка</a></li>
+                            <li class="slash">|</li>
                             <li><a href="#">Доставка</a></li>
+                            <li class="slash">|</li>
                             <li><a href="#">Сервис</a></li>
+                            <li class="slash">|</li>
                             <li><a href="#">Котакты</a></li>
+                            <li class="slash">|</li>
                             <li><a href="#">Партнеры</a></li>
                         </ul>
                     </div>
@@ -109,6 +159,7 @@
     </div><!--END-->
 
     <div class="col-xs-12 mobile_logo"><!--MOBILE_LOGO-->
-        <span class="col-xs-4"><img src="img/logo1.jpg" alt=""></span>
-        <span class="col-xs-8"><img src="img/logo2.jpg" alt=""></span>
+        <a href="main.php"><img src="img/mainlogo.gif" alt="Главное лого"></a>
+        <!-- <span class="col-xs-4"><img src="img/logo1.jpg" alt=""></span> -->
+        <!-- <span class="col-xs-8"><img src="img/logo2.jpg" alt=""></span> -->
     </div> <!--END-->
