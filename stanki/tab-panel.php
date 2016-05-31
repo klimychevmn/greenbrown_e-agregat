@@ -9,7 +9,7 @@
 
 
 <!--TAB-PANEL-CONTENT-->
-<div class="tab-content" style="margin-top:5px;">
+<div class="tab-content">
     
     <div class="tab-pane" id="kpo"> <!-- New Tab panel-->
         <div class="tab_content">

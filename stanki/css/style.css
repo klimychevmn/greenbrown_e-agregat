@@ -16,23 +16,42 @@ body {
 /*   -----   HEADER --------  */
 .phones{
 	background-color: #e5e5e5;
-	height: 40px;
+	height: 45px;
 }
-.phones .row {
+.phones .content {
+	padding-top: 10px;
+}
+.phones .no_row {
 	/*font-size: 15px; */
 	text-align: center;
 }
-.phones .row span{
+.phones .no_row span{
 	color: #d9251d;
 	font-size: 15px; 
 }
-.phones .row div{
-	border-right: 1px solid #ffffff;
+.phones .no_row div{
+	padding: 0;
+	border-right: 2px solid #ffffff;
 }
-.phones .row div:last-child{
+.phones .no_row div:first-child{
+	margin-left: -20px;
+}
+.phones .no_row div:last-child{
 	border: none;
 }
-
+.logo_head {
+    padding: 10px 30px;
+}
+.logo_head .my-col-logo{
+    padding-left: 30px;
+    float: left;
+    width: 70%;
+}
+.logo_head .my-col-phone{
+    float: left;
+    width: 30%;
+    padding-right: 60px;
+}
 
 .logo-title{
 	display: inline-block;
@@ -54,9 +73,9 @@ body {
 .logo_head{
 	margin-bottom: 10px;
 }
-/*.logo_head img{
-	width: 90%;
-}*/
+.logo_head img{
+	height: 115px;
+}
 
 
 
@@ -65,6 +84,7 @@ body {
 	z-index: 15;margin-top: 15px;
 	background-color: #d9251d;
 	color: #ffffff;
+	clear: both;
 }
 .navbar-wrapper .wrapper{
 	background: none;
@@ -74,12 +94,10 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-	color: #FFFFFF;
-	font-size: 14px;
+	color: #FFFFFF;/*
+	font-size: 14px;*/
 }
 .navbar-nav {
-	margin: 0 auto;
-	width: 667px;
 	float: none;
 }
 .navbar-inverse {
@@ -95,6 +113,37 @@ body {
 
 .navbar-inverse .navbar-nav > li.slash{
 	padding-top: 14px;
+}
+
+.navbar-inverse .navbar-header .my-left{
+	float: left;
+    padding: 5px;
+}
+.navbar-inverse .navbar-header .my-left .navmobile-title{
+	font-size: 10px;
+}
+.navbar-inverse .navbar-header .my-left .navmobile-phone{
+	font-size: 20px
+}
+.navbar-inverse .navbar-header .my-right{
+    float: right;
+    padding: 10px 5px 5px;
+}
+.navbar-inverse .navbar-header .my-right button{
+	float: right; 
+    margin: -3px 0px -13px;
+}
+.navbar-inverse .navbar-header .my-right button span{
+    width: 25px;
+    height: 4px;
+}
+.navbar-inverse .navbar-header .my-right a{
+    float: right; 
+    margin: 3px;
+}
+.navbar-inverse .navbar-header .my-right a .glyphicon{
+    font-size: 25px; 
+    color: #ffffff;
 }
 
 .mobile_logo{
@@ -158,10 +207,10 @@ body {
 }
 
 /*   -----   CONTENT --------  */
-.content{
+/*.content{
 	margin-left: 25%;
 	width: 50%;
-}
+}*/
 .content .my_row{
 	padding-top: 30px;
 }
@@ -193,6 +242,9 @@ body {
 	padding-top: 15px;
 	color: red;
 	margin-bottom: 30px;
+}
+.tab-content{
+	margin-top:5px;
 }
 
 .clients_news{
@@ -467,10 +519,10 @@ body {
 	color: #6f6f6f;
 	padding-top: 5px; 
 	font-size: 15px;
-}
+}/*
 .foot img{
 	width:100%;
-}
+}*/
 .foot_minus{
 	display: none;
 }
@@ -486,13 +538,18 @@ body {
     .navmobile {
     	display: none;
     }
+    .navbar-nav {
+        margin: 0 auto;
+        width: 690px;
+    }
+    .navbar-inverse .navbar-nav > li > a{
+        font-size: 12px;
+    }
 
 }
 
 @media (min-width: 900px){
-    .navbar-inverse .navbar-nav > li > a{
-    	font-size: 12px;
-    }
+   
     .catalogBtn{
     	font-size: 10px;
     	padding-top: 10px;
@@ -526,10 +583,10 @@ body {
     }
 }
 @media (min-width: 1300px){
-    .phones .content{
+    /*.phones .content{
     	margin-left: 20%; 
     	width: 60%;
-    }
+    }*/
     .main_img_text{
     	margin-top: -270px; 
     	text-align: center; 
@@ -548,10 +605,10 @@ body {
     .wrapper{
     	margin-left: 24%;
     	width: 52%;
-    }
+    }/*
     .foot img{
     	width:100%;
-    }
+    }*/
     .catalogBtn{
     	font-size: 13px;
     	padding-top: 10px;
@@ -731,7 +788,7 @@ body {
     	float: none;
     }
     .foot img{
-    	width: 15%;
+    	width: 80px;
     }
     .foot_minus{
     	border-bottom: 3px solid #d9251d;
@@ -743,16 +800,16 @@ body {
 }
 
 @media (min-width: 769px) and (max-width: 1000px) {
-    .container .nav{
+    /*.container .nav{
     	margin-left: -10%;
-	}
+	}*/
 }
 
 @media (min-width: 780px) and (max-width: 900px) {
-    .content {
+    /*.content {
     	margin-left: 5%; 
     	width: 90%;
-	}
+	}*/
     .main_img_text {
     	margin-top: -150px;
 	}
@@ -765,17 +822,17 @@ body {
 	}
 }
 
-@media (min-width: 900px) and (max-width: 1300px) {
-    .content {
+@media (min-width: 900px) and (max-width: 1000px) {
+   /* .content {
     	margin-left: 15%; 
     	width: 70%;
-	}
+	}*/
     .main_img_text {
     	margin-bottom: 100px;
-	}
+	}/*
     .foot img {
     	width: 60%;
-	}
+	}*/
 }
 
 
