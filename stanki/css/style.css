@@ -630,7 +630,7 @@ body {
     	margin-right: 0px;
     }
     .mobile_logo {
-    	padding-left: 0px;
+    	padding: 0px;
     }
 
     .wrapper{
@@ -839,6 +839,17 @@ body {
 @media (min-width: 850px) {
     .content.logo_head {
         width: 825px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 850px) {
+    .logo_head img{
+        height: 100px !important;
+    } 
+    .logo_head .my-col-logo{
+        width: 70%;
+    }
+    .logo_head .my-col-phone{
+        width: 29%;
     }
 }
 
