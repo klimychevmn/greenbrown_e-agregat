@@ -3,7 +3,7 @@ require('header.php');
 require('navigate.php');
 ?>
 
-<div class="content">
+<div class="content my-main">
     <div>
         <div class="row my_row">
             <div class="col-lg-9 col-md-7 col-sm-7 col-xs-12">

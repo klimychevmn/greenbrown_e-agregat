@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <div class="content">
+    <div class="content my-main">
         <div>
             <div>
 
