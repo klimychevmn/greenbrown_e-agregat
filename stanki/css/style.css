@@ -39,18 +39,22 @@ body {
 .phones .no_row div:last-child{
 	border: none;
 }
-.logo_head {
-    padding: 10px 30px;
+.content.logo_head {
+    /*padding: 10px 0;*/
+    margin: 10px auto;
+    width:825px !important;
+
 }
 .logo_head .my-col-logo{
-    padding-left: 30px;
+    /*padding-left: 30px;*/
     float: left;
-    width: 70%;
+    width: 73%;
+    margin: 5px auto;
 }
 .logo_head .my-col-phone{
     float: left;
-    width: 30%;
-    padding-right: 60px;
+    width: 27%;
+    /*padding-right: 60px;*/
 }
 
 .logo-title{
@@ -67,14 +71,15 @@ body {
 	width: 100%;
 	margin: 0px 10px;
 	color: #d9251d;
-	font-size: 28px;
+	font-size: 29px;
 	font-weight: 700;
+    line-height: 50px;
 }
 .logo_head{
 	margin-bottom: 10px;
 }
 .logo_head img{
-	height: 115px;
+	max-height: 115px;
 }
 
 
@@ -147,15 +152,15 @@ body {
 }
 
 .mobile_logo{
-	display: none
+	display: none;
 }
 
 /*   -----   MAIN_IMG --------  */
 .main_img{
-	margin-bottom: 5%
+	margin-bottom: 5%;
 }
 .main_img img{
-	width: 100%
+	width: 100%;
 }
 .main_img_text{
 	margin-top: -320px; 
@@ -616,7 +621,7 @@ body {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     /*======HEADER======*/
     .phones, 
@@ -838,7 +843,12 @@ body {
 
 @media (min-width: 1000px) {
     .content {
- 		width: 1000px !important;
- 		margin: 0 auto;
- 	}
+        width: 1000px !important;
+        margin: 0 auto;
+    }
 }
+/*@media (min-width: 768px) and (max-width: 1000px) {
+    .logo-phone {
+ 		font-size: 24px;
+ 	}
+}*/

@@ -155,7 +155,7 @@
     </div><!--END-->
 
     <div class="col-xs-12 mobile_logo"><!--MOBILE_LOGO-->
-        <a href="main.php"><img src="img/mainlogo.gif" alt="Главное лого"></a>
+        <a href="main.php"><img src="img/mainlogo.png" alt="Главное лого"></a>
         <!-- <span class="col-xs-4"><img src="img/logo1.jpg" alt=""></span> -->
         <!-- <span class="col-xs-8"><img src="img/logo2.jpg" alt=""></span> -->
     </div> <!--END-->
