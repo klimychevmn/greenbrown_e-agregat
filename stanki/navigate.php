@@ -13,8 +13,8 @@
             </div>
         </div>
     </div><!--END-->
-<div class="logo">
-    <div class="content logo_head" ><!--LOGO-->
+    <div class="logo">
+        <div class="content logo_head" ><!--LOGO-->
             <div class="my-col-logo">
                 <a href="main.php"><img src="img/mainlogo.png" alt="Главное лого"></a>
             </div>

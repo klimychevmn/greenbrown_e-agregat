@@ -6,8 +6,18 @@ const TRIANGLE_DOWN = '&#9660;';
 function resize() {
     if(document.documentElement.clientWidth < SCREEN_WIDTH) {
         $('#top').removeClass('navbar-fixed-top');
+
+        $('.item-param-title span').removeClass('hidden');
+        $('.item-param-content').addClass('hidden');
+
+        $('.item-param-title').click(collapseParam);
+
     } else {
         $('#top').addClass('navbar-fixed-top');
+
+        $('.item-param-title span').addClass('hidden');
+        $('.item-param-content').removeClass('hidden');
+    
     }
 }
 if(document.documentElement.clientWidth < SCREEN_WIDTH) {resize();}
@@ -15,35 +25,17 @@ window.onresize = resize;
 
 
     if (document.documentElement.clientWidth < SCREEN_WIDTH) {
+        /*footer*/
         $('.foot img').parent().insertBefore($('.foot .wrapper span').first());
         $('.foot .wrapper span').removeClass('text-right');
 
-        $('.item-param-title span').removeClass('hidden');
+        /* карусель перемещаем выше */
         $('.carousel').insertBefore($('.item-title'));
-        $('.item-param-content').addClass('hidden');
-
-        function collapseParam(e) {
-            e = e || window.event;
-            $target = (e.target.nodeName == "SPAN")
-                ? $(e.target.parentNode)
-                : $(e.target);
-
-            if ($target.hasClass('active')) {
-                $target.removeClass('active');
-                $target.find('span.triangle').html(TRIANGLE_DOWN);
-                $('.item-param-content').addClass('hidden');
-                e.preventDefault();
-            } else {
-                $target.addClass('active');
-                $target.find('span.triangle').html(TRIANGLE_UP);
-                $('.item-param-content').removeClass('hidden');
-                e.preventDefault();
-            }
-        }
-
-        $('.item-param-title').click(collapseParam);
+       
+        
 
     } else {
+        
         $('#tab_panel .triangle').addClass('hidden');
         $('#tab_panel>li').first().addClass('active');
         $('#kpo').addClass('active');
@@ -102,6 +94,25 @@ function collapse_click(e) {
         $('.panel-heading > span.triangle').html(TRIANGLE_DOWN);
         $target.find('span.triangle').html(TRIANGLE_UP);
         $target.addClass('active');
+        e.preventDefault();
+    }
+}
+
+function collapseParam(e) {
+    e = e || window.event;
+    $target = (e.target.nodeName == "SPAN")
+        ? $(e.target.parentNode)
+        : $(e.target);
+
+    if ($target.hasClass('active')) {
+        $target.removeClass('active');
+        $target.find('span.triangle').html(TRIANGLE_DOWN);
+        $('.item-param-content').addClass('hidden');
+        e.preventDefault();
+    } else {
+        $target.addClass('active');
+        $target.find('span.triangle').html(TRIANGLE_UP);
+        $('.item-param-content').removeClass('hidden');
         e.preventDefault();
     }
 }
