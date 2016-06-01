@@ -806,6 +806,12 @@ body {
     /*.container .nav{
     	margin-left: -10%;
 	}*/
+    .phones{
+        height: 65px;
+    }
+    .phones .no_row {
+        font-size: 17px;
+    }
 }
 
 @media (min-width: 780px) and (max-width: 900px) {
@@ -842,6 +848,10 @@ body {
         width: 1000px !important;
         margin: 0 auto;
     }
+    .phones .no_row br{
+        display: none;
+    }
+
 }
 @media (min-width: 850px) {
     .content.logo_head {
