@@ -6,7 +6,10 @@ html, body {
 body {
 	color: #000;
 	background-color: #ffffff;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
+
+/* font-family: 'PT Sans Narrow'  */
 .content.my-main .row{
     margin-right: 0;
     margin-left: 0;
@@ -26,12 +29,12 @@ body {
 	padding-top: 10px;
 }
 .phones .no_row {
-	/*font-size: 15px; */
+	font-size: 18px; 
 	text-align: center;
 }
 .phones .no_row span{
 	color: #d9251d;
-	font-size: 15px; 
+	/*font-size: 18px; */
 }
 .phones .no_row div{
 	padding: 0;
@@ -56,7 +59,7 @@ body {
     /*padding-left: 30px;*/
     float: left;
     width: 72%;
-    margin: 5px auto;
+    margin: 5px auto 0;
 }
 .logo_head .my-col-phone{
     float: left;
@@ -92,7 +95,7 @@ body {
 .navbar-wrapper {
 	position: relative;
 	z-index: 15;
-    margin-top:180px;
+    margin-top:15px;
 	background-color: #d9251d;
 	color: #ffffff;
 	clear: both;
@@ -197,6 +200,17 @@ body {
 	color: #d9251d;
 	text-decoration: underline;
 }
+.nav-tabs.nav-justified>li>a:hover{
+    background: none;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.nav-tabs.nav-justified>li.active>a{
+    /*box-shadow: 3px -8px 13px 7px #868686 !important;*/
+    height: 50px;
+    bottom: 5px;
+    padding-top: 15px;
+}
 
 #tab_panel{
 	background-color: #ffffff;
@@ -215,6 +229,7 @@ body {
 
 .under_tab-panel_text{
 	padding: 10px 20px;
+    font-size: 16px;
 }
 
 /*   -----   CONTENT --------  */
@@ -316,10 +331,10 @@ body {
 }
 
 /*   -----   CATALOG-MAIN --------  */
-.panel-group .panel-heading{
-	background-color: #e5e5e5;
-	color: #d9251d;
-	font-size: 15px;
+.panel-default > .panel-heading{
+	background: #d7d7d7 !important;
+	color: #696969;
+	font-size: 26px;
 }
 .panel-group a:hover{
 	text-decoration: none;
@@ -328,17 +343,18 @@ body {
 .panel-group a {
 	text-decoration: none;
 }
-.panel-group .panel-heading.active, 
+/*.panel-group .panel-heading.active, 
 .panel-group .panel-heading:focus, 
 .panel-group .panel-heading:hover{
 	background-color: #d9251d;
 	color: #FFFFFF;
-}
+}*/
 .panel-group .triangle{
 	margin-top: -5px;
 }
 .panel-body{
 	padding:0;
+    font-size: 18px;
 }
 .panel-heading {
 	width: 100%;
@@ -396,14 +412,17 @@ body {
 	margin: 20px auto;
 }
 .item-title{
-	font-size: 22px; 
+	font-size: 24px; 
 	font-weight: 600;
 }
 .item-param-title{
-	font-size: 20px; 
+	font-size: 22px; 
 	font-weight: 600;
 	width: 100%; 
 	margin-top: 40px;
+}
+.item-param-content{
+    font-size: 16px;
 }
 .item-param-content .table tr td:last-child{
 	font-weight: 600;
@@ -529,7 +548,7 @@ body {
 .foot span{
 	color: #6f6f6f;
 	padding-top: 5px; 
-	font-size: 15px;
+	font-size: 16px;
 }/*
 .foot img{
 	width:100%;
@@ -554,7 +573,7 @@ body {
         width: 690px;
     }
     .navbar-inverse .navbar-nav > li > a{
-        font-size: 12px;
+        font-size: 16px;
     }
 
 }
@@ -665,7 +684,7 @@ body {
     	padding: 0;
     }
     #tab_panel a{
-    	font-size: 12px;
+    	font-size: 16px;
     }
     #tab_panel span{
     	margin-top: -5px;
@@ -851,12 +870,10 @@ body {
     .phones .no_row br{
         display: none;
     }
-
-}
-@media (min-width: 850px) {
     .content.logo_head {
-        width: 825px !important;
+        width: 1000px !important;
     }
+
 }
 @media (min-width: 768px) and (max-width: 850px) {
     .logo_head img{

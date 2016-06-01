@@ -2,7 +2,6 @@
 ================================================== -->
 <body>
 <div id="wrapper">
-<div id="top" class="navbar-fixed-top">
     <div class="phones"><!--Phones-->
         <div class="content">
             <div class="no_row">
@@ -107,7 +106,6 @@
             </div> -->
         </div>
     </div><!--END-->
-</div>
     <div class="navbar-wrapper"><!--NAVBAR-->
         <div class="content">
             <div class="navbar navbar-inverse">
