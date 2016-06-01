@@ -2,6 +2,7 @@
 ================================================== -->
 <body>
 <div id="wrapper">
+<div id="top" class="navbar-fixed-top">
     <div class="phones"><!--Phones-->
         <div class="content">
             <div class="no_row">
@@ -12,8 +13,8 @@
             </div>
         </div>
     </div><!--END-->
-
-    <div class="content logo_head"><!--LOGO-->
+<div class="logo">
+    <div class="content logo_head" ><!--LOGO-->
             <div class="my-col-logo">
                 <a href="main.php"><img src="img/mainlogo.png" alt="Главное лого"></a>
             </div>
@@ -104,8 +105,9 @@
                 </div>
                 <div class="logo-title">8-800-700-29-55</div>
             </div> -->
+        </div>
     </div><!--END-->
-
+</div>
     <div class="navbar-wrapper"><!--NAVBAR-->
         <div class="content">
             <div class="navbar navbar-inverse">

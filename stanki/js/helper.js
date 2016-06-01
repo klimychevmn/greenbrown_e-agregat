@@ -3,6 +3,17 @@ const TRIANGLE_UP = '&#9650;';
 const TRIANGLE_DOWN = '&#9660;';
 
 
+function resize() {
+    if(document.documentElement.clientWidth < SCREEN_WIDTH) {
+        $('#top').removeClass('navbar-fixed-top');
+    } else {
+        $('#top').addClass('navbar-fixed-top');
+    }
+}
+if(document.documentElement.clientWidth < SCREEN_WIDTH) {resize();}
+window.onresize = resize;
+
+
     if (document.documentElement.clientWidth < SCREEN_WIDTH) {
         $('.foot img').parent().insertBefore($('.foot .wrapper span').first());
         $('.foot .wrapper span').removeClass('text-right');
