@@ -143,7 +143,7 @@
                             <li class="slash">|</li>
                             <li><a href="#">Сервис</a></li>
                             <li class="slash">|</li>
-                            <li><a href="#">Котакты</a></li>
+                            <li><a href="#">Контакты</a></li>
                             <li class="slash">|</li>
                             <li><a href="#">Партнеры</a></li>
                         </ul>
