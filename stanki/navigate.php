@@ -19,7 +19,7 @@
             </div>
             <div class="my-col-phone">
                 <script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
-                <div style="display:inline-block;text-align:right;width:100%;margin-bottom:20px;" class="yashare-auto-init"
+                <div style="display:inline-block;text-align:right;width:100%;margin-bottom:15px;" class="yashare-auto-init"
                      data-yasharel10n="ru" data-yasharetype="none"
                      data-yasharequickservices="vkontakte,facebook,twitter,odnoklassniki,lj,gplus"><span
                         class="b-share"><a

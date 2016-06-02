@@ -9,7 +9,6 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
-/* font-family: 'PT Sans Narrow'  */
 .content.my-main .row{
     margin-right: 0;
     margin-left: 0;
@@ -72,30 +71,28 @@ body {
 	text-align: right;
 	width: 100%;
 	color: #868686; 
-	font-size: 15px;
+	font-size: 17px;
 }
 .logo-phone{
 	display: inline-block;
 	text-align: right;
 	width: 100%;
 	color: #d9251d;
-	font-size: 29px;
+	font-size: 32px;
 	font-weight: 700;
-    line-height: 50px;
 }
 .logo_head{
 	margin-bottom: 10px;
 }
 .logo_head img{
-	max-height: 115px;
+	max-height: 123px;
 }
-
 
 
 .navbar-wrapper {
 	position: relative;
 	z-index: 15;
-    margin-top:15px;
+    /*margin-top:15px;*/
 	background-color: #d9251d;
 	color: #ffffff;
 	clear: both;
@@ -166,7 +163,7 @@ body {
 
 /*   -----   MAIN_IMG --------  */
 .main_img{
-	margin-bottom: 5%;
+	margin-bottom: 15px;
 }
 .main_img img{
 	width: 100%;
@@ -871,13 +868,13 @@ body {
         display: none;
     }
     .content.logo_head {
-        width: 1000px !important;
+        width: 930px !important;
     }
 
 }
 @media (min-width: 768px) and (max-width: 850px) {
     .logo_head img{
-        height: 100px !important;
+        height: 110px !important;
     } 
     .logo_head .my-col-logo{
         width: 70%;
