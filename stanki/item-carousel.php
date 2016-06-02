@@ -3,31 +3,41 @@
         <!--MAIN IMGS-->
         <div class="carousel-inner" >
             <div class="item active" >
-                <span class="img_carousel"><img title="МА4127" alt="МА4127" src="http://new.stanki-zavod.ru/img//kpp/molot/6.jpg"></span>
+                <span class="img_carousel">
+                    <img title="МА4127" alt="МА4127" src="http://new.stanki-zavod.ru/img//kpp/molot/6.jpg">
+                </span>
                 <div class="carousel-caption">
                     <span>Text</span>
                 </div>
             </div>
             <div class="item" >
-                <span class="img_carousel"><img title="МА4127" alt="МА4127" src="http://new.stanki-zavod.ru/fullimg/kpp_2tzqc6vcobaiewt" ></span>
+                <span class="img_carousel">
+                    <img title="" alt="" src="http://www.stanki-zavod.ru/img//kpp/molot/7.jpg" >
+                </span>
                 <div class="carousel-caption">
                     <span>Text</span>
                 </div>
             </div>
             <div class="item" >
-                <span class="img_carousel"><img title="МА4127" alt="МА4127" src="http://new.stanki-zavod.ru/fullimg/kpp_7gdscjd36y73tau" ></span>
+                <span class="img_carousel">
+                    <img title="" alt="" src="http://www.stanki-zavod.ru/img//construction/desktopdrilling/10.jpg" >
+                </span>
                 <div class="carousel-caption">
                     <span>Text</span>
                 </div>
             </div>
             <div class="item" >
-                <span class="img_carousel"><img title="МА4127" alt="МА4127" src="http://new.stanki-zavod.ru/fullimg/kpp_xvl5iixg3qt7aw4" ></span>
+                <span class="img_carousel">
+                    <img title="" alt="" src="http://www.stanki-zavod.ru/fullimg/construction_7yoe7byb6zsr82i" >
+                </span>
                 <div class="carousel-caption">
                     <span>Text</span>
                 </div>
             </div>
             <div class="item" >
-                <span class="img_carousel"><img title="МА4127" alt="МА4127" src="http://new.stanki-zavod.ru/fullimg/kpp_leunhqd2e4h3gp0" ></span>
+                <span class="img_carousel">
+                    <img title="" alt="" src="http://www.stanki-zavod.ru/fullimg/bender_k1itc676p59zm4k" >
+                </span>
                 <div class="carousel-caption">
                     <span>Text</span>
                 </div>
