@@ -6,7 +6,7 @@ html, body {
 body {
 	color: #000;
 	background-color: #ffffff;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .content.my-main .row{
@@ -28,7 +28,7 @@ body {
 	padding-top: 10px;
 }
 .phones .no_row {
-	font-size: 18px; 
+	font-size: 16px; 
 	text-align: center;
 }
 .phones .no_row span{
@@ -105,8 +105,8 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-	color: #FFFFFF;/*
-	font-size: 14px;*/
+	color: #FFFFFF;
+	font-size: 17px;
 }
 .navbar-nav {
 	float: none;
@@ -212,13 +212,13 @@ body {
 #tab_panel{
 	background-color: #ffffff;
 	color: #d9251d;
-    font-size: 19px;
+    font-size: 18px;
 }
 .tab_content{
 	background-color: #d9251d;
 	color: #ffffff;
 	padding: 20px;
-	font-size: 19px;
+	font-size: 18px;
 	text-decoration: underline;
 }
 .triangle{
@@ -241,7 +241,7 @@ body {
 
 .catalog_item{
 	margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
 }
 .catalog_item img{
 	width: 100%; 
@@ -264,7 +264,7 @@ body {
 	margin-left: 33%;
 	text-align: center;
 	height: 50px;
-	padding-top: 12px;
+	padding-top: 10px;
 	color: red;
 	margin-bottom: 30px;
     font-size: 19px;
@@ -341,7 +341,7 @@ body {
 .panel-default > .panel-heading{
 	background: #d7d7d7 !important;
 	color: #696969;
-	font-size: 26px;
+	font-size: 22px;
 }
 .panel-group a:hover{
 	text-decoration: none;
@@ -418,12 +418,12 @@ body {
 .item_main{
 	margin: 20px auto;
 }
-.item-content{
-    font-size: 16px; 
-}
 .item-title{
-	font-size: 24px; 
-	font-weight: 600;
+    font-size: 24px; 
+    font-weight: 600;
+}
+.item-content{
+    font-size: 15px; 
 }
 .item-param-title{
 	font-size: 24px; 
@@ -432,7 +432,7 @@ body {
 	margin-top: 40px;
 }
 .item-param-content{
-    font-size: 16px;
+    font-size: 15px;
 }
 .item-param-content .table tr td:last-child{
 	font-weight: 600;
@@ -511,7 +511,7 @@ body {
 	padding:10px 20px; 
 	background-color: #f3f3f3;
 	border-bottom: 2px solid #d8d8d8;
-    font-size: 16px;
+    /*font-size: 14px;*/
 }
 .offer-item a{
 	color: #696969; 
@@ -559,7 +559,7 @@ body {
 .foot span{
 	color: #6f6f6f;
 	padding-top: 5px; 
-	font-size: 16px;
+	font-size: 15px;
 }/*
 .foot img{
 	width:100%;
@@ -573,18 +573,15 @@ body {
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
-    .container .nav {
-    	margin-left: 3%;
-    }
     .navmobile {
     	display: none;
     }
     .navbar-nav {
         margin: 0 auto;
-        width: 690px;
+        width: 730px;
     }
     .navbar-inverse .navbar-nav > li > a{
-        font-size: 16px;
+        font-size: 15px;
     }
 
 }
@@ -839,9 +836,6 @@ body {
 	}*/
     .phones{
         height: 65px;
-    }
-    .phones .no_row {
-        font-size: 17px;
     }
 }
 
