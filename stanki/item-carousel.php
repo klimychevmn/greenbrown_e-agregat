@@ -4,7 +4,7 @@
         <div class="carousel-inner" >
             <div class="item active" >
                 <span class="img_carousel">
-                    <img title="МА4127" alt="МА4127" src="http://new.stanki-zavod.ru/img//kpp/molot/6.jpg">
+                    <img title="МА4127" alt="МА4127" src="http://new.stanki-zavod.ru/img//kpp/molot/6.jpg" width="470" height="392">
                 </span>
                 <div class="carousel-caption">
                     <span>Text</span>
@@ -12,7 +12,7 @@
             </div>
             <div class="item" >
                 <span class="img_carousel">
-                    <img title="" alt="" src="http://www.stanki-zavod.ru/img//kpp/molot/7.jpg" >
+                    <img title="" alt="" src="http://www.stanki-zavod.ru/img//kpp/molot/7.jpg" width="400" height="600">
                 </span>
                 <div class="carousel-caption">
                     <span>Text</span>
@@ -20,7 +20,7 @@
             </div>
             <div class="item" >
                 <span class="img_carousel">
-                    <img title="" alt="" src="http://www.stanki-zavod.ru/img//construction/desktopdrilling/10.jpg" >
+                    <img title="" alt="" src="http://www.stanki-zavod.ru/img//construction/desktopdrilling/10.jpg" width="720" height="960">
                 </span>
                 <div class="carousel-caption">
                     <span>Text</span>
@@ -28,7 +28,7 @@
             </div>
             <div class="item" >
                 <span class="img_carousel">
-                    <img title="" alt="" src="http://www.stanki-zavod.ru/fullimg/construction_7yoe7byb6zsr82i" >
+                    <img title="" alt="" src="http://www.stanki-zavod.ru/fullimg/construction_7yoe7byb6zsr82i" width="600" height="600">
                 </span>
                 <div class="carousel-caption">
                     <span>Text</span>
@@ -36,7 +36,7 @@
             </div>
             <div class="item" >
                 <span class="img_carousel">
-                    <img title="" alt="" src="http://www.stanki-zavod.ru/fullimg/bender_k1itc676p59zm4k" >
+                    <img title="" alt="" src="http://www.stanki-zavod.ru/fullimg/bender_k1itc676p59zm4k" width="600" height="450">
                 </span>
                 <div class="carousel-caption">
                     <span>Text</span>
