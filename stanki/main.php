@@ -98,6 +98,12 @@
                             <div>ТРУБОГИБЫ ДОРНОВЫЕ ДЛЯ ГИБКИ ТРУБ ДИАМЕТРОМ 25-160 ММ</div>
                         </a>
                     </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
+                        <a href="#">
+                            <img src="img/catalog_img/catalog2.jpg" alt="" >
+                            <div>ПРЕСС-НОЖНИЦЫ КОМБИНИРОВАННЫЕ</div>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="row my_row">
