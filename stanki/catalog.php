@@ -3,7 +3,8 @@
     require('navigate.php');
 ?>
 
-
+<div class="background">
+    
     <div class="content my-main">
         <div>
 
@@ -33,5 +34,7 @@
 
         </div>
     </div>
+
+</div>
 
 <?php require('footer.php'); ?>
