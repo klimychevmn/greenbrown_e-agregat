@@ -24,27 +24,21 @@ if(document.documentElement.clientWidth < SCREEN_WIDTH) {resize();}
 window.onresize = resize;
 
 
-    if (document.documentElement.clientWidth < SCREEN_WIDTH) {
-        /*footer*/
-        $('.foot img').parent().insertBefore($('.foot .wrapper span').first());
-        $('.foot .wrapper span').removeClass('text-right');
+if (document.documentElement.clientWidth < SCREEN_WIDTH) {
+    /*footer*/
+    $('.foot img').parent().insertBefore($('.foot .wrapper span').first());
+    $('.foot .wrapper span').removeClass('text-right');
+    /* карусель перемещаем выше */
+    $('.carousel').insertBefore($('.item-title'));
+} else {
+    $('#tab_panel .triangle').addClass('hidden');
+    $('#tab_panel>li').first().addClass('active');
+    $('#kpo').addClass('active');
+}
 
-        /* карусель перемещаем выше */
-        $('.carousel').insertBefore($('.item-title'));
-       
-        
-
-    } else {
-        
-        $('#tab_panel .triangle').addClass('hidden');
-        $('#tab_panel>li').first().addClass('active');
-        $('#kpo').addClass('active');
-
-    }
-
-    $('.panel-default > a').click(collapse_click);
-    $("#tab_panel > li > a").click(init);
-    
+$('.panel-default > a').click(collapse_click);
+$("#tab_panel > li > a").click(init);
+$('.offer-item').click(catalogClick);   
 
 
 function init(e) {
@@ -114,5 +108,15 @@ function collapseParam(e) {
         $target.find('span.triangle').html(TRIANGLE_UP);
         $('.item-param-content').removeClass('hidden');
         e.preventDefault();
+    }
+}
+
+function catalogClick(){
+    // console.log(this);
+    var href = $(this).find('a').attr('href');
+    if(href){
+        window.location.href = href;
+    } else {
+        alert("Извините, но переход невозможен, так как отсутствует ссылка на товар.");
     }
 }

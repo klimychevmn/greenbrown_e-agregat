@@ -28,7 +28,7 @@
             </div>
             <div class="item" >
                 <span class="img_carousel">
-                    <img title="" alt="" src="http://www.stanki-zavod.ru/fullimg/construction_7yoe7byb6zsr82i" width="600" height="600">
+                    <img title="" alt="" src="http://www.stanki-zavod.ru/fullimg/bender_fwhxkape3k47w83" width="450" height="600">
                 </span>
                 <div class="carousel-caption">
                     <span>Text</span>
@@ -55,12 +55,14 @@
         <!--END-->
         <!--LEFT-->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
+            <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+            <span><img src="img/item-carousel/arrow-lft.png" alt=""></span>
         </a>
         <!--END-->
         <!--RIGHT-->
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
+            <!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
+            <span><img src="img/item-carousel/arrow-rght.png" alt=""></span>
         </a>
         <!--END-->
     </div>

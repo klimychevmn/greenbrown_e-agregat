@@ -14,7 +14,9 @@
                 <!-- BODY -->
                 <div class="panel-body">
                     <?php foreach ($value["items"] as $item):?>
-                        <div class="offer-item"><a href="item.php"><span><?php echo $item["name"];?></span>&nbsp;<?php echo $item["description"];?></a></div>
+                        <div class="offer-item">
+                            <a href="item.php"><span class="model"><?php echo $item["name"];?></span></a>&nbsp;&nbsp;<span><?php echo $item["description"];?></span>
+                        </div>
                     <?php endforeach;?>
                 </div>
             <!-- END BODY -->
