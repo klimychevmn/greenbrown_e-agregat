@@ -2,16 +2,18 @@
 ================================================== -->
 <body>
 <div id="wrapper">
-    <div class="phones"><!--Phones-->
-        <div class="content">
-            <div class="no_row">
-                <div class="col-lg-3 col-md-3 col-sm-3"><span>+7 495 133-96-62</span> <br> Москва</div>
-                <div class="col-lg-3 col-md-3 col-sm-3" ><span>+7 343 386-19-37</span> <br> Екатеринбург</div>
-                <div class="col-lg-3 col-md-3 col-sm-3" ><span> +7 843 202-41-37</span> <br> Казань</div>
-                <div class="col-lg-3 col-md-3 col-sm-3"><span >+7 863 209-89-57</span> <br> Ростов на Дону</div>
+    <div class="navbar-fixed-top">
+        <div class="phones"><!--Phones-->
+            <div class="content">
+                <div class="no_row">
+                    <div class="col-lg-3 col-md-3 col-sm-3"><span>+7 495 133-96-62</span> <br> Москва</div>
+                    <div class="col-lg-3 col-md-3 col-sm-3" ><span>+7 343 386-19-37</span> <br> Екатеринбург</div>
+                    <div class="col-lg-3 col-md-3 col-sm-3" ><span> +7 843 202-41-37</span> <br> Казань</div>
+                    <div class="col-lg-3 col-md-3 col-sm-3"><span >+7 863 209-89-57</span> <br> Ростов на Дону</div>
+                </div>
             </div>
-        </div>
-    </div><!--END-->
+        </div><!--END-->
+    </div>
     <div class="logo">
         <div class="content logo_head" ><!--LOGO-->
             <div class="my-col-logo">

@@ -49,6 +49,7 @@ body {
 .logo{
     background: #ffffff;
     height: 120px;
+    margin-top: 40px;
 }
 .content.logo_head {
     /*padding: 10px 0;*/
@@ -197,16 +198,16 @@ body {
 	color: #d9251d;
 	text-decoration: underline;
 }
-.nav-tabs.nav-justified>li>a:hover{
+.nav-tabs.nav-justified>li>a{
     background: none;
     border: none;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .nav-tabs.nav-justified>li.active>a{
-    /*box-shadow: 3px -8px 13px 7px #868686 !important;*/
-    height: 50px;
-    bottom: 5px;
-    padding-top: 15px;
+    box-shadow: none;
+    height: 60px;
+    bottom: 10px;
+    padding-top: 20px;
 }
 
 #tab_panel{
@@ -833,10 +834,19 @@ body {
 
 @media (min-width: 769px) and (max-width: 1000px) {
     /*.container .nav{
-    	margin-left: -10%;
-	}*/
+        margin-left: -10%;
+    }*/
     .phones{
         height: 65px;
+    }
+    .logo {
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 900px) {
+    .logo-phone{
+        font-size: 29px;
     }
 }
 
