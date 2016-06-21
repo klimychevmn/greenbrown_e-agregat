@@ -727,7 +727,7 @@ body {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     /*======HEADER======*/
     .phones, 
@@ -930,10 +930,13 @@ body {
     	width: 10%;
     	display: block;
     }
+    .foot .text-right {
+        text-align: center;
+    }
 
 }
 
-@media (min-width: 769px) and (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1000px) {
     /*.container .nav{
         margin-left: -10%;
     }*/
@@ -952,7 +955,7 @@ body {
     }
 }
 
-@media (min-width: 769px) and (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 900px) {
     .logo-phone{
         font-size: 29px;
     }
@@ -1010,6 +1013,11 @@ body {
     }
     .logo_head .my-col-phone{
         width: 29%;
+    }
+}
+@media (min-width: 768px) and (max-width: 805px) {
+    #tab_panel {
+        font-size: 16px !important;
     }
 }
 

@@ -80,7 +80,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 catalog_item">
                         <a href="#">
-                            <img src="img/catalog_img/catalog2.jpg" alt="" >
+                            <img src="img/catalog_img/catalog2.jpg" alt="" width="303" height="249">
                             <div>ОБОРУДОВАНИЕ ДЛЯ ПРЕССОВАНИЯ ПЛАСТМАСС И ВЫПОЛНЕНИЯ ПРАВИЛЬНО ЗАПРЕССОВОЧНЫХ РАБОТ</div>
                         </a>
                     </div>
