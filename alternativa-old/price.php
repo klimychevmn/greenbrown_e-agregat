@@ -3,7 +3,7 @@
 
 <div class="my_container">
 
-    <div class="doc-view text-center" style="width:90%margin: 0 auto">
+    <div class="doc-view text-center" style="width:90%;margin: 0 auto">
 
         <iframe
             src="https://view.officeapps.live.com/op/embed.aspx?src=http://www.frontsite.ru/pt/2016/kmn/alternativa-old/price.doc"

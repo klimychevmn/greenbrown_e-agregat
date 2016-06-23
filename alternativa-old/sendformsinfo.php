@@ -4,7 +4,7 @@ if((isset($_POST['name'])&&$_POST['name']!="")&&
     (isset($_POST['email'])&&$_POST['email']!="")&&
     (isset($_POST['phone'])&&$_POST['phone']!="")){ 
         $to = 'alternativa-svd@yandex.ru'; 
-        $subject = 'Проверка связи Альтернатива-СВД тест'; 
+        $subject = 'Проверка связи Альтернатива-СВД тест с нового сайта'; 
         $message = '
                     <html>
                         <head>
