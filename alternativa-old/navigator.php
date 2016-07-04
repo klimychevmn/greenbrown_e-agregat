@@ -27,4 +27,4 @@
             </div>
         </div>
         <div class="fon">
-            <div class="alert-text text-center">Внимание! Сайт находится в разработке!</div>
+            <!--<div class="alert-text text-center">Внимание! Сайт находится в разработке!</div>-->

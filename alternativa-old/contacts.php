@@ -15,6 +15,7 @@
         </p>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1853.7787932975507!2d39.81535091600545!3d57.66139438110658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b291eda0e56091%3A0x11f6d9132ba82c25!2z0JDQu9GM0YLQtdGA0L3QsNGC0LjQstCwLdCh0LLQtA!5e1!3m2!1sru!2sru!4v1461791119539"
+            class="col-md-12 col-xs-12 col-lg-12 col-sm-12"
             width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
         </iframe>
         <p class="contact-title">Реквизиты организации:</p>
@@ -42,4 +43,3 @@
 
 
 <?php require("footer.php"); ?>
-
