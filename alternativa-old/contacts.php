@@ -3,10 +3,11 @@
 
 <div class="my_container" >
     <div class="contacts">
-        <h3 class="text-center">ООО «АЛЬТЕРНАТИВА-СВД»</h3>
+        <h2 class="text-center">ООО «АЛЬТЕРНАТИВА-СВД»</h2>
         <p class="contact-title">Офис:</p>
         <p>
-            Ярославль, 1-й Промышленный проезд, 14 (часы работы: 8.00-17.00) <br>
+            Ярославль, 1-й Промышленный проезд, 14 <br>
+            Время работы: с 8.00 до 17.00, без перерыва (будни) <br>
             <b>(4852) 56-88-32, ф. 51-23-05, 57-33-66</b>
         </p>
         <p class="contact-title">Склад:</p>
@@ -36,7 +37,7 @@
             <b>ОКОПФ: </b> 65 <b>ОКВЭД: </b>  51.52.21; 51.53.24; 51.54.2; 51.70<br>
         </p>
         <p class="text-center">
-            <b>alternativa_svd@rambler.ru</b>
+            <a href="forms.php">alternativa-svd@yandex.ru</a>
         </p>
     </div>
 </div>
